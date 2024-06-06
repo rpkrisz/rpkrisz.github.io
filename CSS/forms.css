@@ -1,0 +1,90 @@
+form {
+    background-color: var(--md-sys-color-inverse-primary);
+    border-radius: 10px;
+    border: 1px solid var(--md-sys-color-outline-variant);
+    padding: 15px;
+    margin: auto;
+    text-align: left;
+    width: fit-content;
+    opacity: 90%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form select {
+    border-radius: 5px;
+    border: 2px solid var(--md-sys-color-scrim);
+    justify-self: center;
+
+}
+
+form button {
+    border: 2px solid var(--md-sys-color-scrim);
+    font-size: larger;
+    margin: 5%;
+
+}
+
+.error {
+    box-shadow: 0 0 6px 3px var(--md-sys-color-error);
+    position: absolute;
+    margin-left: 2%;
+    padding: 3px;
+}
+
+label {
+    display: block;
+}
+
+input[type="checkbox"],
+div>label {
+
+    display: inline;
+}
+
+form>div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#isDone {
+    display: inline;
+}
+
+form .optional {
+    border-radius: 10px;
+    border: 1px solid var(--md-sys-color-scrim);
+    padding: 5px;
+    background-color: var(--md-sys-color-on-tertiary);
+}
+
+form input.num {
+    max-width: 50px;
+}
+
+.uniform {
+    background-image: url(unipic.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+#statusGrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    place-content: center;
+    gap: 1rem;
+    padding: 3px;
+}
+
+#statusGrid div{
+    display: flex;
+    justify-content: center;
+}
+
+form p{
+    margin: 1rem;
+}
