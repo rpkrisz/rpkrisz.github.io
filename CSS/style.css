@@ -297,3 +297,8 @@ button,
     text-align: center;
     align-items: center;
 }
+
+img {
+    size: 450px;
+    border-radius: 5px;
+}
