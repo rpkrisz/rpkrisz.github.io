@@ -1,11 +1,13 @@
 import "./App.css";
 
 function App() {
-
   return (
     <>
       <header>
         <h1>HI this is my Portfolio</h1>
+        <a href="https://www.linkedin.com/in/rethey-prikkel-krisztian/" target="_blank">
+          My linkedin profile
+        </a>
         <div id="logger">
           <span id="toggel">
             <img src="/assets/sun_icon.png" alt="light" />
@@ -13,9 +15,6 @@ function App() {
         </div>
       </header>
       <main>
-        <a href="https://www.linkedin.com/in/rethey-prikkel-krisztian/" target="_blank">
-          My linkedin profile
-        </a>
         <h1>Poject links</h1>
         <ul>
           <li>
