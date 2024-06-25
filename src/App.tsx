@@ -4,14 +4,14 @@ import ListElem from "./ListElem";
 function App() {
   return (
     <>
-      <header className="bg-gray-800 text-white p-4 flex justify-between items-center flex-grow">
+      <header className="bg-gray-800 text-white p-6 flex justify-between items-center flex-grow">
         <h1>HI this is my Portfolio</h1>
         <a href="https://www.linkedin.com/in/rethey-prikkel-krisztian/" target="_blank">
           My linkedin profile
         </a>
       </header>
-      <main className="flex-grow overflow-y-auto p-4 w-svw">
-        <h1>Pojects</h1>
+      <main className="flex-grow overflow-y-auto p-8 w-svw m-0">
+        <h1 className="text-start my-2">My Pojects</h1>
         <ul className="flex flex-col justify-center gap-3">
           <ListElem
             name="Burgonya térkép játék"
