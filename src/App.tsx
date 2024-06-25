@@ -16,7 +16,7 @@ function App() {
       </header>
       <main>
         <h1>Poject links</h1>
-        <ul>
+        <ul className="flex justify-center">
           <li>
             <img src="assets/burgonya_minta.png" alt="Egy kép a játékról" />
             <a href="https://rpkrisz.github.io/JS-BurgonyaTerkep/">Burgonya térkép</a>
@@ -27,7 +27,7 @@ function App() {
           </li>
         </ul>
       </main>
-      <footer>
+      <footer className="flex items-center justify-center">
         <p>© 2024 - Réthey-Prikkel Kriszsztián</p>
       </footer>
     </>
