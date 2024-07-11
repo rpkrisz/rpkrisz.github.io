@@ -4,8 +4,6 @@ export default function Menu() {
   return (
     <nav className="navbar flex flex-grow gap-1 justify-start bg-gray-800 text-white  items-center p-2 gap-2">
       <Link className="btn btn-ghost text-xl hover:text-primary" to="/">
-        <link rel="icon" type="image/svg+xml" href="public/assets/mobile-logo.png" />
-
         <img src="./assets/mobile-logo.png" alt="Logo" className="size-12 inline" />
       </Link>
       <NavLink className="btn btn-ghost text-xl hover:text-primary" to="/projects">
@@ -16,7 +14,7 @@ export default function Menu() {
       </NavLink>
       <Link
         className="btn btn-ghost text-xl hover:text-primary"
-        to="https://www.linkedin.com/in/rethey-prikkel-krisztian/"
+        to="https://www.linkedin.com/in/rethey-prikkel-krisztian"
         target="_blank"
       >
         Linkedin
