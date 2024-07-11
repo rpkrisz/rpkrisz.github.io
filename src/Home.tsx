@@ -1,8 +1,10 @@
 import HobbyCard from "./Components/hobbyCard";
+import {Button} from "./Components/ui/button";
 
 export default function Home() {
   return (
     <>
+      <Button>asgadfga</Button>
       <h1 className="my-3">Főoldal</h1>
       <div className="flex flex-col gap-3 ">
         <p>
