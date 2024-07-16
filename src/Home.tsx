@@ -1,60 +1,44 @@
-import HobbyCard from "./Components/hobbyCard";
-import {Button} from "./Components/ui/button";
+import {Link} from "react-router-dom";
 
 export default function Home() {
   return (
-    <>
-      <Button>asgadfga</Button>
-      <h1 className="my-3">Főoldal</h1>
-      <div className="flex flex-col gap-3 ">
-        <p>
-          Réthey-Prikkel Krisztián vagyok, egy ambiciózus és lelkes egyetemista, aki párhuzamosan informatikai és üzleti
-          területen fejleszti képességeit és tapasztalatait. Jelenleg a Budapesti Gazdasági Egyetemen vagyok hallgató,
-          ahol gazdálkodási és menedzsment területen mélyülök el, digitális vállalkozásra specializálódva már 6. féléve.
-          Emellett az Eötvös Loránd Tudományegyetemen informatikai karán tanulok, ahol a programtervező informatikus
-          szakot választottam, és már a 4. félévben járok.
-        </p>
-        <p>
-          Az informatikai és üzleti világban is jártas vagyok, széles körű ismeretekkel rendelkezem a programozás terén,
-          de a gazdasági folyamatokkal és a különféle menedzsment helyzetekkel is jól elboldogulok, akár idegen nyelven
-          is.
-        </p>
-        <p>
-          Kreativitásom, kitartásom és problémamegoldó készségem segítségével bármilyen kihívást el tudok fogadni és
-          megoldani. Szenvedélyem az innováció és a fejlődés, és hosszú távon egy olyan csapat része szeretnék lenni,
-          ahol lehetőségem van ezeket az értékeket kamatoztatni és fejleszteni.
-        </p>
-      </div>
-      <div>
-        <h1>Kedvec sportjaim</h1>
-        <div className="flex flex-row justify-between gap-10">
-          <HobbyCard
-            title="Úszás"
-            text="Már másfél éves korom óta rendszeresen úsztam életem eslső tíz évében és mostanában kezdtem újra vissza
-              járni a medencéhez."
-            imageSrc="./assets/Uszas.png"
-          />
-          <HobbyCard
-            title="Thai Box"
-            text="Még az álltalános koromban az úszást váltva, a thai box lett a rendszeres mozgás az életemben, és az óta
-              is kisebb-naygyobb kihagyásokkal."
-            imageSrc="./assets/ThaiBox.png"
-          />
-
-          <HobbyCard
-            title="Hegyi Kerékpár"
-            text="Az elmúlt lassan hat évben gyakran járunk a hegyen biciklivel nincs is job érzés mint a fárasztó
-              feltekerés után lehe szágúldani a hogyoldalon."
-            imageSrc="./assets/MountainBikeing.svg"
-          />
-          <HobbyCard
-            title="Kajak"
-            text="Évek óta egyik kedvenc nyári időtőltésem a Dunakanyarban evezni, a tükör sima víz pedig az egyik
-              legmegnyugtatóbb dolog a világon."
-            imageSrc="./assets/Kajak.png"
-          />
+    <div
+      className="hero min-h-screen"
+      style={{
+        backgroundImage: "url(./assets/heropic_2.png)",
+      }}
+    >
+      <div className="hero-overlay bg-opacity-60"></div>
+      <div className="hero-content text-neutral-content text-center">
+        <div className="max-w-md">
+          <h1 className="mb-5 text-5xl font-bold">Hello there! I'm Réthey-Prikkel Krisztián</h1>
+          <div className="mb-5 text-start font-bold rounded-md text-primary text-lg  p-5 flex gap-3 flex-col">
+            <p>
+              I'm a passionate student with a unique blend of technical and business skills. I'm majoring in both
+              Programming and Business, allowing me to bridge the gap between the creative problem-solving world of code
+              and the strategic planning of the business landscape. This portfolio showcases my projects that
+              demonstrate my ability to:
+            </p>
+            <ul className="list-inside list-disc">
+              <li>
+                Develop innovative software solutions: Explore my coding projects where I've built applications,
+                websites, or tackled programming challenges.
+              </li>
+              <li>
+                Apply business acumen to technology: See how I've combined my programming skills with business
+                strategies in projects or coursework.
+              </li>
+            </ul>
+            <p>
+              I'm constantly learning and looking for new opportunities to leverage this unique skillset. Feel free to
+              browse my portfolio and get in touch if you have any questions or projects that might be a good fit!
+            </p>
+          </div>
+          <Link className="btn btn-primary text-black" to="/about">
+            Get Started
+          </Link>
         </div>
       </div>
-    </>
+    </div>
   );
 }
