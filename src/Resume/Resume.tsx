@@ -14,7 +14,7 @@ const Resume = () => {
       <Langtoggel handelClick={handelClick} />
       <div className="flex justify-start items-center gap-5">
         <h1>Resume - Réthey-Prikkel Krisztián</h1>
-        <a className="btn" href="/public/CV_Resume.pdf" download>
+        <a className="btn" href="/CV_Resume.pdf" download>
           Download
         </a>
       </div>
