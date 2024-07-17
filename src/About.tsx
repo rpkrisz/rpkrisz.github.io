@@ -24,7 +24,7 @@ export default function About() {
         </p>
       </div>
       <div>
-        <h1>Kedvec sportjaim</h1>
+        <h1>Kedvenc sportjaim</h1>
         <div className="flex flex-row justify-between gap-10">
           <HobbyCard
             title="Úszás"
@@ -41,7 +41,7 @@ export default function About() {
           <HobbyCard
             title="Hegyi Kerékpár"
             text="Az elmúlt lassan hat évben gyakran járunk a hegyen biciklivel nincs is job érzés mint a fárasztó
-              feltekerés után lehe szágúldani a hogyoldalon."
+              feltekerés után lehet száguldani a hogyoldalon."
             imageSrc="./assets/MountainBikeing.svg"
           />
           <HobbyCard
