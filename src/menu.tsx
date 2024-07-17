@@ -1,12 +1,13 @@
 import {Link, NavLink} from "react-router-dom";
 import {LinkedinIcon, GithubIcon} from "./Components/FawIcons";
+import {ModeToggle} from "@/Components/mode-toggle";
 
 export default function Menu() {
   return (
     <nav className="navbar flex flex-grow justify-between bg-gray-800 text-white  items-center p-2 gap-2">
       <div>
         <Link className="btn btn-ghost text-xl hover:text-primary self-start" to="/">
-          <img src="./assets/mobile-logo.png" alt="Logo" className="size-12 inline" />
+          <img src="/assets/mobile-logo.png" alt="Logo" className="size-12 inline" />
         </Link>
         <NavLink className="btn btn-ghost text-xl hover:text-primary" to="/about">
           About
@@ -31,6 +32,7 @@ export default function Menu() {
           GitHub
           <GithubIcon />
         </Link>
+        <ModeToggle></ModeToggle>
       </div>
     </nav>
   );
