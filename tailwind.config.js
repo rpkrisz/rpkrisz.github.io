@@ -82,12 +82,12 @@ export default {
     themes: [
       {
         mytheme: {
-          "primary": "#90e0ef",
-          "primary-content": "#0f1415",
+          "primary": "#fb923c",
+          "primary-content": "#150801",
           "secondary": "#00bafa",
           "secondary-content": "#000d15",
-          "accent": "#fb923c",
-          "accent-content": "#150801",
+          "accent": "#90e0ef",
+          "accent-content": "#0f1415",
           "neutral": "#4b5563",
           "neutral-content": "#d8dbde",
           "base-100": "#212828",

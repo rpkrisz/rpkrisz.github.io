@@ -7,7 +7,7 @@ export default function Menu() {
     <nav className="navbar flex flex-grow justify-between bg-base-300 text-white  items-center p-2 gap-2">
       <div>
         <Link className="btn btn-ghost text-xl hover:text-primary self-start" to="/">
-          <img src="/assets/mobile-logo.png" alt="Logo" className="size-12 inline" />
+          <img src="/assets/Logo_orange/mobile-logo.png" alt="Logo" className="size-12 inline" />
         </Link>
         <NavLink className="btn btn-ghost text-xl hover:text-primary" to="/about">
           About
