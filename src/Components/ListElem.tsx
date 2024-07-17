@@ -17,13 +17,13 @@ const ListElem: FC<{link: string; name: string; imageSrc: string; thisPic: strin
           deleniti libero nisi voluptas culpa, quis vero suscipit quaerat quasi eos alias deserunt.
         </p>
       </div>
-      <a href={link} className="flex justify-center flex-grow flex-col p-3 hover:bg-primary-content hover:rounded-lg">
-        <div className="mockup-browser bg-base-300 border">
+      <a href={link} className="flex self-center justify-center flex-grow flex-col p-3 max-w-5xl hover:bg-primary hover:rounded-lg">
+        <div className="mockup-browser bg-neutral border">
           <div className="mockup-browser-toolbar">
-            <div className="input">{link}</div>
+            <div className="input text-white">{link}</div>
           </div>
           <div className="bg-base-200 flex justify-center ">
-            <img src={imageSrc} alt={`Egy kép ${thisPic}`} />
+            <img src={imageSrc} alt={`Egy kép ${thisPic}`} className="w-full" />
           </div>
         </div>
       </a>
