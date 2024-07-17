@@ -5,16 +5,22 @@ import Layout from "./layout";
 import Resume from "./Resume/Resume";
 import Home from "./Home";
 import About from "./About";
+import UiKit from "./UiKit";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
   },
+
   {
     path: "/",
     element: <Layout />,
     children: [
+      {
+        path: "ui",
+        element: <UiKit />,
+      },
       {
         path: "about",
         element: <About />,
