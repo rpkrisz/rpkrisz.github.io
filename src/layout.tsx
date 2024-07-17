@@ -1,5 +1,5 @@
 import {Outlet} from "react-router-dom";
-import Menu from "./menu";
+import Menu from "./Components/menu";
 import Footer from "./Components/Footer";
 import {ThemeProvider} from "@/Components/theme-provider";
 

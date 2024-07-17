@@ -1,5 +1,5 @@
 import {Link, NavLink} from "react-router-dom";
-import {LinkedinIcon, GithubIcon} from "./Components/FawIcons";
+import {LinkedinIcon, GithubIcon} from "./FawIcons";
 import {ModeToggle} from "@/Components/mode-toggle";
 
 export default function Menu() {

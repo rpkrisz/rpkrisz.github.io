@@ -1,4 +1,4 @@
-import HobbyCard from "./Components/hobbyCard";
+import HobbyCard from "../Components/hobbyCard";
 
 export default function About() {
   return (

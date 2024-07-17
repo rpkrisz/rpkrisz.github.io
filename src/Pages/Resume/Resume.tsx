@@ -1,6 +1,6 @@
 import {useState} from "react";
 import Hun from "./hun";
-import Langtoggel from "./langtoggel";
+import LangToggel from "../../Components/lang-toggel";
 import En from "./en";
 
 const Resume = () => {
@@ -11,7 +11,7 @@ const Resume = () => {
   }
   return (
     <>
-      <Langtoggel handelClick={handelClick} />
+      <LangToggel handelClick={handelClick} />
       <div className="flex justify-start items-center gap-5">
         <h1>Resume - Réthey-Prikkel Krisztián</h1>
         <a className="btn" href="/CV_Resume.pdf" download>

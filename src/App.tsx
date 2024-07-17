@@ -1,10 +1,10 @@
 import "./App.css";
 import {RouterProvider, createBrowserRouter} from "react-router-dom";
-import Projects from "./Projects";
+import Projects from "./Pages/Projects";
 import Layout from "./layout";
-import Resume from "./Resume/Resume";
-import Home from "./Home";
-import About from "./About";
+import Resume from "./Pages/Resume/Resume";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
 import UiKit from "./UiKit";
 
 const router = createBrowserRouter([

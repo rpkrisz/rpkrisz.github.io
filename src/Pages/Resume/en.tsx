@@ -1,4 +1,4 @@
-import TitleSubText from "../Components/TitleSubText";
+import TitleSubText from "../../Components/TitleSubText";
 
 const En = () => {
   return (
