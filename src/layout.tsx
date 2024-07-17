@@ -1,10 +1,11 @@
 import {Outlet} from "react-router-dom";
 import Menu from "./menu";
 import Footer from "./Components/Footer";
+import {ThemeProvider} from "@/Components/theme-provider";
 
 function Layout() {
   return (
-    <>
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <header>
         <Menu />
       </header>
@@ -12,7 +13,7 @@ function Layout() {
         <Outlet />
       </main>
       <Footer />
-    </>
+    </ThemeProvider>
   );
 }
 

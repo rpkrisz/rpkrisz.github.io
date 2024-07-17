@@ -11,6 +11,7 @@ const UiKit: FC = () => {
       <div>
         <div className="flex gap-2 flex-wrap">
           <p className="text-lg">Backgrounds:</p>
+          <div className="p-2 bg-background">bg-background</div>
           <div className="p-2 bg-neutral">bg-neutral</div>
           <div className="p-2 bg-primary">bg-primary</div>
           <div className="p-2 bg-secondary">bg-secondary</div>
@@ -26,6 +27,7 @@ const UiKit: FC = () => {
         </div>
         <div className="flex gap-2 flex-wrap">
           <p className="text-lg">Foregrounds:</p>
+          <div className="p-2 bg-foreground">bg-foreground</div>
           <div className="p-2 bg-neutral-f">bg-primary-foreground</div>
           <div className="p-2 bg-primary-foreground">bg-primary-foreground</div>
           <div className="p-2 bg-secondary-foreground">bg-secondary-foreground</div>
