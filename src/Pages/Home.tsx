@@ -2,41 +2,30 @@ import {Link} from "react-router-dom";
 
 export default function Home() {
   return (
-    <div
-      className="hero min-h-screen"
-      style={{
-        backgroundImage: "url(./assets/heropic_2.png)",
-      }}
-    >
-      <div className="hero-overlay bg-opacity-60"></div>
-      <div className="hero-content text-neutral-content text-center">
-        <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Hello there! I'm Réthey-Prikkel Krisztián</h1>
-          <div className="mb-5 text-start font-bold rounded-md text-primary text-lg  p-5 flex gap-3 flex-col">
+    <div className="hero min-h-screen ">
+      <div className="hero-content flex-col lg:flex-row-reverse">
+        <img
+          src="/assets/Logo_orange/horizontal-logo.png"
+          alt="Logo"
+          className="lg:size-24 xs:size-28 lg:fixed top-0 left-6 xs"
+        />
+        <img
+          src="/assets/headshot.jpeg"
+          alt="Headshot image about me."
+          className="max-w-md h-full rounded-xl shadow-2xl shadow-gray-500"
+        />
+        <div>
+          <h1 className="text-5xl font-bold">Hello, I'm Krisztián Réthey-Prikkel!</h1>
+          <div className="text-start font-bold rounded-md text-lg  p-3 flex gap-3 flex-col">
             <p>
-              I'm a passionate student with a unique blend of technical and business skills. I'm majoring in both
+              A passionate student with a unique blend of technical and business skills. I'm majoring in both
               Programming and Business, allowing me to bridge the gap between the creative problem-solving world of code
-              and the strategic planning of the business landscape. This portfolio showcases my projects that
-              demonstrate my ability to:
+              and the strategic planning of the business landscape. This website showcases my abilities and projects.
             </p>
-            <ul className="list-inside list-disc">
-              <li>
-                Develop innovative software solutions: Explore my coding projects where I've built applications,
-                websites, or tackled programming challenges.
-              </li>
-              <li>
-                Apply business acumen to technology: See how I've combined my programming skills with business
-                strategies in projects or coursework.
-              </li>
-            </ul>
-            <p>
-              I'm constantly learning and looking for new opportunities to leverage this unique skillset. Feel free to
-              browse my portfolio and get in touch if you have any questions or projects that might be a good fit!
-            </p>
+            <Link className="btn btn-primary text-black self-center mt-5" to="/projects">
+              Look around
+            </Link>
           </div>
-          <Link className="btn btn-primary text-black" to="/about">
-            Get Started
-          </Link>
         </div>
       </div>
     </div>
