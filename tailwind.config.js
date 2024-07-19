@@ -14,6 +14,15 @@ export default {
   ],
   prefix: "",
   theme: {
+    screens: {
+      zero: '0px',
+      xs: '320px',
+      sm: '480px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      "2xl": '1536px',
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -88,7 +97,7 @@ export default {
           "secondary-content": "#000d15",
           "accent": "#90e0ef",
           "accent-content": "#0f1415",
-          "neutral": "#4b5563",
+          "neutral": "#212828",
           "neutral-content": "#d8dbde",
           "base-100": "#212828",
           "base-200": "#1b2121",

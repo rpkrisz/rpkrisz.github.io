@@ -13,6 +13,9 @@ const UiKit: FC = () => {
           <p className="text-lg">Backgrounds:</p>
           <div className="p-2 bg-background">bg-background</div>
           <div className="p-2 bg-neutral">bg-neutral</div>
+          <div className="p-2 bg-base-100">bg-base-100</div>
+          <div className="p-2 bg-base-200">bg-base-200</div>
+          <div className="p-2 bg-base-300">bg-base-300</div>
           <div className="p-2 bg-primary">bg-primary</div>
           <div className="p-2 bg-secondary">bg-secondary</div>
           <div className="p-2 bg-accent">bg-accent</div>
@@ -38,6 +41,7 @@ const UiKit: FC = () => {
         <div className="flex gap-2 flex-wrap">
           <p className="text-lg">Contents:</p>
           <div className="p-2 bg-neutral-content">bg-neutral-content</div>
+          <div className="p-2 bg-base-content">bg-base-content</div>
           <div className="p-2 bg-primary-content">bg-primary-content</div>
           <div className="p-2 bg-secondary-content">bg-secondary-content</div>
           <div className="p-2 bg-accent-content">bg-accent-content</div>
