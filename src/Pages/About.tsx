@@ -1,9 +1,10 @@
+import H1 from "@/Components/H1";
 import HobbyCard from "../Components/hobbyCard";
 
 export default function About() {
   return (
     <>
-      <h1 className="my-3">About</h1>
+      <H1>About</H1>
       <div className="flex flex-col gap-3 ">
         <p>
           Réthey-Prikkel Krisztián vagyok, egy ambiciózus és lelkes egyetemista, aki párhuzamosan informatikai és üzleti

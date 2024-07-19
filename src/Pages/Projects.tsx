@@ -1,9 +1,10 @@
+import H1 from "@/Components/H1";
 import ListElem from "../Components/ListElem";
 
 const Projects = () => {
   return (
     <>
-      <h1 className="text-start my-2">My Pojects</h1>
+      <H1>My Pojects</H1>
       <ul className="flex flex-col justify-center gap-3">
         <ListElem
           name="Burgonya térkép játék"
