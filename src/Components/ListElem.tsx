@@ -7,7 +7,7 @@ const ListElem: FC<{link: string; name: string; imageSrc: string; thisPic: strin
   thisPic,
 }) => {
   return (
-    <li className="flex flex-col justify-center max-w-screen-2xl min-h-svh  min-w-96 mx-auto">
+    <li className="flex flex-col justify-center mx-auto zero:max-w-32 xs:min-w-72 sm:max-w-screen-2xl sm:min-w-96  min-h-dvh">
       <h1>{name}</h1>
       <div className="flex flex-wrap">
         <p>
@@ -17,7 +17,10 @@ const ListElem: FC<{link: string; name: string; imageSrc: string; thisPic: strin
           deleniti libero nisi voluptas culpa, quis vero suscipit quaerat quasi eos alias deserunt.
         </p>
       </div>
-      <a href={link} className="flex self-center justify-center p-1 max-w-5xl hover:bg-primary hover:rounded-2xl">
+      <a
+        href={link}
+        className="flex self-center justify-center p-1 zero:max-w-32 xs:min-w-72 sm:max-w-5xl sm:min-w-96 hover:bg-primary hover:rounded-2xl"
+      >
         <div className="mockup-browser bg-neutral border">
           <div className="mockup-browser-toolbar">
             <div className="input text-white">{link}</div>

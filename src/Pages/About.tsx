@@ -25,7 +25,7 @@ export default function About() {
       </div>
       <div>
         <h1>Kedvenc sportjaim</h1>
-        <div className="flex flex-row justify-between gap-10">
+        <div className="flex flex-row justify-between gap-10 flex-wrap lg:flex-nowrap">
           <HobbyCard
             title="Úszás"
             text="Már másfél éves korom óta rendszeresen úsztam életem eslső tíz évében és mostanában kezdtem újra vissza

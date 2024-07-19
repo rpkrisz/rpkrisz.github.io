@@ -2,12 +2,14 @@ import {LinkedinIcon, EnvelopeIcon, GithubIcon} from "./FawIcons";
 
 export default function Footer() {
   return (
-    <footer className="footer text-neutral-content items-center p-4 bg-base-300">
+    <footer className="footer-center md:footer text-neutral-content items-center p-4 bg-base-300">
       <aside className="grid-flow-col items-center">
-        <img src="/assets/Logo_orange/horizontal-logo.png" alt="Logo" className="size-16 inline" />
-        <p className="text-center">Copyright © {new Date().getFullYear()} - Réthey-Prikkel Kriszsztián</p>
+        <img src="/assets/Logo_orange/horizontal-logo.png" alt="Logo" className="size-16 inline m-auto" />
       </aside>
-      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <aside className="my-4 grid-flow-col items-center md:m-auto">
+        Copyright © {new Date().getFullYear()} - Réthey-Prikkel Kriszsztián
+      </aside>
+      <nav className="grid grid-flow-col gap-2 md:place-self-center md:justify-self-end">
         <a className="hover:text-primary" href="mailto:rp.krisz123@gmail.com" target="_blank">
           <EnvelopeIcon size="xl" />
         </a>
