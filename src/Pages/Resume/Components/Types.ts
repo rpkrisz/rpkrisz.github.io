@@ -3,26 +3,26 @@ export default interface Resume {
   experience: PlaceList;
   languages: {
     title: string;
-    items: ReadonlyArray<string>;
+    items: string[];
   };
   other: {
     title: string;
-    items: ReadonlyArray<List<List<string>>>;
+    items: List<List<string>>[];
   };
 }
 
 export interface Place {
   title: string;
   adress: string;
-  info?: ReadonlyArray<string>;
+  info?: string[];
 }
 
 export interface List<Type> {
   title: string;
-  items?: ReadonlyArray<Type>;
+  items: Type[];
 }
 
 export interface PlaceList {
   title: string;
-  items: ReadonlyArray<Place>;
+  items: Place[];
 }
