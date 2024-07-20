@@ -1,4 +1,6 @@
 import daisyui from "./node_modules/daisyui/src/index"
+import light from "./node_modules/daisyui/src/theming/themes"
+import dark from "./node_modules/daisyui/src/theming/themes"
 import tailwindcss_animate from "./node_modules/tailwindcss-animate/index"
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -90,12 +92,38 @@ export default {
   daisyui: {
     themes: [
       {
-        mytheme: {
+        light: {
+          ...light,
+          "primary": "#c35a04",
+          "primary-content": "#150801",
+          "secondary": "#8fd6d6",
+          "secondary-content": "#000d15",
+          "accent": "#349d9d",
+          "accent-content": "#0f1415",
+          "neutral": "#D8DFDF",
+          "neutral-content": "#d8dbde",
+          "base-100": "#D8DFDF",
+          "base-200": "#1b2121",
+          "base-300": "#161b1b",
+          "base-content": "#cdcfcf",
+          "info": "#7ed4fc",
+          "info-content": "#051016",
+          "success": "#679C0D",
+          "success-content": "#0d1403",
+          "warning": "#B69802",
+          "warning-content": "#161202",
+          "error": "#BC1010",
+          "error-content": "#140202",
+        }
+      },
+      {
+        dark: {
+          ...dark,
           "primary": "#fb923c",
           "primary-content": "#150801",
-          "secondary": "#00bafa",
+          "secondary": "#297070",
           "secondary-content": "#000d15",
-          "accent": "#90e0ef",
+          "accent": "#62cbcb",
           "accent-content": "#0f1415",
           "neutral": "#212828",
           "neutral-content": "#d8dbde",
@@ -112,7 +140,7 @@ export default {
           "error": "#ef4444",
           "error-content": "#140202",
         },
-      },
+      }
     ],
   },
   plugins: [tailwindcss_animate, daisyui],

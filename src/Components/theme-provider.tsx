@@ -35,11 +35,13 @@ export function ThemeProvider({
 
     if (theme === "system") {
       const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-
+      
+      root.dataset["theme"] = systemTheme;
       root.classList.add(systemTheme);
       return;
     }
 
+    root.dataset["theme"] = theme;
     root.classList.add(theme);
   }, [theme]);
 
