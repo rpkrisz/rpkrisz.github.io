@@ -4,8 +4,8 @@ import H1 from "@/Components/H1";
 import H2 from "../../Components/H2";
 import Section from "./Components/Section";
 import ResumeType from "./Components/Types";
-import {Link} from "react-router-dom";
 import data from "./data.json";
+import {FileDown} from "lucide-react";
 
 const Resume = () => {
   const [toggel, setToggel] = useState(false);
@@ -22,7 +22,7 @@ const Resume = () => {
     <>
       <LangToggel handelClick={handelClick} />
       <H1>Resume</H1>
-      <div className="felx flex-col justify-center px-16 p-2 gap-5">
+      <div className="felx flex-col justify-center md:px-16 gap-5">
         <Section section={resume.education}></Section>
         <Section section={resume.experience}></Section>
         <H2 reverse={true}>{resume.languages.title}</H2>
@@ -45,9 +45,10 @@ const Resume = () => {
           );
         })}
       </div>
-      <div className="flex justify-end">
-        <a className="btn btn-primary" href="/CV_Resume.pdf" download>
+      <div className="flex justify-center m-2 md:justify-end">
+        <a className="btn btn-accent" href="/CV_Resume.pdf" download>
           Download
+          <FileDown />
         </a>
       </div>
     </>
