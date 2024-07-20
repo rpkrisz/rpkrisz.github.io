@@ -1,7 +1,7 @@
 import {useState} from "react";
 import LangToggel from "../../Components/Lang-toggel";
 import H1 from "@/Components/H1";
-import H2 from "./Components/H2";
+import H2 from "../../Components/H2";
 import Section from "./Components/Section";
 import ResumeType from "./Components/Types";
 import {Link} from "react-router-dom";
@@ -25,13 +25,13 @@ const Resume = () => {
       <div className="felx flex-col justify-center px-16 p-2 gap-5">
         <Section section={resume.education}></Section>
         <Section section={resume.experience}></Section>
-        <H2>{resume.languages.title}</H2>
+        <H2 reverse={true}>{resume.languages.title}</H2>
         <div className="pl-2">
           {resume.languages.items.map(language => {
             return <p key={language}>{language}</p>;
           })}
         </div>
-        <H2>{resume.other.title}</H2>
+        <H2 reverse={true}>{resume.other.title}</H2>
         {resume.other.items.map((item, index) => {
           return (
             <div key={index}>

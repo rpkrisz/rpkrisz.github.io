@@ -1,12 +1,12 @@
 import {FC} from "react";
-import H2 from "./H2";
+import H2 from "../../../Components/H2";
 import TitleSubText from "./TitleSubText";
 import {PlaceList} from "./Types";
 
 const Section: FC<{section: PlaceList}> = ({section}) => {
   return (
     <>
-      <H2>{section.title}</H2>
+      <H2 reverse={true}>{section.title}</H2>
       {section?.items?.map(place => {
         return (
           <div key={place.title}>
