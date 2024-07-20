@@ -1,5 +1,5 @@
 import H1 from "@/Components/H1";
-import HobbyCard from "../Components/hobbyCard";
+import HobbyCard from "../Components/HobbyCard";
 
 export default function About() {
   return (

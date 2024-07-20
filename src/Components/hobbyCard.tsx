@@ -1,11 +1,12 @@
 import {FC} from "react";
+import H2 from "./H2";
 
-const HobbyCard: FC<{title: string; text: string; imageSrc: string}> = ({title, text, imageSrc}) => {
+const HobbyCard: FC<{title: string; children: string; imageSrc: string}> = ({title, children, imageSrc}) => {
   return (
     <div className="flex flex-col justify-center max-w-2xl min-w-40 mx-auto">
       <img src={imageSrc} alt={"Image about the sport."} className="h-32 m-3 self-center" />
-      <h2 className="text-xl">{title}</h2>
-      <p>{text}</p>
+      <H2>{title}</H2>
+      <p>{children}</p>
     </div>
   );
 };

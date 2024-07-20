@@ -37,7 +37,7 @@
                     ]
                 },
                 {
-                    "title": "Medve Matek - Matematika Összeköt Egyesület",
+                    "title": "Medve Matek - Matematika Összeköt Egyesület (2022-)",
                     "adress": "Budapest 1015, Batthyány u. 15",
                     "info": [
                         "Rendezvényszervezés, önkéntesség Medve Matek szabadtéri matekversenyeken",
@@ -72,7 +72,10 @@
                     ]
                 },
                 {
-                    "title": "Alapvető SAP ismeretek"
+                    "title": "SAP",
+                    "items": [
+                        "Alapvető ismeretek"
+                    ]
                 },
                 {
                     "title": "Cisco Networking Academy",
@@ -136,7 +139,7 @@
                     ]
                 },
                 {
-                    "title": "Medve Matek - Matematika Összeköt Egyesület",
+                    "title": "Medve Matek - Matematika Összeköt Egyesület (2022-)",
                     "adress": "Budapest 1015, Batthyány u. 15",
                     "info": [
                         "Event organization, volunteering at Medve Matek outdoor math competitions",
@@ -171,7 +174,10 @@
                     ]
                 },
                 {
-                    "title": "Basic knowledge of SAP"
+                    "title": "SAP",
+                    "items": [
+                        "Basic knowledge"
+                    ]
                 },
                 {
                     "title": "Cisco Networking Academy",

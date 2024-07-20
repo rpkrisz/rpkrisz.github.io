@@ -1,11 +1,11 @@
 import {useState} from "react";
-import LangToggel from "../../Components/lang-toggel";
+import LangToggel from "../../Components/Lang-toggel";
 import H1 from "@/Components/H1";
 import H2 from "./Components/H2";
 import Section from "./Components/Section";
 import ResumeType from "./Components/Types";
-import data from "./Components/data.json";
 import {Link} from "react-router-dom";
+import data from "./data.json";
 
 const Resume = () => {
   const [toggel, setToggel] = useState(false);
