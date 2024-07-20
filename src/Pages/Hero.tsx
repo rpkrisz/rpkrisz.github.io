@@ -15,11 +15,11 @@ export default function Hero() {
           className="max-w-md h-full rounded-xl shadow-2xl shadow-gray-500"
         />
         <div>
-          <h1 className="text-5xl font-bold text-primary">
+          <h1 className="text-5xl font-bold text-primary m-2">
             Hello,
             <br /> I'm Krisztián Réthey-Prikkel!
           </h1>
-          <div className="text-start font-bold rounded-md text-lg  p-3 flex gap-3 flex-col">
+          <div className="text-start font-bold rounded-md text-lg flex flex-col gap-3 py-3 m-2">
             <p>
               A passionate student with a unique blend of technical and business skills. I'm majoring in both
               Programming and Business, allowing me to bridge the gap between the creative problem-solving world of code
