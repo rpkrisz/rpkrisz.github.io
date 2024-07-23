@@ -35,7 +35,7 @@ export interface ResumeTYPE {
   };
   other: {
     title: string;
-    items: ListTYPE<ListTYPE<string>>[];
+    items: ListTYPE<string>[];
   };
 }
 
