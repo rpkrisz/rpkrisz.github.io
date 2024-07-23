@@ -18,10 +18,6 @@ export default function Hero() {
           <h1 className="text-5xl font-bold text-primary m-2">
             Hello,
             <br /> I'm Krisztián Réthey-Prikkel!
-          </h1>{" "}
-          <h1 className="text-5xl font-bold text-primary m-2">
-            Hello,
-            <br /> I'm Krisztián Réthey-Prikkel!
           </h1>
           <div className="text-start font-bold rounded-md text-lg flex flex-col gap-3 py-3 m-2">
             <p>
