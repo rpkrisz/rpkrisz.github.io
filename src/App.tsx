@@ -5,7 +5,6 @@ import Projects from "./Pages/Projects";
 import Layout from "./layout";
 import Resume from "./Pages/Resume/Resume";
 import Home from "./Pages/Hero";
-import About from "./Pages/About";
 import UiKit from "./UiKit";
 
 const router = createBrowserRouter([
@@ -21,10 +20,6 @@ const router = createBrowserRouter([
       {
         path: "ui",
         element: <UiKit />,
-      },
-      {
-        path: "about",
-        element: <About />,
       },
       {
         path: "projects",

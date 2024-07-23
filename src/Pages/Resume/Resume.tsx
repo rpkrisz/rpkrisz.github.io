@@ -11,7 +11,6 @@ const Resume = () => {
   const [toggel, setToggel] = useState(false);
   let resume: ResumeTYPE | undefined = undefined;
   toggel ? (resume = data.english.resume) : (resume = data.hungarian.resume);
-  console.log(resume);
 
   function handelClick() {
     toggel ? setToggel(false) : setToggel(true);
