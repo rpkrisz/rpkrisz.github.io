@@ -1,10 +1,10 @@
 import {useState} from "react";
-import LangToggel from "../../Components/Lang-toggel";
+import LangToggel from "@/Components/Lang-toggel";
 import H1 from "@/Components/H1";
-import H2 from "../../Components/H2";
+import H2 from "@/Components/H2";
 import Section from "./Components/Section";
-import {ResumeTYPE} from "../../data/Types";
-import data from "../../data/data.json";
+import {ResumeTYPE} from "@/data/Types";
+import data from "@/data/data.json";
 import {FileDown} from "lucide-react";
 
 const Resume = () => {

@@ -1,7 +1,7 @@
 import H1 from "@/Components/H1";
-import ProjectElem from "../Components/ProjectElem";
-import data from "../data/data.json";
-import {ProjectTYPE} from "../data/Types";
+import ProjectElem from "@/Components/ProjectElem";
+import data from "@/data/data.json";
+import {ProjectTYPE} from "@/data/Types";
 
 const Projects = () => {
   const projects: ProjectTYPE[] = data.hungarian.projects;
