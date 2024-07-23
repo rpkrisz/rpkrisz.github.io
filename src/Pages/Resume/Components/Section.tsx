@@ -1,9 +1,10 @@
 import {FC} from "react";
 import H2 from "../../../Components/H2";
 import TitleSubText from "./TitleSubText";
-import {PlaceList} from "./Types";
+import {PlaceListTYPE} from "@/data/Types";
 
-const Section: FC<{section: PlaceList}> = ({section}) => {
+const Section: FC<{section: PlaceListTYPE}> = ({section}) => {
+
   return (
     <>
       <H2 reverse={true}>{section.title}</H2>
