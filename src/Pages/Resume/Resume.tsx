@@ -1,7 +1,7 @@
 import H1 from "@/Components/H1";
-import H2 from "../../Components/H2";
+import H2 from "@/Components/H2";
 import Section from "./Components/Section";
-import {ResumeTYPE} from "../../data/Types";
+import {ResumeTYPE} from "@/data/Types";
 import {FileDown} from "lucide-react";
 import {useTranslation} from "react-i18next";
 

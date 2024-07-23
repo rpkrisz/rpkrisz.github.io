@@ -3,7 +3,7 @@ import {Dialog, DialogContent, DialogHeader, DialogFooter, DialogTitle, DialogDe
 import {Link} from "react-router-dom";
 import {GithubIcon} from "./FawIcons";
 import {Globe} from "lucide-react";
-import {ProjectTYPE} from "../data/Types";
+import {ProjectTYPE} from "@/data/Types";
 
 const ProjectDetailModal: FC<{
   openModal: boolean;

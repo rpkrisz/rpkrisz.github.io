@@ -8,9 +8,6 @@ export default function MenuNavLinks() {
 
   return (
     <>
-      <NavLink className="btn btn-ghost text-xl hover:text-primary" to="/about">
-        About <User />
-      </NavLink>
       <NavLink className="btn btn-ghost text-xl hover:text-primary" to="/projects">
         {menu[1]} <FolderGit2 />
       </NavLink>
