@@ -1,87 +1,99 @@
 {
-    "hungarian": {
-        "about": {},
-        "projects": [
+    "language": "EN",
+    "menu": [
+        "About",
+        "Projects",
+        "Resume"
+    ],
+    "hero": {
+        "title": "I'm Krisztián Réthey-Prikkel!",
+        "text": "A passionate student with a unique blend of technical and business skills. I'm majoring in both Programming and Business, allowing me to bridge the gap between the creative problem-solving world of code and the strategic planning of the business landscape. This website showcases my abilities and projects.",
+        "button": "Look around"
+    },
+    "about": {},
+    "projects": {
+        "title": "My Pojects",
+        "items": [
             {
-                "name": "Jobhunter alkalmazás",
-                "description": "Ez az alkalmazás egy álláshírdetőt valósít meg.",
-                "extras": "A megvalósított feladatban egy kész RestApi-t használtam és a frontend-et React-ben fejlesztettem Redux segítségével. Az oldalon található autentikáció és a fő funkciója, hogy állásokat lehet kirakni amik között lehet böngészni.",
+                "name": "Jobhunter application",
+                "description": "This application implements a job advertisement website.",
+                "extras": "I used a premade RestApi and developed the frontend in React with the help of Redux. The site has authentication and its main function is that you can post jobs, and browse among them.",
                 "webLink": "https://react-beadando-jubhunter.vercel.app/",
                 "gitHubLink": "https://github.com/rpkrisz/Jobhunter",
                 "images": [
                     {
                         "src": "./assets/Jobhunter/home.png",
                         "text": "",
-                        "alt": "Egy az alkalmazásról."
+                        "alt": "A picture about the application."
                     },
                     {
                         "src": "./assets/Jobhunter/filter.png",
-                        "text": "A főoldalon lehetőség van a hírdetések szűrésére.",
-                        "alt": "Szűrés."
+                        "text": "On the home page is possible to filter the advertisements.",
+                        "alt": "Filtering."
                     },
                     {
                         "src": "./assets/Jobhunter/register.png",
-                        "text": "Két féle profillal is lehet regisztrálni. Munkavállalóknak van lehetősége a tapasztalat megadására.",
-                        "alt": "Regisztrációs form."
+                        "text": "You can register with two types of profiles. Jobseekers have the opportunity to add past experience.",
+                        "alt": "Registration form."
                     },
                     {
                         "src": "./assets/Jobhunter/profile_company.png",
-                        "text": "A meghírdetett állások között lehet böngészni, azokat módosítani.",
-                        "alt": "Munkáltató profil."
+                        "text": "On the profile, as a Company you can browse among your job advertisements, and also edit them.",
+                        "alt": "Company profile."
                     },
                     {
                         "src": "./assets/Jobhunter/profile_jobseeker.png",
-                        "text": "A tapasztalatokat lehet böngészni, azokat módosítani.",
-                        "alt": "Munkavállaló profil."
+                        "text": "On the profile, as a Jobseeker you can view your past experience and personal data, and also edit them.",
+                        "alt": "Jobseeker profile."
                     },
                     {
                         "src": "./assets/Jobhunter/job.png",
-                        "text": "Egy munkát kiválasztva elérhetők a részletes információk.",
-                        "alt": "Munka leírás."
+                        "text": "Clicking on a job advertisement, you can see the detailed informations.",
+                        "alt": "Job description."
                     },
                     {
                         "src": "./assets/Jobhunter/job_adv.png",
-                        "text": "Egy form segítségével új állások hozhatók létre.",
-                        "alt": "Hírdetés form."
+                        "text": "With the help of a form you can add new job advertisements.",
+                        "alt": "Advertisement form."
                     }
                 ]
             },
             {
-                "name": "Bérkalkulátor alkalmazás",
-                "description": "Ez az alkalmazás egy egyszerű és gyors modját adja a nettó bér kiszámítására, akár az egész családnak.",
-                "extras": "A megvalósított feladatban React volt használva. Az alkalmazás képes kiszámolni szimultán több ember nettő bérét a bruttója alapján. Lehetőség van különféle kedvezmények alkalmazására is. Az igy kiszémolt értékeket majd öszegzi és megjeleníti.",
+                "name": "Salary calculator application",
+                "description": "This application provides a simple and fast way to calculate your net salary, even for the whole family.",
+                "extras": "I implemented the task in React. The application can simultaneously calculate the net salary of several people based on their gross. It is also possible to grant various PIT discounts. The calculated values ​​will be summed up and displayed.",
                 "webLink": "https://rpkrisz.github.io/Berkalkulator/",
                 "gitHubLink": "https://github.com/rpkrisz/Berkalkulator",
                 "images": [
                     {
                         "src": "./assets/Berkalkulator/berkalk_minta.png",
                         "text": "",
-                        "alt": "Egy kép az alkalmazásról."
+                        "alt": "A picture about the application."
                     },
                     {
                         "src": "./assets/Berkalkulator/under25.png",
-                        "text": "A 25 év alatti személy egy bizonyos összegig nem kell jövedelem adót fizetniük.",
-                        "alt": "Egy kép az alkalmazásról."
+                        "text": "Persons under the age of 25 do not have to pay income tax up to a certain amount.",
+                        "alt": "A picture about the application."
                     },
                     {
                         "src": "./assets/Berkalkulator/FreshWed.png",
-                        "text": "A jogosult friss házasok egy fix összegű kedvezményt kapnak. Ezt egy détum megadásával lehet ellenőrizni, amit egy modál jelenít meg.",
-                        "alt": "Egy kép az alkalmazásról."
+                        "text": "Eligible newlyweds receive a discount of a fixed amount. This can be checked by entering a date, which is displayed by a modal.",
+                        "alt": "A picture about the application."
                     },
                     {
                         "src": "./assets/Berkalkulator/szemelyi.png",
-                        "text": "A személyi adó kedvezmény is kiszámolhaót.",
-                        "alt": "Egy kép az alkalmazásról."
+                        "text": "The personal tax discount can also be added.",
+                        "alt": "A picture about the application."
                     },
                     {
                         "src": "./assets/Berkalkulator/family.png",
-                        "text": "Egyedi komponens segítségével meg adható a családi adó kedvezmény mértéke.",
-                        "alt": "Egy kép az alkalmazásról."
+                        "text": "The amount of the family tax discount can be specified with the help of a unique component.",
+                        "alt": "A picture about the application."
                     }
                 ]
             },
             {
-                "name": "Burgonya térkép játék",
+                "name": "Potato map game",
                 "description": "Ez a játék a Kartográfusok nevezetű társasjáték online újra gondolt változatta.",
                 "extras": "A megvalósított feladatban HTML CSS és JavaScript volt használva. A játék magánk számolja a pontokat, vizsgálja hogy egy adott elem lehelyezhető-e? A menü segítségével beállíthatók a küldetések és a játékos szám illetve megtekinthetők az aktuális táblák. A játé localstorage-ba mentődik igy bármikor abba hagyható és később folytatható.",
                 "webLink": "https://rpkrisz.github.io/JS-BurgonyaTerkep",
@@ -90,156 +102,53 @@
                     {
                         "src": "./assets/Burgonya/burgonya_minta.png",
                         "text": "",
-                        "alt": "Egy kép a játékról."
+                        "alt": "A picture about the game."
                     },
                     {
                         "src": "./assets/Burgonya/halfstop.png",
                         "text": "A játék 4 fordulóra van osztva amit az évszakok váltakozásábal jelzünk. Változáskor kiszámolódik az aktuális rész pont a küldetések alapján.",
-                        "alt": "Évszak váltás."
+                        "alt": "Season change."
                     },
                     {
                         "src": "./assets/Burgonya/ingame.png",
                         "text": "A különböző elemeket, területeket kell lehelyezni a játék során ezt könyíti, hogy az aktuális elem halványan látszik a táblán ha od lehelyezhető.",
-                        "alt": "A játék közben."
+                        "alt": "In the game."
                     },
                     {
                         "src": "./assets/Burgonya/boards.png",
-                        "text": "A teljes táblát meg lehet nyitni a fordulók között, hogy jobban szemügyre vethessük.",
-                        "alt": "A tábla."
+                        "text": "We can open the board any time in the game, to take a better look.",
+                        "alt": "The board."
                     }
                 ]
             },
             {
                 "name": "Unstable Unicorns weblap",
-                "description": "Ez a weboldal az Unstable Unicorns nevű társasjátékot mutatja be.",
-                "extras": "A megvalósított feladatban HTML CSS és Bootstrap volt használva. Az oldal egy egyszerű statikus megjelenítésre szolgál. Illetve az egyik oldalon egy form is található.",
+                "description": "This website presents a board game called Unstable Unicorns.",
+                "extras": "HTML, CSS and Bootstrap were used in the implementation of the page. This is a basic static website. There is also a form on one page.",
                 "webLink": "https://rpkrisz.github.io/UnstableUnicorns",
                 "gitHubLink": "https://github.com/rpkrisz/UnstableUnicorns",
                 "images": [
                     {
                         "src": "./assets/Unstable/unstable_minta.png",
                         "text": "",
-                        "alt": "Egy kép a weboldalról."
+                        "alt": "This is a picture about the webpage."
                     },
                     {
                         "src": "./assets/Unstable/nagybetus.png",
-                        "text": "Lehetőség van a betúméret változtatására.",
-                        "alt": "Egy kép a weboldalról."
+                        "text": "It is possible to change the font size.",
+                        "alt": "This is a picture about the webpage."
                     },
                     {
                         "src": "./assets/Unstable/form.png",
-                        "text": "Lehetőség van egy új unikornis beküldésére.",
-                        "alt": "Egy kép a weboldalról."
+                        "text": "It is possible to submit a new unicorn.",
+                        "alt": "This is a picture about the webpage."
                     }
                 ]
             }
-        ],
-        "resume": {
-            "education": {
-                "title": "Tanulmányok",
-                "items": [
-                    {
-                        "title": "Eötvös Loránd Tudományegyetem (2022-)",
-                        "adress": "Budapest 1117, Pázmány Péter sétány 1/C",
-                        "info": [
-                            "Informatikai Kar - Programtervező informatikus szak – 4. félév",
-                            "Szoftverfejlesztő specializáció"
-                        ]
-                    },
-                    {
-                        "title": "Budapesti Gazdasági Egyetem (2021-)",
-                        "adress": "Budapest 1149, Buzogány u. 10-12.",
-                        "info": [
-                            "Pénzügyi és Számviteli Kar - Gazdálkodási és menedzsment szak – 6. félév",
-                            "Digitális vállalkozás specializáció",
-                            "PSZK+ tehetséggondozási program – több tárgyat emelt szinten végeztem"
-                        ]
-                    },
-                    {
-                        "title": "Teleki Blanka Gimnázium (2016-2021)",
-                        "adress": "Budapest 1149, Ajtósi Dürer sor 37"
-                    }
-                ]
-            },
-            "experience": {
-                "title": "Tapasztalat",
-                "items": [
-                    {
-                        "title": "Robox kft (2023)",
-                        "adress": "Pomáz 2013, Mester utca 2",
-                        "info": [
-                            "Raktározási feladatok: leltározás, csomag összekészítés, csomagolás, fuvarozás"
-                        ]
-                    },
-                    {
-                        "title": "Medve Matek - Matematika Összeköt Egyesület (2022-)",
-                        "adress": "Budapest 1015, Batthyány u. 15",
-                        "info": [
-                            "Rendezvényszervezés, önkéntesség Medve Matek szabadtéri matekversenyeken",
-                            "Belső használatú weblap fejlesztése csoportos projekt keretében",
-                            "Tábori programok kitalálása, összeállítása projekt csapatokban",
-                            "Tanárként/szervezőként Medve Matek táborokban"
-                        ]
-                    }
-                ]
-            },
-            "languages": {
-                "title": "Nyelvismeret",
-                "items": [
-                    "Angol Középfok (B2)",
-                    "Gazdasági angol szaknyelv (B2)"
-                ]
-            },
-            "other": {
-                "title": "Ismeretek, eredmények",
-                "items": [
-                    {
-                        "title": "ICDL/ECDL Standard Bizonyítvány",
-                        "items": [
-                            "Számítógépes alapismeretek",
-                            "Online alapismeretek",
-                            "Szövegszerkesztés",
-                            "Táblázatkezelés",
-                            "Prezentáció",
-                            "Adatbáziskezelés",
-                            "Webszerkeztés",
-                            "IT biztonság"
-                        ]
-                    },
-                    {
-                        "title": "SAP",
-                        "items": [
-                            "Alapvető ismeretek"
-                        ]
-                    },
-                    {
-                        "title": "Cisco Networking Academy",
-                        "items": [
-                            "IoT Fundamentals: Big Data & Analytics, Certificate of Course Completion"
-                        ]
-                    },
-                    {
-                        "title": "Programozás",
-                        "items": [
-                            "Ismerem: C#,C,Python,PHP,Kotlin,Haskell,SQL",
-                            "Magabiztosan használom: HTML, CSS, JavaScript, Java",
-                            "Frameworks, Libraries: React, Laravel, Java Ant"
-                        ]
-                    },
-                    {
-                        "title": "Üzleti Szimulációs Verseny",
-                        "items": [
-                            "Diák Menedzsment Bajnokság 2023 5. hely.",
-                            "Lámfalussy Sándor Üzleti Szimulációs Verseny 2022 - Középdöntő"
-                        ]
-                    }
-                ]
-            }
-        }
+        ]
     },
-    "english": {
-        "about": {},
-        "projects": [],
+    "resume": {
+        "title": "Resume",
         "resume": {
             "education": {
                 "title": "Education",
