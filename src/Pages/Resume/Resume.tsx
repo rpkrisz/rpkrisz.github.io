@@ -1,27 +1,17 @@
-import {useState} from "react";
-import LangToggel from "@/Components/Lang-toggel";
 import H1 from "@/Components/H1";
 import H2 from "@/Components/H2";
 import Section from "./Components/Section";
 import {ResumeTYPE} from "@/data/Types";
-import data from "@/data/data.json";
 import {FileDown} from "lucide-react";
+import {useTranslation} from "react-i18next";
 
 const Resume = () => {
-  const [toggel, setToggel] = useState(false);
-  let resume: ResumeTYPE | undefined = undefined;
-  toggel ? (resume = data.english.resume) : (resume = data.hungarian.resume);
-
-  function handelClick() {
-    toggel ? setToggel(false) : setToggel(true);
-
-    return toggel;
-  }
+  const [t, i18n] = useTranslation("translation", {keyPrefix: "resume"});
+  const resume: ResumeTYPE = i18n.getResourceBundle(i18n.language, "translation").resume.resume;
 
   return (
     <>
-      <LangToggel handelClick={handelClick} />
-      <H1>Resume</H1>
+      <H1>{t("title")}</H1>
       <div className="felx flex-col justify-center md:px-16 gap-5">
         <Section section={resume.education}></Section>
         <Section section={resume.experience}></Section>

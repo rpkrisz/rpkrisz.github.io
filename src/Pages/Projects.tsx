@@ -1,13 +1,15 @@
 import H1 from "@/Components/H1";
-import ProjectElem from "@/Components/ProjectElem";
-import data from "@/data/data.json";
-import {ProjectTYPE} from "@/data/Types";
+import ProjectElem from "../Components/ProjectElem";
+import {ProjectTYPE} from "../data/Types";
+import {useTranslation} from "react-i18next";
 
 const Projects = () => {
-  const projects: ProjectTYPE[] = data.hungarian.projects;
+  const [t, i18n] = useTranslation("translation", {keyPrefix: "projects"});
+  const projects: ProjectTYPE[] = i18n.getResourceBundle(i18n.language, "translation").projects.items;
+
   return (
     <>
-      <H1>My Pojects</H1>
+      <H1>{t("title")}</H1>
       <ul className="flex flex-col justify-center gap-3">
         {projects.map(project => {
           return <ProjectElem key={project.name} project={project} />;
