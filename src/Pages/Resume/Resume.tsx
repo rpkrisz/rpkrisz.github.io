@@ -3,14 +3,15 @@ import LangToggel from "../../Components/Lang-toggel";
 import H1 from "@/Components/H1";
 import H2 from "../../Components/H2";
 import Section from "./Components/Section";
-import ResumeType from "./Components/Types";
-import data from "./data.json";
+import {ResumeTYPE} from "../../data/Types";
+import data from "../../data/data.json";
 import {FileDown} from "lucide-react";
 
 const Resume = () => {
   const [toggel, setToggel] = useState(false);
-  let resume: ResumeType | undefined = undefined;
-  toggel ? (resume = data.english) : (resume = data.hungarian);
+  let resume: ResumeTYPE | undefined = undefined;
+  toggel ? (resume = data.english.resume) : (resume = data.hungarian.resume);
+  console.log(resume);
 
   function handelClick() {
     toggel ? setToggel(false) : setToggel(true);
