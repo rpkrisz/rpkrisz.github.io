@@ -50,7 +50,7 @@
                 "name": "Bérkalkulátor alkalmazás",
                 "description": "Ez az alkalmazás egy egyszerű és gyors modját adja a nettó bér kiszámítására, akár az egész családnak.",
                 "extras": "A megvalósított feladatban React volt használva. Az alkalmazás képes kiszámolni szimultán több ember nettő bérét a bruttója alapján. Lehetőség van különféle kedvezmények alkalmazására is. Az igy kiszémolt értékeket majd öszegzi és megjeleníti.",
-                "webLink": "https://berkalkulator-six.vercel.app/",
+                "webLink": "https://rpkrisz.github.io/Berkalkulator/",
                 "gitHubLink": "https://github.com/rpkrisz/Berkalkulator",
                 "images": [
                     {
