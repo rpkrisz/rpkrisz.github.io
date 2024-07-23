@@ -1,10 +1,12 @@
 import {Collapsible, CollapsibleContent, CollapsibleTrigger} from "@/Components/ui/collapsible";
-import {ModeToggle} from "@/Components/MenuBar/mode-toggle";
+import {ModeToggle} from "@/Components/MenuBar/ModeToggle";
 import {Link} from "react-router-dom";
 import MenuLinks from "./MenuLinks";
 import MenuNavLinks from "./MenuNavLinks";
 import MenuThemeButtons from "./MenuThemeButtons";
 import {Menu} from "lucide-react";
+import LanguageToggle from "./LanguageToggle";
+import MenuLanguageButtons from "./MenuLanguageButtons";
 
 export default function MenuBar() {
   return (
@@ -22,6 +24,7 @@ export default function MenuBar() {
           <MenuNavLinks />
           <MenuLinks />
           <MenuThemeButtons />
+          <MenuLanguageButtons />
         </CollapsibleContent>
       </Collapsible>
       <div className="hidden md:flex">
@@ -33,6 +36,7 @@ export default function MenuBar() {
       <div className="hidden md:flex">
         <MenuLinks />
         <ModeToggle />
+        <LanguageToggle />
       </div>
     </nav>
   );
