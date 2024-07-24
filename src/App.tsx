@@ -1,14 +1,14 @@
 import "./App.css";
 import {ThemeProvider} from "@/Components/theme-provider";
-import {RouterProvider, createBrowserRouter} from "react-router-dom";
+import {RouterProvider, createHashRouter} from "react-router-dom";
 import Projects from "./Pages/Projects";
 import Layout from "./layout";
 import Resume from "./Pages/Resume/Resume";
 import Home from "./Pages/Hero";
-import About from "./Pages/About";
 import UiKit from "./UiKit";
+import About from "./Pages/About";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />,

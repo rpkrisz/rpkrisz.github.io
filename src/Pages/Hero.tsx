@@ -1,6 +1,9 @@
+import {useTranslation} from "react-i18next";
 import {Link} from "react-router-dom";
 
 export default function Hero() {
+  const [t] = useTranslation("translation", {keyPrefix: "hero"});
+
   return (
     <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
@@ -17,16 +20,13 @@ export default function Hero() {
         <div>
           <h1 className="text-5xl font-bold text-primary m-2">
             Hello,
-            <br /> I'm Krisztián Réthey-Prikkel!
+            <br />
+            {t("title")}
           </h1>
           <div className="text-start font-bold rounded-md text-lg flex flex-col gap-3 py-3 m-2">
-            <p>
-              A passionate student with a unique blend of technical and business skills. I'm majoring in both
-              Programming and Business, allowing me to bridge the gap between the creative problem-solving world of code
-              and the strategic planning of the business landscape. This website showcases my abilities and projects.
-            </p>
+            <p>{t("text")}</p>
             <Link className="btn btn-accent text-black self-center mt-5" to="/projects">
-              Look around
+              {t("button")}
             </Link>
           </div>
         </div>

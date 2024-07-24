@@ -1,12 +1,15 @@
 export interface dataTYPE {
-  hungarian: {
-    about: aboutTYPE;
-    projects: ProjectTYPE[];
-    resume: ResumeTYPE;
+  language: string;
+  menu: string[];
+  hero: {
+    title: string;
+    text: string;
+    button: string;
   };
-  english: {
-    about: aboutTYPE;
-    projects: ProjectTYPE[];
+  about: AboutTYPE;
+  projects: ListTYPE<ProjectTYPE>;
+  resume: {
+    title: string;
     resume: ResumeTYPE;
   };
 }
@@ -17,10 +20,10 @@ export interface ProjectTYPE {
   extras: string;
   webLink?: string;
   gitHubLink?: string;
-  images: imageTYPE[];
+  images: ImageTYPE[];
 }
 
-export interface imageTYPE {
+export interface ImageTYPE {
   src: string;
   text: string;
   alt: string;
@@ -35,7 +38,7 @@ export interface ResumeTYPE {
   };
   other: {
     title: string;
-    items: ListTYPE<ListTYPE<string>>[];
+    items: ListTYPE<string>[];
   };
 }
 
@@ -54,7 +57,7 @@ export interface PlaceListTYPE {
   title: string;
   items: PlaceTYPE[];
 }
-export interface aboutTYPE {
+export interface AboutTYPE {
   title: string;
   items: PlaceTYPE[];
 }

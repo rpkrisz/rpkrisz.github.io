@@ -1,7 +1,7 @@
 import {FC, useState} from "react";
 import H2 from "./H2";
 import ProjectDetailModal from "@/Components/ProjectDetailModal";
-import {ProjectTYPE} from "../data/Types";
+import {ProjectTYPE} from "@/data/Types";
 
 const ProjectElem: FC<{project: ProjectTYPE}> = ({project}) => {
   const [openModal, setOpenModal] = useState(false);

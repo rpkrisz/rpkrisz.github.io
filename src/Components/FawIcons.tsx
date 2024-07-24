@@ -1,5 +1,17 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {
+  Transform,
+  IconProp,
+  FlipProp,
+  SizeProp,
+  PullProp,
+  RotateProp,
+  FaSymbol,
+} from "@fortawesome/fontawesome-svg-core";
+import {CSSProperties, SVGAttributes, RefAttributes} from "react";
+type BackwardCompatibleOmit<T, K extends keyof any> = Pick<T, Exclude<keyof T, K>>;
+
+import {
   faFilter,
   faMagnifyingGlass,
   faEnvelope,
@@ -24,97 +36,130 @@ import {
 
 import {faGithub, faLinkedin, faSquareFacebook, faInstagram} from "@fortawesome/free-brands-svg-icons";
 
-export function InstagramIcon(params) {
-  return <FontAwesomeIcon icon={faInstagram} {...params} />;
+export interface Params
+  extends BackwardCompatibleOmit<SVGAttributes<SVGSVGElement>, "children" | "mask" | "transform">,
+    RefAttributes<SVGSVGElement> {
+  mask?: IconProp;
+  maskId?: string;
+  className?: string;
+  color?: string;
+  spin?: boolean;
+  spinPulse?: boolean;
+  spinReverse?: boolean;
+  pulse?: boolean;
+  beat?: boolean;
+  fade?: boolean;
+  beatFade?: boolean;
+  bounce?: boolean;
+  shake?: boolean;
+  border?: boolean;
+  fixedWidth?: boolean;
+  inverse?: boolean;
+  listItem?: boolean;
+  flip?: FlipProp;
+  size?: SizeProp;
+  pull?: PullProp;
+  rotation?: RotateProp;
+  transform?: string | Transform;
+  symbol?: FaSymbol;
+  style?: CSSProperties;
+  tabIndex?: number;
+  title?: string;
+  titleId?: string;
+  swapOpacity?: boolean;
 }
 
-export function GithubIcon(params) {
-  return <FontAwesomeIcon icon={faGithub} {...params} />;
+export function InstagramIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faInstagram} />;
+}
+
+export function GithubIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faGithub} />;
 }
 <FontAwesomeIcon icon={faGithub} />;
-export function SquareFacebookIcon(params) {
-  return <FontAwesomeIcon icon={faSquareFacebook} {...params} />;
+export function SquareFacebookIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faSquareFacebook} />;
 }
 
-export function FloppyDiskIcon(params) {
-  return <FontAwesomeIcon icon={faFloppyDisk} {...params} />;
+export function FloppyDiskIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faFloppyDisk} />;
 }
 
-export function UserPenIcon(params) {
-  return <FontAwesomeIcon icon={faUserPen} {...params} />;
+export function UserPenIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faUserPen} />;
 }
-export function HourglassStartIcon(params) {
-  return <FontAwesomeIcon icon={faHourglassStart} {...params} />;
-}
-
-export function CircleCheckIcon(params) {
-  return <FontAwesomeIcon icon={faCircleCheck} {...params} />;
+export function HourglassStartIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faHourglassStart} />;
 }
 
-export function CircleXmarkIcon(params) {
-  return <FontAwesomeIcon icon={faCircleXmark} {...params} />;
+export function CircleCheckIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faCircleCheck} />;
 }
 
-export function PenToSquareIcon(params) {
-  return <FontAwesomeIcon icon={faPenToSquare} {...params} />;
+export function CircleXmarkIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faCircleXmark} />;
 }
 
-export function EyeIcon(params) {
-  return <FontAwesomeIcon icon={faEye} {...params} />;
+export function PenToSquareIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faPenToSquare} />;
 }
 
-export function FilterIcon(params) {
-  return <FontAwesomeIcon icon={faFilter} {...params} />;
+export function EyeIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faEye} />;
 }
 
-export function MagnifyingGlassIcon(params) {
-  return <FontAwesomeIcon icon={faMagnifyingGlass} {...params} />;
+export function FilterIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faFilter} />;
 }
 
-export function XmarkIcon(params) {
-  return <FontAwesomeIcon icon={faXmark} {...params} />;
+export function MagnifyingGlassIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faMagnifyingGlass} />;
 }
 
-export function EnvelopeIcon(params) {
-  return <FontAwesomeIcon icon={faEnvelope} {...params} />;
+export function XmarkIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faXmark} />;
 }
 
-export function UserIcon(params) {
-  return <FontAwesomeIcon icon={faUser} {...params} />;
+export function EnvelopeIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faEnvelope} />;
 }
 
-export function KeyIcon(params) {
-  return <FontAwesomeIcon icon={faKey} {...params} />;
+export function UserIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faUser} />;
 }
 
-export function LocationDotIcon(params) {
-  return <FontAwesomeIcon icon={faLocationDot} {...params} />;
+export function KeyIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faKey} />;
 }
 
-export function BuildingIcon(params) {
-  return <FontAwesomeIcon icon={faBuilding} {...params} />;
+export function LocationDotIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faLocationDot} />;
 }
 
-export function HouseLaptopIcon(params) {
-  return <FontAwesomeIcon icon={faHouseLaptop} {...params} />;
+export function BuildingIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faBuilding} />;
 }
 
-export function HourglassEndIcon(params) {
-  return <FontAwesomeIcon icon={faHourglassEnd} {...params} />;
+export function HouseLaptopIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faHouseLaptop} />;
 }
 
-export function HourglassIcon(params) {
-  return <FontAwesomeIcon icon={faHourglass} {...params} />;
+export function HourglassEndIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faHourglassEnd} />;
 }
 
-export function GraduationCapIcon(params) {
-  return <FontAwesomeIcon icon={faGraduationCap} {...params} />;
+export function HourglassIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faHourglass} />;
 }
 
-export function TrashIcon(params) {
-  return <FontAwesomeIcon icon={faTrash} {...params} />;
+export function GraduationCapIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faGraduationCap} />;
 }
 
-export function LinkedinIcon(params) {
-  return <FontAwesomeIcon icon={faLinkedin} {...params} />;
+export function TrashIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faTrash} />;
+}
+
+export function LinkedinIcon(params: Params) {
+  return <FontAwesomeIcon {...params} icon={faLinkedin} />;
 }
