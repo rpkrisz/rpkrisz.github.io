@@ -1,5 +1,6 @@
 import H1 from "@/Components/H1";
 import H2 from "@/Components/H2";
+import H3 from "@/Components/H3";
 import Section from "./Components/Section";
 import {ResumeTYPE} from "@/data/Types";
 import {FileDown} from "lucide-react";
@@ -25,7 +26,7 @@ const Resume = () => {
         {resume.other.items.map((item, index) => {
           return (
             <div key={index}>
-              <h3 className="text-xl">{item.title}</h3>
+              <H3>{item.title}</H3>
               <ul className="list-disc list-inside px-2">
                 {item.items?.map((item, index) => {
                   return <li key={index}>{item}</li>;
