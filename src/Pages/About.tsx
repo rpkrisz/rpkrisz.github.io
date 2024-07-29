@@ -31,18 +31,6 @@ export default function About() {
         );
       })}
       <H2>{t("freetime")}</H2>
-      <H3>{t("series.title")}</H3>
-      <div className="flex flex-row justify-between gap-10 flex-wrap">
-        {about.series.items.map((series, index) => {
-          return <HobbyCard key={index} title={series.name} imageSrc={series.image} />;
-        })}
-      </div>
-      <H3>{t("boardgames.title")}</H3>
-      <div className="flex flex-row justify-between gap-10 flex-wrap">
-        {about.boardgames.items.map((boardgame, index) => {
-          return <HobbyCard key={index} title={boardgame.name} imageSrc={boardgame.image} />;
-        })}
-      </div>
       <H3>{t("sports.title")}</H3>
       <div className="flex flex-row justify-between gap-10 flex-wrap lg:flex-nowrap">
         {about.sports.items.map((sport, index) => {
@@ -51,6 +39,18 @@ export default function About() {
               {sport.description}
             </HobbyCard>
           );
+        })}
+      </div>
+      <H3>{t("boardgames.title")}</H3>
+      <div className="flex flex-row justify-between gap-10 flex-wrap">
+        {about.boardgames.items.map((boardgame, index) => {
+          return <HobbyCard key={index} title={boardgame.name} imageSrc={boardgame.image} />;
+        })}
+      </div>
+      <H3>{t("series.title")}</H3>
+      <div className="flex flex-row justify-between gap-10 flex-wrap">
+        {about.series.items.map((series, index) => {
+          return <HobbyCard key={index} title={series.name} imageSrc={series.image} />;
         })}
       </div>
     </>
