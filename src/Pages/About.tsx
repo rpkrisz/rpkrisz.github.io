@@ -1,57 +1,57 @@
 import H1 from "@/Components/H1";
-import HobbyCard from "../Components/HobbyCard";
+import H2 from "@/Components/H2";
+import H3 from "@/Components/H3";
+import HobbyCard from "@/Components/HobbyCard";
+import {AboutTYPE} from "@/data/Types";
+import {useTranslation} from "react-i18next";
 
 export default function About() {
+  const [t, i18n] = useTranslation("translation", {keyPrefix: "about"});
+  const about: AboutTYPE = i18n.getResourceBundle(i18n.language, "translation").about;
+
   return (
     <>
-      <H1>About</H1>
-      <div className="flex flex-col gap-3 ">
-        <p>
-          Réthey-Prikkel Krisztián vagyok, egy ambiciózus és lelkes egyetemista, aki párhuzamosan informatikai és üzleti
-          területen fejleszti képességeit és tapasztalatait. Jelenleg a Budapesti Gazdasági Egyetemen vagyok hallgató,
-          ahol gazdálkodási és menedzsment területen mélyülök el, digitális vállalkozásra specializálódva már 6. féléve.
-          Emellett az Eötvös Loránd Tudományegyetemen informatikai karán tanulok, ahol a programtervező informatikus
-          szakot választottam, és már a 4. félévben járok.
-        </p>
-        <p>
-          Az informatikai és üzleti világban is jártas vagyok, széles körű ismeretekkel rendelkezem a programozás terén,
-          de a gazdasági folyamatokkal és a különféle menedzsment helyzetekkel is jól elboldogulok, akár idegen nyelven
-          is.
-        </p>
-        <p>
-          Kreativitásom, kitartásom és problémamegoldó készségem segítségével bármilyen kihívást el tudok fogadni és
-          megoldani. Szenvedélyem az innováció és a fejlődés, és hosszú távon egy olyan csapat része szeretnék lenni,
-          ahol lehetőségem van ezeket az értékeket kamatoztatni és fejleszteni.
-        </p>
+      <H1>{t("title")}</H1>
+      <p>{t("introduction")}</p>
+      <H2>{t("skills.title")}</H2>
+      {about.skills.items.map(obj => {
+        return (
+          <div key={obj.title}>
+            <H3>{obj.title}</H3>
+            <ul className="flex flex-row flex-wrap gap-2">
+              {obj.items.map(skill => {
+                return (
+                  <li key={skill} className="badge badge-secondary text-secondary-foreground p-2">
+                    {skill}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        );
+      })}
+      <H2>{t("freetime")}</H2>
+      <H3>{t("series.title")}</H3>
+      <div className="flex flex-row justify-between gap-10 flex-wrap">
+        {about.series.items.map((series, index) => {
+          return <HobbyCard key={index} title={series.name} imageSrc={series.image} />;
+        })}
       </div>
-      <div>
-        <h1>Kedvenc sportjaim</h1>
-        <div className="flex flex-row justify-between gap-10 flex-wrap lg:flex-nowrap">
-          <HobbyCard
-            title="Úszás"
-            text="Már másfél éves korom óta rendszeresen úsztam életem eslső tíz évében és mostanában kezdtem újra vissza
-              járni a medencéhez."
-            imageSrc="./assets/Uszas.png"
-          />
-          <HobbyCard
-            title="Thai Box"
-            text="Még az álltalános koromban az úszást váltva, a thai box lett a rendszeres mozgás az életemben, és az óta
-              is kisebb-naygyobb kihagyásokkal."
-            imageSrc="./assets/ThaiBox.png"
-          />
-          <HobbyCard
-            title="Hegyi Kerékpár"
-            text="Az elmúlt lassan hat évben gyakran járunk a hegyen biciklivel nincs is job érzés mint a fárasztó
-              feltekerés után lehet száguldani a hogyoldalon."
-            imageSrc="./assets/MountainBikeing.svg"
-          />
-          <HobbyCard
-            title="Kajak"
-            text="Évek óta egyik kedvenc nyári időtőltésem a Dunakanyarban evezni, a tükör sima víz pedig az egyik
-              legmegnyugtatóbb dolog a világon."
-            imageSrc="./assets/Kajak.png"
-          />
-        </div>
+      <H3>{t("boardgames.title")}</H3>
+      <div className="flex flex-row justify-between gap-10 flex-wrap">
+        {about.boardgames.items.map((boardgame, index) => {
+          return <HobbyCard key={index} title={boardgame.name} imageSrc={boardgame.image} />;
+        })}
+      </div>
+      <H3>{t("sports.title")}</H3>
+      <div className="flex flex-row justify-between gap-10 flex-wrap lg:flex-nowrap">
+        {about.sports.items.map((sport, index) => {
+          return (
+            <HobbyCard key={index} title={sport.name} imageSrc={sport.image}>
+              {sport.description}
+            </HobbyCard>
+          );
+        })}
       </div>
     </>
   );
