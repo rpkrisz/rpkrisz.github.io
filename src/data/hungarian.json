@@ -17,7 +17,7 @@
             "title": "Képességek",
             "items": [
                 {
-                    "title": "Soft",
+                    "title": "Soft skillek",
                     "items": [
                         "Nyitottság",
                         "Időbeosztás",
@@ -29,24 +29,25 @@
                     ]
                 },
                 {
-                    "title": "Hard",
+                    "title": "Szakmai kompetenciák",
                     "items": [
                         "MS Office programok",
-                        "Customer Relationship Management (CRM)",
+                        "Ügyfélkapcsolat menedzsment (CRM)",
                         "It Projektmenedzsment",
                         "Szolgáltatásmenedzsment & Marketing",
                         "Stratégiai Tervezés",
                         "Angol Gazdasági Szaknyelv",
                         "Közgazdasásgi & Számviteli Ismeretek",
-                        "Programozás, Verziókezelés"
+                        "Programozás (Javascript)",
+                        "Verziókezelés"
                     ]
                 },
                 {
-                    "title": "Improvable",
+                    "title": "Fejlesztendők",
                     "items": [
                         "SAP",
                         "Angol Nyelv (C1)",
-                        "Programozás",
+                        "Programozás (Python)",
                         "Adatbáziskezelés"
                     ]
                 }
@@ -59,6 +60,10 @@
                 {
                     "name": "Suits",
                     "image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vQiryp6LioFxQThywxbC6TuoDjy.jpg"
+                },
+                {
+                    "name": "Cobra Kai",
+                    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5qMupAz4A9EN5Rutrkmov45mNXZ.jpg"
                 },
                 {
                     "name": "Arrow",
@@ -79,10 +84,6 @@
                 {
                     "name": "How I Met Your Mother",
                     "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iZo28Bir13fJPN9LM4hQgBJ7k7H.jpg"
-                },
-                {
-                    "name": "The End of the F***ing World",
-                    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vZQKQcB5n91c6tBofAVXq88Uuti.jpg"
                 }
             ]
         },
@@ -120,7 +121,7 @@
                 {
                     "name": "Úszás",
                     "image": "./assets/Hobbies/Sports/Uszas.png",
-                    "description": "Már másfél éves korom óta rendszeresen úsztam életem első tíz évében és az óta is gyakran vissza járok a medencéhez."
+                    "description": "Már másfél éves korom óta rendszeresen úsztam tíz éves koromig, de az óta is gyakran vissza járok a medencéhez."
                 },
                 {
                     "name": "Thai Box",
@@ -130,12 +131,12 @@
                 {
                     "name": "Hegyi Kerékpározás",
                     "image": "./assets/Hobbies/Sports/MountainBikeing.svg",
-                    "description": " A gimnáziumi évek alatt gyakran járunk a hegyen biciklivel és nincs is job érzés mint a fárasztó feltekerés után lehet száguldani a hogyoldalon."
+                    "description": " A gimnáziumi évek alatt gyakran jártunk a hegyen biciklivel. Nincs is jobb érzés mint egy fárasztó feltekerés után, lefelé száguldani a hegyoldalon."
                 },
                 {
                     "name": "Kajakozás",
                     "image": "./assets/Hobbies/Sports/Kajak.png",
-                    "description": "Évek óta egyik kedvenc nyári időtőltésem a Dunakanyarban evezni, a tükör sima víz pedig az egyik legmegnyugtatóbb dolog a világon."
+                    "description": "Évek óta egyik kedvenc nyári időtőltésem a Dunakanyarban evezni, a tükör sima vízen lenni pedig az egyik legmegnyugtatóbb érzés a világon."
                 }
             ]
         }

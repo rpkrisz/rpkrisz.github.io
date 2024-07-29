@@ -38,7 +38,8 @@
                         "Strategic Planning",
                         "English EconomicLlanguage",
                         "Economics & Accounting Skills",
-                        "Programming, Version Control"
+                        "Programming (Javascript)",
+                        "Version Control"
                     ]
                 },
                 {
@@ -46,7 +47,7 @@
                     "items": [
                         "SAP",
                         "English (C1)",
-                        "Programming",
+                        "Programming (Python)",
                         "Database Management"
                     ]
                 }
@@ -59,6 +60,10 @@
                 {
                     "name": "Suits",
                     "image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vQiryp6LioFxQThywxbC6TuoDjy.jpg"
+                },
+                {
+                    "name": "Cobra Kai",
+                    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5qMupAz4A9EN5Rutrkmov45mNXZ.jpg"
                 },
                 {
                     "name": "Arrow",
@@ -79,10 +84,6 @@
                 {
                     "name": "How I Met Your Mother",
                     "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iZo28Bir13fJPN9LM4hQgBJ7k7H.jpg"
-                },
-                {
-                    "name": "The End of the F***ing World",
-                    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vZQKQcB5n91c6tBofAVXq88Uuti.jpg"
                 }
             ]
         },
@@ -126,17 +127,17 @@
                 {
                     "name": "Thai Box",
                     "image": "./assets/Hobbies/Sports/ThaiBox.png",
-                    "description": "When I was still at school, Thai boxing replaced swimming and became a regular exercise in my life for almost six years."
+                    "description": "When I was still at school, Thai boxing replaced swimming and became a regular exercise in my life for the next six years."
                 },
                 {
                     "name": "Mountain Bikeing",
                     "image": "./assets/Hobbies/Sports/MountainBikeing.svg",
-                    "description": "During the high school years, we often go up the mountain by bike and there is no better feeling than being able to race down the hill after tiring winding up."
+                    "description": "During the high school years, we often go up the mountain by bike. There is no better feeling than being able to race down  the mountainside after a tiring climb."
                 },
                 {
                     "name": "Kayaking",
                     "image": "./assets/Hobbies/Sports/Kajak.png",
-                    "description": "For years, rowing in the Danube Bend has been one of my favorite summer pastimes, and the mirror-smooth water is one of the most relaxing things in the world."
+                    "description": "For years, kayaking on the Danube has been one of my favorite summer pastimes, and being on mirror-smooth water is one of the most relaxing feelings in the world."
                 }
             ]
         }
