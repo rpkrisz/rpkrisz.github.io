@@ -57,7 +57,6 @@ export interface PlaceListTYPE {
   title: string;
   items: PlaceTYPE[];
 }
-
 export interface AboutTYPE {
   title: string;
   introduction: string;
