@@ -12,7 +12,7 @@ export default function About() {
   return (
     <>
       <H1>{t("title")}</H1>
-      <p>{t("introduction")}</p>
+      <p className="text-justify">{t("introduction")}</p>
       <H2>{t("skills.title")}</H2>
       {about.skills.items.map(obj => {
         return (
@@ -42,13 +42,13 @@ export default function About() {
         })}
       </div>
       <H3>{t("boardgames.title")}</H3>
-      <div className="flex flex-row justify-between gap-10 flex-wrap">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center justify-center gap-10 ">
         {about.boardgames.items.map((boardgame, index) => {
           return <HobbyCard key={index} title={boardgame.name} imageSrc={boardgame.image} />;
         })}
       </div>
       <H3>{t("series.title")}</H3>
-      <div className="flex flex-row justify-between gap-10 flex-wrap">
+      <div className="flex flex-wrap justify-center gap-10">
         {about.series.items.map((series, index) => {
           return <HobbyCard key={index} title={series.name} imageSrc={series.image} />;
         })}
