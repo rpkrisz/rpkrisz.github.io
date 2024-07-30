@@ -59,5 +59,16 @@ export interface PlaceListTYPE {
 }
 export interface AboutTYPE {
   title: string;
-  items: PlaceTYPE[];
+  introduction: string;
+  skills: ListTYPE<ListTYPE<string>>;
+  freetime: string;
+  series: ListTYPE<HobbyType>;
+  boardgames: ListTYPE<HobbyType>;
+  sports: ListTYPE<HobbyType>;
+}
+
+export interface HobbyType {
+  name: string;
+  image: string;
+  description?: string;
 }

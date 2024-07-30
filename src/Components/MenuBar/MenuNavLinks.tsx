@@ -1,5 +1,5 @@
 import {NavLink} from "react-router-dom";
-import {FolderGit2, FileText} from "lucide-react";
+import {FolderGit2, FileText, User} from "lucide-react";
 import {useTranslation} from "react-i18next";
 
 export default function MenuNavLinks() {
@@ -8,12 +8,14 @@ export default function MenuNavLinks() {
 
   return (
     <>
+      <NavLink className="btn btn-ghost text-xl hover:text-primary" to="/about">
+        {menu[0]} <User />
+      </NavLink>
       <NavLink className="btn btn-ghost text-xl hover:text-primary" to="/projects">
         {menu[1]} <FolderGit2 />
       </NavLink>
       <NavLink className="btn btn-ghost text-xl hover:text-primary" to="/resume">
-        {menu[2]}
-        <FileText />
+        {menu[2]} <FileText />
       </NavLink>
     </>
   );

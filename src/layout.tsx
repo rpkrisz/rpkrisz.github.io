@@ -8,7 +8,7 @@ function Layout() {
       <header>
         <MenuBar />
       </header>
-      <main className="felx justify-start flex-grow m-0 px-8 py-2 relativ min-h-svh">
+      <main className="felx justify-start flex-grow m-0 px-8 py-2 relativ min-h-svh md:px-40">
         <Outlet />
       </main>
       <Footer />
