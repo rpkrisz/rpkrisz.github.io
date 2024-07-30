@@ -1,7 +1,7 @@
 import {FC} from "react";
 import H3 from "./H3";
 
-const HobbyCard: FC<{title: string; children?: string; imageSrc: string}> = ({title, children, imageSrc}) => {
+const HobbyCard: FC<{title: string; imageSrc: string; children?: string}> = ({title, imageSrc, children}) => {
   return (
     <div className="flex flex-col justify-center max-w-2xl min-w-40 mx-auto bg-primary p-2 rounded-md">
       {children ? (
