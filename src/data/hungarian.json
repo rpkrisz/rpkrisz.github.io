@@ -311,10 +311,12 @@
                 "title": "Tapasztalat",
                 "items": [
                     {
-                        "title": "Robox kft (2023)",
-                        "adress": "Pomáz 2013, Mester utca 2",
+                        "title": "OTP Bank - Reporting and data quality Gyakornok (2024-)",
+                        "adress": "Budapest 1051, Széchenyi István tér 7-8.",
                         "info": [
-                            "Raktározási feladatok: leltározás, csomag összekészítés, csomagolás, fuvarozás"
+                            "Napi regulatory reportok készítése MNB része, és az ezzel kapcsolatos folyamatok támogatása",
+                            "HITREG jelentések előkészítése",
+                            "Folyamat dokumentáció"
                         ]
                     },
                     {
@@ -325,6 +327,13 @@
                             "Belső használatú weblap fejlesztése csoportos projekt keretében",
                             "Tábori programok kitalálása, összeállítása projekt csapatokban",
                             "Tanárként/szervezőként Medve Matek táborokban"
+                        ]
+                    },
+                    {
+                        "title": "Robox kft (2023)",
+                        "adress": "Pomáz 2013, Mester utca 2",
+                        "info": [
+                            "Raktározási feladatok: leltározás, csomag összekészítés, csomagolás, fuvarozás"
                         ]
                     }
                 ]

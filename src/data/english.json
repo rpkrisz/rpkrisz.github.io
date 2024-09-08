@@ -311,10 +311,12 @@
                 "title": "Experience",
                 "items": [
                     {
-                        "title": "Robox kft (2023)",
-                        "adress": "Pomáz 2013, Mester utca 2",
+                        "title": "OTP Bank - Reporting and data quality Intern (2024-)",
+                        "adress": "Budapest 1051, Széchenyi István tér 7-8.",
                         "info": [
-                            "Warehouse tasks: stock-taking; packing; cartering"
+                            "Making of daily regulatory reportok for MNB, and supporting the connected procces",
+                            "Prepare HITREG reports",
+                            "Documenting procces"
                         ]
                     },
                     {
@@ -325,6 +327,13 @@
                             "Development of a website for internal use as part of a group project",
                             "Designing and compiling camp programs in project teams",
                             "As a teacher/organizer in Medve Matek camps"
+                        ]
+                    },
+                    {
+                        "title": "Robox kft (2023)",
+                        "adress": "Pomáz 2013, Mester utca 2",
+                        "info": [
+                            "Warehouse tasks: stock-taking; packing; cartering"
                         ]
                     }
                 ]
