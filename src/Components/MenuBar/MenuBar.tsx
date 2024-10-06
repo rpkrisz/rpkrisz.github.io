@@ -10,8 +10,8 @@ import MenuLanguageButtons from "./MenuLanguageButtons";
 
 export default function MenuBar() {
   return (
-    <nav className="bg-base-300 text-white p-2 gap-2 md:navbar md:flex md:flex-grow md:justify-between md:items-center">
-      <Collapsible className="md:hidden">
+    <nav className="bg-base-200 text-white p-2 gap-2 min-w-full flex flex-grow md:navbar md:justify-between md:items-center fixed z-50">
+      <Collapsible className="md:hidden flex-grow">
         <div className=" flex flex-row flex-grow content-center justify-between">
           <Link className="btn btn-ghost hover:text-primary content-center" to="/">
             <img src="/assets/Logo_orange/horizontal-logo.png" alt="Logo" className="size-20 inline mr-2" />
