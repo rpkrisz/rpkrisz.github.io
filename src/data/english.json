@@ -1,395 +1,406 @@
 {
-    "language": "EN",
-    "menu": [
-        "About",
-        "Projects",
-        "Resume"
-    ],
-    "hero": {
-        "title": "I'm Krisztián Réthey-Prikkel!",
-        "text": "A passionate student with a unique blend of technical and business skills. I'm majoring in both Programming and Business, allowing me to bridge the gap between the creative problem-solving world of code and the strategic planning of the business landscape. This website showcases my abilities and projects. Feel free to browse my portfolio and get in touch if you have any questions!",
-        "button": "Look around"
-    },
-    "about": {
-        "title": "About",
-        "introduction": "My name is Krisztián Réthey-Prikkel, an ambitious and enthusiastic university student who is simultaneously developing his skills and experience in the field of IT and business. I am currently an active student in two majors. On the one hand, I will start my last 7th semester in September at the Budapest Business School, where I study business administration and management, specializing in digital enterprises. On the other hand, I am already starting my 5th semester at the IT faculty of Eötvös Loránd University, where I major in computer science as a software developer specialist.",
-        "skills": {
-            "title": "Skills",
-            "items": [
-                {
-                    "title": "Soft",
-                    "items": [
-                        "Openness",
-                        "Time Management",
-                        "Teamwork",
-                        "Problem Solving",
-                        "System & Process Approach",
-                        "Analytical Thinking",
-                        "Precision"
-                    ]
-                },
-                {
-                    "title": "Hard",
-                    "items": [
-                        "MS Office Programs",
-                        "Customer Relationship Management (CRM)",
-                        "IT Project Management",
-                        "Service Management & Marketing",
-                        "Strategic Planning",
-                        "English EconomicLlanguage",
-                        "Economics & Accounting Skills",
-                        "Programming (Javascript)",
-                        "Version Control"
-                    ]
-                },
-                {
-                    "title": "Improvable",
-                    "items": [
-                        "SAP",
-                        "English (C1)",
-                        "Programming (Python)",
-                        "Database Management"
-                    ]
-                }
-            ]
+  "language": "EN",
+  "menu": [
+    "About",
+    "Projects",
+    "Resume"
+  ],
+  "hero": {
+    "title": "I'm Krisztián Réthey-Prikkel!",
+    "text": "A passionate student with a unique blend of technical and business skills. I'm majoring in both Programming and Business, allowing me to bridge the gap between the creative problem-solving world of code and the strategic planning of the business landscape. This website showcases my abilities and projects. Feel free to browse my portfolio and get in touch if you have any questions!",
+    "button": "Look around"
+  },
+  "about": {
+    "title": "About",
+    "introduction": "My name is Krisztián Réthey-Prikkel, an ambitious and enthusiastic university student who is simultaneously developing his skills and experience in the field of IT and business. I am currently an active student in two majors. On the one hand, I will start my last 7th semester in September at the Budapest Business School, where I study business administration and management, specializing in digital enterprises. On the other hand, I am already starting my 5th semester at the IT faculty of Eötvös Loránd University, where I major in computer science as a software developer specialist.",
+    "skills": {
+      "title": "Skills",
+      "items": [
+        {
+          "title": "Soft",
+          "items": [
+            "Openness",
+            "Time Management",
+            "Teamwork",
+            "Problem Solving",
+            "System & Process Approach",
+            "Analytical Thinking",
+            "Precision"
+          ]
         },
-        "freetime": "In my free time",
-        "series": {
-            "title": "Series",
-            "items": [
-                {
-                    "name": "Suits",
-                    "image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vQiryp6LioFxQThywxbC6TuoDjy.jpg"
-                },
-                {
-                    "name": "Cobra Kai",
-                    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5qMupAz4A9EN5Rutrkmov45mNXZ.jpg"
-                },
-                {
-                    "name": "Arrow",
-                    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gKG5QGz5Ngf8fgWpBsWtlg5L2SF.jpg"
-                },
-                {
-                    "name": "Eureka",
-                    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/f2l5hUk63hPqYTucnFy2HmElFV0.jpg"
-                },
-                {
-                    "name": "Scrubs",
-                    "image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/u1z05trCA7AuSuDhi365grwdos1.jpg"
-                },
-                {
-                    "name": "Doctor Who",
-                    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oYJZFxVHYzbRgoFxIZtI1tu2Zsn.jpg"
-                },
-                {
-                    "name": "HIMYM",
-                    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iZo28Bir13fJPN9LM4hQgBJ7k7H.jpg"
-                }
-            ]
+        {
+          "title": "Hard",
+          "items": [
+            "MS Office Programs",
+            "Customer Relationship Management (CRM)",
+            "IT Project Management",
+            "Service Management & Marketing",
+            "Strategic Planning",
+            "English EconomicLlanguage",
+            "Economics & Accounting Skills",
+            "Programming (Javascript)",
+            "Version Control"
+          ]
         },
-        "boardgames": {
-            "title": "Boardgames",
-            "items": [
-                {
-                    "name": "7 Wonders",
-                    "image": "https://cf.geekdo-images.com/ZWJg0dCdrWHxVnc0eFXK8w__original/img/LgzEsQlF3xkSEQLoorc8ntiYiIY=/0x0/filters:format(jpeg)/pic38668.jpg"
-                },
-                {
-                    "name": "Bang!",
-                    "image": "https://cf.geekdo-images.com/_04xA-d-rfygm0c49HE4vA__original/img/el-4Ilu9DeYunRT3r4TVP8Vy3uk=/0x0/filters:format(jpeg)/pic1170986.jpg"
-                },
-                {
-                    "name": "Unstable unicorns",
-                    "image": "https://cf.geekdo-images.com/8_5xvpsrrX5JVzO7eBLSgw__original/img/XkKaT-quh8xGl2uHD5zULSWTpuM=/0x0/filters:format(jpeg)/pic3912914.jpg"
-                },
-                {
-                    "name": "Ticket to ride",
-                    "image": "https://cf.geekdo-images.com/ZWJg0dCdrWHxVnc0eFXK8w__original/img/LgzEsQlF3xkSEQLoorc8ntiYiIY=/0x0/filters:format(jpeg)/pic38668.jpg"
-                },
-                {
-                    "name": "Avalon",
-                    "image": "https://cf.geekdo-images.com/LPa6rsGcv8S0-OeNjCOAEQ__original/img/AF8HHaIad1re-eg3kd9mlm2j_ss=/0x0/filters:format(jpeg)/pic1398895.jpg"
-                },
-                {
-                    "name": "Terraforming Mars",
-                    "image": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__original/img/thIqWDnH9utKuoKVEUqveDixprI=/0x0/filters:format(jpeg)/pic3536616.jpg"
-                }
-            ]
-        },
-        "sports": {
-            "title": "Sport",
-            "items": [
-                {
-                    "name": "Swimming",
-                    "image": "./assets/Hobbies/Sports/Uszas.png",
-                    "description": "I swam regularly in the first ten years of my life since I was one and a half years old, and I have been returning to the pool often since then."
-                },
-                {
-                    "name": "Thai Box",
-                    "image": "./assets/Hobbies/Sports/ThaiBox.png",
-                    "description": "When I was still at school, Thai boxing replaced swimming and became a regular exercise in my life for the next six years."
-                },
-                {
-                    "name": "Mountain Bikeing",
-                    "image": "./assets/Hobbies/Sports/MountainBikeing.svg",
-                    "description": "During the high school years, we often go up the mountain by bike. There is no better feeling than being able to race down  the mountainside after a tiring climb."
-                },
-                {
-                    "name": "Kayaking",
-                    "image": "./assets/Hobbies/Sports/Kajak.png",
-                    "description": "For years, kayaking on the Danube has been one of my favorite summer pastimes, and being on mirror-smooth water is one of the most relaxing feelings in the world."
-                }
-            ]
+        {
+          "title": "Improvable",
+          "items": [
+            "SAP",
+            "English (C1)",
+            "Programming (Python)",
+            "Database Management"
+          ]
         }
+      ]
     },
-    "projects": {
-        "title": "My Pojects",
-        "items": [
-            {
-                "name": "Jobhunter application",
-                "description": "This application implements a job advertisement website.",
-                "extras": "I used a premade RestApi and developed the frontend in React with the help of Redux. The site has authentication and its main function is that you can post jobs, and browse among them.",
-                "webLink": "https://react-beadando-jubhunter.vercel.app/",
-                "gitHubLink": "https://github.com/rpkrisz/Jobhunter",
-                "images": [
-                    {
-                        "src": "./assets/Jobhunter/home.png",
-                        "text": "",
-                        "alt": "A picture about the application."
-                    },
-                    {
-                        "src": "./assets/Jobhunter/filter.png",
-                        "text": "On the home page is possible to filter the advertisements.",
-                        "alt": "Filtering."
-                    },
-                    {
-                        "src": "./assets/Jobhunter/register.png",
-                        "text": "You can register with two types of profiles. Jobseekers have the opportunity to add past experience.",
-                        "alt": "Registration form."
-                    },
-                    {
-                        "src": "./assets/Jobhunter/profile_company.png",
-                        "text": "On the profile, as a Company you can browse among your job advertisements, and also edit them.",
-                        "alt": "Company profile."
-                    },
-                    {
-                        "src": "./assets/Jobhunter/profile_jobseeker.png",
-                        "text": "On the profile, as a Jobseeker you can view your past experience and personal data, and also edit them.",
-                        "alt": "Jobseeker profile."
-                    },
-                    {
-                        "src": "./assets/Jobhunter/job.png",
-                        "text": "Clicking on a job advertisement, you can see the detailed informations.",
-                        "alt": "Job description."
-                    },
-                    {
-                        "src": "./assets/Jobhunter/job_adv.png",
-                        "text": "With the help of a form you can add new job advertisements.",
-                        "alt": "Advertisement form."
-                    }
-                ]
-            },
-            {
-                "name": "Salary calculator application",
-                "description": "This application provides a simple and fast way to calculate your net salary, even for the whole family.",
-                "extras": "I implemented the task in React. The application can simultaneously calculate the net salary of several people based on their gross. It is also possible to grant various PIT discounts. The calculated values ​​will be summed up and displayed.",
-                "webLink": "https://rpkrisz.github.io/Berkalkulator/",
-                "gitHubLink": "https://github.com/rpkrisz/Berkalkulator",
-                "images": [
-                    {
-                        "src": "./assets/Berkalkulator/berkalk_minta.png",
-                        "text": "",
-                        "alt": "A picture about the application."
-                    },
-                    {
-                        "src": "./assets/Berkalkulator/under25.png",
-                        "text": "Persons under the age of 25 do not have to pay income tax up to a certain amount.",
-                        "alt": "A picture about the application."
-                    },
-                    {
-                        "src": "./assets/Berkalkulator/FreshWed.png",
-                        "text": "Eligible newlyweds receive a discount of a fixed amount. This can be checked by entering a date, which is displayed by a modal.",
-                        "alt": "A picture about the application."
-                    },
-                    {
-                        "src": "./assets/Berkalkulator/szemelyi.png",
-                        "text": "The personal tax discount can also be added.",
-                        "alt": "A picture about the application."
-                    },
-                    {
-                        "src": "./assets/Berkalkulator/family.png",
-                        "text": "The amount of the family tax discount can be specified with the help of a unique component.",
-                        "alt": "A picture about the application."
-                    }
-                ]
-            },
-            {
-                "name": "Potato map game",
-                "description": "Ez a játék a Kartográfusok nevezetű társasjáték online újra gondolt változatta.",
-                "extras": "A megvalósított feladatban HTML CSS és JavaScript volt használva. A játék magánk számolja a pontokat, vizsgálja hogy egy adott elem lehelyezhető-e? A menü segítségével beállíthatók a küldetések és a játékos szám illetve megtekinthetők az aktuális táblák. A játé localstorage-ba mentődik igy bármikor abba hagyható és később folytatható.",
-                "webLink": "https://rpkrisz.github.io/JS-BurgonyaTerkep",
-                "gitHubLink": "https://github.com/rpkrisz/JS-BurgonyaTerkep",
-                "images": [
-                    {
-                        "src": "./assets/Burgonya/burgonya_minta.png",
-                        "text": "",
-                        "alt": "A picture about the game."
-                    },
-                    {
-                        "src": "./assets/Burgonya/halfstop.png",
-                        "text": "A játék 4 fordulóra van osztva amit az évszakok váltakozásábal jelzünk. Változáskor kiszámolódik az aktuális rész pont a küldetések alapján.",
-                        "alt": "Season change."
-                    },
-                    {
-                        "src": "./assets/Burgonya/ingame.png",
-                        "text": "A különböző elemeket, területeket kell lehelyezni a játék során ezt könyíti, hogy az aktuális elem halványan látszik a táblán ha od lehelyezhető.",
-                        "alt": "In the game."
-                    },
-                    {
-                        "src": "./assets/Burgonya/boards.png",
-                        "text": "We can open the board any time in the game, to take a better look.",
-                        "alt": "The board."
-                    }
-                ]
-            },
-            {
-                "name": "Unstable Unicorns weblap",
-                "description": "This website presents a board game called Unstable Unicorns.",
-                "extras": "HTML, CSS and Bootstrap were used in the implementation of the page. This is a basic static website. There is also a form on one page.",
-                "webLink": "https://rpkrisz.github.io/UnstableUnicorns",
-                "gitHubLink": "https://github.com/rpkrisz/UnstableUnicorns",
-                "images": [
-                    {
-                        "src": "./assets/Unstable/unstable_minta.png",
-                        "text": "",
-                        "alt": "This is a picture about the webpage."
-                    },
-                    {
-                        "src": "./assets/Unstable/nagybetus.png",
-                        "text": "It is possible to change the font size.",
-                        "alt": "This is a picture about the webpage."
-                    },
-                    {
-                        "src": "./assets/Unstable/form.png",
-                        "text": "It is possible to submit a new unicorn.",
-                        "alt": "This is a picture about the webpage."
-                    }
-                ]
-            }
-        ]
-    },
-    "resume": {
-        "title": "Resume",
-        "resume": {
-            "education": {
-                "title": "Education",
-                "items": [
-                    {
-                        "title": "Eötvös Loránd University (2022-)",
-                        "adress": "Budapest 1117, Pázmány Péter sétány 1/C",
-                        "info": [
-                            "Faculty of Informatics - Computer Science – 5th semester",
-                            "Software developer specialization"
-                        ]
-                    },
-                    {
-                        "title": "Budapest Business School (2021-)",
-                        "adress": "Budapest 1149, Buzogány u. 10-12.",
-                        "info": [
-                            "Faculty of Finance and Accountancy - Business Administration and Management",
-                            "Digital Business specialization",
-                            "PSZK+ talent management program - I completed several subjects at an advanced level"
-                        ]
-                    },
-                    {
-                        "title": "Teleki Blanka Secondary Grammar School (2016-2021)",
-                        "adress": "Budapest 1149, Ajtósi Dürer sor 37"
-                    }
-                ]
-            },
-            "experience": {
-                "title": "Experience",
-                "items": [
-                    {
-                        "title": "OTP Bank - Reporting and data quality Intern (2024-)",
-                        "adress": "Budapest 1051, Széchenyi István tér 7-8.",
-                        "info": [
-                            "Making of daily regulatory reportok for MNB, and supporting the connected procces",
-                            "Prepare HITREG reports",
-                            "Documenting procces"
-                        ]
-                    },
-                    {
-                        "title": "Medve Matek - Matematika Összeköt Egyesület (2022-)",
-                        "adress": "Budapest 1015, Batthyány u. 15",
-                        "info": [
-                            "Event organization, volunteering at Medve Matek outdoor math competitions",
-                            "Development of a website for internal use as part of a group project",
-                            "Designing and compiling camp programs in project teams",
-                            "As a teacher/organizer in Medve Matek camps"
-                        ]
-                    },
-                    {
-                        "title": "Robox kft (2023)",
-                        "adress": "Pomáz 2013, Mester utca 2",
-                        "info": [
-                            "Warehouse tasks: stock-taking; packing; cartering"
-                        ]
-                    }
-                ]
-            },
-            "languages": {
-                "title": "Languages",
-                "items": [
-                    "English Intermediate (B2)",
-                    "English Economic (B2)"
-                ]
-            },
-            "other": {
-                "title": "Other skills, Achievements",
-                "items": [
-                    {
-                        "title": "ICDL/ECDL Standard Certificate",
-                        "items": [
-                            "Computer Essential",
-                            "Online Essential",
-                            "Word Processing",
-                            "Spreadsheets",
-                            "Presentation",
-                            "Using Databases",
-                            "Web Editing",
-                            "IT-Security"
-                        ]
-                    },
-                    {
-                        "title": "SAP",
-                        "items": [
-                            "Basic knowledge"
-                        ]
-                    },
-                    {
-                        "title": "Cisco Networking Academy",
-                        "items": [
-                            "IoT Fundamentals: Big Data & Analytics, Certificate of Course Completion"
-                        ]
-                    },
-                    {
-                        "title": "Programming",
-                        "items": [
-                            "Familiar level: C#,C,Python,PHP,Kotlin,Haskell,SQL",
-                            "Confident level: HTML, CSS, JavaScript, Java",
-                            "Frameworks, Libraries: React, Laravel, Java Ant"
-                        ]
-                    },
-                    {
-                        "title": "Business simulation competition",
-                        "items": [
-                            "Diák Menedzsment Bajnokság 2023 5th place.",
-                            "Lámfalussy Sándor Üzleti Szimulációs Verseny 2022 - Semi-final"
-                        ]
-                    }
-                ]
-            }
+    "freetime": "In my free time",
+    "series": {
+      "title": "Series",
+      "items": [
+        {
+          "name": "Suits",
+          "image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/vQiryp6LioFxQThywxbC6TuoDjy.jpg"
+        },
+        {
+          "name": "Cobra Kai",
+          "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5qMupAz4A9EN5Rutrkmov45mNXZ.jpg"
+        },
+        {
+          "name": "Arrow",
+          "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gKG5QGz5Ngf8fgWpBsWtlg5L2SF.jpg"
+        },
+        {
+          "name": "Eureka",
+          "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/f2l5hUk63hPqYTucnFy2HmElFV0.jpg"
+        },
+        {
+          "name": "Scrubs",
+          "image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/u1z05trCA7AuSuDhi365grwdos1.jpg"
+        },
+        {
+          "name": "Doctor Who",
+          "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oYJZFxVHYzbRgoFxIZtI1tu2Zsn.jpg"
+        },
+        {
+          "name": "HIMYM",
+          "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iZo28Bir13fJPN9LM4hQgBJ7k7H.jpg"
         }
+      ]
+    },
+    "boardgames": {
+      "title": "Boardgames",
+      "items": [
+        {
+          "name": "7 Wonders",
+          "image": "https://cf.geekdo-images.com/ZWJg0dCdrWHxVnc0eFXK8w__original/img/LgzEsQlF3xkSEQLoorc8ntiYiIY=/0x0/filters:format(jpeg)/pic38668.jpg"
+        },
+        {
+          "name": "Bang!",
+          "image": "https://cf.geekdo-images.com/_04xA-d-rfygm0c49HE4vA__original/img/el-4Ilu9DeYunRT3r4TVP8Vy3uk=/0x0/filters:format(jpeg)/pic1170986.jpg"
+        },
+        {
+          "name": "Unstable unicorns",
+          "image": "https://cf.geekdo-images.com/8_5xvpsrrX5JVzO7eBLSgw__original/img/XkKaT-quh8xGl2uHD5zULSWTpuM=/0x0/filters:format(jpeg)/pic3912914.jpg"
+        },
+        {
+          "name": "Ticket to ride",
+          "image": "https://cf.geekdo-images.com/ZWJg0dCdrWHxVnc0eFXK8w__original/img/LgzEsQlF3xkSEQLoorc8ntiYiIY=/0x0/filters:format(jpeg)/pic38668.jpg"
+        },
+        {
+          "name": "Avalon",
+          "image": "https://cf.geekdo-images.com/LPa6rsGcv8S0-OeNjCOAEQ__original/img/AF8HHaIad1re-eg3kd9mlm2j_ss=/0x0/filters:format(jpeg)/pic1398895.jpg"
+        },
+        {
+          "name": "Terraforming Mars",
+          "image": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__original/img/thIqWDnH9utKuoKVEUqveDixprI=/0x0/filters:format(jpeg)/pic3536616.jpg"
+        }
+      ]
+    },
+    "sports": {
+      "title": "Sport",
+      "items": [
+        {
+          "name": "Swimming",
+          "image": "./assets/Hobbies/Sports/Uszas.png",
+          "description": "I swam regularly in the first ten years of my life since I was one and a half years old, and I have been returning to the pool often since then."
+        },
+        {
+          "name": "Thai Box",
+          "image": "./assets/Hobbies/Sports/ThaiBox.png",
+          "description": "When I was still at school, Thai boxing replaced swimming and became a regular exercise in my life for the next six years."
+        },
+        {
+          "name": "Mountain Bikeing",
+          "image": "./assets/Hobbies/Sports/MountainBikeing.svg",
+          "description": "During the high school years, we often go up the mountain by bike. There is no better feeling than being able to race down  the mountainside after a tiring climb."
+        },
+        {
+          "name": "Kayaking",
+          "image": "./assets/Hobbies/Sports/Kajak.png",
+          "description": "For years, kayaking on the Danube has been one of my favorite summer pastimes, and being on mirror-smooth water is one of the most relaxing feelings in the world."
+        }
+      ]
     }
+  },
+  "projects": {
+    "title": "My Pojects",
+    "items": [
+      {
+        "name": "Jobhunter application",
+        "description": "This application implements a job advertisement website.",
+        "extras": "I used a premade RestApi and developed the frontend in React with the help of Redux. The site has authentication and its main function is that you can post jobs, and browse among them.",
+        "webLink": "https://react-beadando-jubhunter.vercel.app/",
+        "gitHubLink": "https://github.com/rpkrisz/Jobhunter",
+        "images": [
+          {
+            "src": "./assets/Jobhunter/home.png",
+            "text": "",
+            "alt": "A picture about the application."
+          },
+          {
+            "src": "./assets/Jobhunter/filter.png",
+            "text": "On the home page is possible to filter the advertisements.",
+            "alt": "Filtering."
+          },
+          {
+            "src": "./assets/Jobhunter/register.png",
+            "text": "You can register with two types of profiles. Jobseekers have the opportunity to add past experience.",
+            "alt": "Registration form."
+          },
+          {
+            "src": "./assets/Jobhunter/profile_company.png",
+            "text": "On the profile, as a Company you can browse among your job advertisements, and also edit them.",
+            "alt": "Company profile."
+          },
+          {
+            "src": "./assets/Jobhunter/profile_jobseeker.png",
+            "text": "On the profile, as a Jobseeker you can view your past experience and personal data, and also edit them.",
+            "alt": "Jobseeker profile."
+          },
+          {
+            "src": "./assets/Jobhunter/job.png",
+            "text": "Clicking on a job advertisement, you can see the detailed informations.",
+            "alt": "Job description."
+          },
+          {
+            "src": "./assets/Jobhunter/job_adv.png",
+            "text": "With the help of a form you can add new job advertisements.",
+            "alt": "Advertisement form."
+          }
+        ]
+      },
+      {
+        "name": "Salary calculator application",
+        "description": "This application provides a simple and fast way to calculate your net salary, even for the whole family.",
+        "extras": "I implemented the task in React. The application can simultaneously calculate the net salary of several people based on their gross. It is also possible to grant various PIT discounts. The calculated values ​​will be summed up and displayed.",
+        "webLink": "https://rpkrisz.github.io/Berkalkulator/",
+        "gitHubLink": "https://github.com/rpkrisz/Berkalkulator",
+        "images": [
+          {
+            "src": "./assets/Berkalkulator/berkalk_minta.png",
+            "text": "",
+            "alt": "A picture about the application."
+          },
+          {
+            "src": "./assets/Berkalkulator/under25.png",
+            "text": "Persons under the age of 25 do not have to pay income tax up to a certain amount.",
+            "alt": "A picture about the application."
+          },
+          {
+            "src": "./assets/Berkalkulator/FreshWed.png",
+            "text": "Eligible newlyweds receive a discount of a fixed amount. This can be checked by entering a date, which is displayed by a modal.",
+            "alt": "A picture about the application."
+          },
+          {
+            "src": "./assets/Berkalkulator/szemelyi.png",
+            "text": "The personal tax discount can also be added.",
+            "alt": "A picture about the application."
+          },
+          {
+            "src": "./assets/Berkalkulator/family.png",
+            "text": "The amount of the family tax discount can be specified with the help of a unique component.",
+            "alt": "A picture about the application."
+          }
+        ]
+      },
+      {
+        "name": "Potato map game",
+        "description": "Ez a játék a Kartográfusok nevezetű társasjáték online újra gondolt változatta.",
+        "extras": "A megvalósított feladatban HTML CSS és JavaScript volt használva. A játék magánk számolja a pontokat, vizsgálja hogy egy adott elem lehelyezhető-e? A menü segítségével beállíthatók a küldetések és a játékos szám illetve megtekinthetők az aktuális táblák. A játé localstorage-ba mentődik igy bármikor abba hagyható és később folytatható.",
+        "webLink": "https://rpkrisz.github.io/JS-BurgonyaTerkep",
+        "gitHubLink": "https://github.com/rpkrisz/JS-BurgonyaTerkep",
+        "images": [
+          {
+            "src": "./assets/Burgonya/burgonya_minta.png",
+            "text": "",
+            "alt": "A picture about the game."
+          },
+          {
+            "src": "./assets/Burgonya/halfstop.png",
+            "text": "A játék 4 fordulóra van osztva amit az évszakok váltakozásábal jelzünk. Változáskor kiszámolódik az aktuális rész pont a küldetések alapján.",
+            "alt": "Season change."
+          },
+          {
+            "src": "./assets/Burgonya/ingame.png",
+            "text": "A különböző elemeket, területeket kell lehelyezni a játék során ezt könyíti, hogy az aktuális elem halványan látszik a táblán ha od lehelyezhető.",
+            "alt": "In the game."
+          },
+          {
+            "src": "./assets/Burgonya/boards.png",
+            "text": "We can open the board any time in the game, to take a better look.",
+            "alt": "The board."
+          }
+        ]
+      },
+      {
+        "name": "Unstable Unicorns weblap",
+        "description": "This website presents a board game called Unstable Unicorns.",
+        "extras": "HTML, CSS and Bootstrap were used in the implementation of the page. This is a basic static website. There is also a form on one page.",
+        "webLink": "https://rpkrisz.github.io/UnstableUnicorns",
+        "gitHubLink": "https://github.com/rpkrisz/UnstableUnicorns",
+        "images": [
+          {
+            "src": "./assets/Unstable/unstable_minta.png",
+            "text": "",
+            "alt": "This is a picture about the webpage."
+          },
+          {
+            "src": "./assets/Unstable/nagybetus.png",
+            "text": "It is possible to change the font size.",
+            "alt": "This is a picture about the webpage."
+          },
+          {
+            "src": "./assets/Unstable/form.png",
+            "text": "It is possible to submit a new unicorn.",
+            "alt": "This is a picture about the webpage."
+          }
+        ]
+      }
+    ]
+  },
+  "resume": {
+    "title": "Resume",
+    "resume": {
+      "education": {
+        "title": "Education",
+        "items": [
+          {
+            "title": "Eötvös Loránd University (2022-)",
+            "adress": "Budapest 1117, Pázmány Péter sétány 1/C",
+            "info": [
+              "Faculty of Informatics - Computer Science – 6th semester",
+              "Software developer specialization"
+            ]
+          },
+          {
+            "title": "Budapest Business University (2021-2025)",
+            "adress": "Budapest 1149, Buzogány u. 10-12.",
+            "info": [
+              "Faculty of Finance and Accountancy - Business Administration and Management",
+              "Digital Business specialization",
+              "PSZK+ talent management program - I completed several subjects at an advanced level"
+            ]
+          },
+          {
+            "title": "Teleki Blanka Secondary Grammar School (2016-2021)",
+            "adress": "Budapest 1149, Ajtósi Dürer sor 37"
+          }
+        ]
+      },
+      "experience": {
+        "title": "Experience",
+        "items": [
+          {
+            "title": "OTP Bank - Reporting and data quality Intern (2024-)",
+            "adress": "Budapest 1051, Széchenyi István tér 7-8.",
+            "info": [
+              "Preparation of daily regulatory reports for MNB and support of related processes",
+              "Database management, review and implementation of MNB error rules",
+              "Preparation of HITREG and BETREG reports",
+              "Updating Confluence documentation"
+            ]
+          },
+          {
+            "title": "Medve Matek - Matematika Összeköt Egyesület (2022-)",
+            "adress": "Budapest 1015, Batthyány u. 15",
+            "info": [
+              "Event organization, volunteering at Medve Matek outdoor math competitions",
+              "Development of a website for internal use as part of a group project",
+              "Designing and compiling camp programs in project teams",
+              "As a teacher/organizer in Medve Matek camps"
+            ]
+          },
+          {
+            "title": "Robox kft (2023)",
+            "adress": "Pomáz 2013, Mester utca 2",
+            "info": [
+              "Warehouse tasks: stock-taking; packing; cartering"
+            ]
+          }
+        ]
+      },
+      "languages": {
+        "title": "Languages",
+        "items": [
+          "English Intermediate (B2)",
+          "English Economic (B2)"
+        ]
+      },
+      "other": {
+        "title": "Other skills, Achievements",
+        "items": [
+          {
+            "title": "ICDL/ECDL Standard Certificate",
+            "items": [
+              "Computer Essential",
+              "Online Essential",
+              "Word Processing",
+              "Spreadsheets",
+              "Presentation",
+              "Using Databases",
+              "Web Editing",
+              "IT-Security"
+            ]
+          },
+          {
+            "title": "PSZK+",
+            "items": [
+              "Economics",
+              "International Economics",
+              "Business Statistics",
+              "Corporate Finance"
+            ]
+          },
+          {
+            "title": "SAP",
+            "items": [
+              "Basic User Certificate - MM, SD, FI, AM modules"
+            ]
+          },
+          {
+            "title": "Cisco Networking Academy",
+            "items": [
+              "IoT Fundamentals: Big Data & Analytics, Certificate of Course Completion"
+            ]
+          },
+          {
+            "title": "Programming",
+            "items": [
+              "Familiar level: C#, C, Python, PHP, Kotlin, Haskell",
+              "Confident level: SQL,  JavaScript, HTML, CSS, Java",
+              "Frameworks, Libraries: React, Laravel, Java Ant",
+              "Administration: Git, GitHub, Jira, Confluence"
+            ]
+          },
+          {
+            "title": "Business simulation competition",
+            "items": [
+              "Diák Menedzsment Bajnokság 2023 5th place.",
+              "Lámfalussy Sándor Üzleti Szimulációs Verseny 2022 - Semi-final"
+            ]
+          }
+        ]
+      }
+    }
+  }
 }
