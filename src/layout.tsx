@@ -11,8 +11,8 @@ function Layout() {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="w-full">
-          <div className="flex justify-between items-center lg:hidden bg-base-100 p-2">
+        <header className="w-full h-16">
+          <div className="flex justify-between items-center lg:hidden bg-base-200 p-2 min-w-full flex-grow fixed z-10">
             <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-primary drawer-button">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -29,18 +29,16 @@ function Layout() {
             </div>
           </div>
           <div className="hidden lg:flex">
-            <header className="h-16">
-              <MenuBar />
-            </header>
+            <MenuBar />
           </div>
-        </div>
+        </header>
         {/* Page content here */}
         <main className="felx justify-start flex-grow m-0 px-5 md:px-20 xl:px-40 py-2 relativ min-h-svh text-sm md:text-base">
           <Outlet />
         </main>
         <Footer />
       </div>
-      <div className="drawer-side">
+      <div className="drawer-side z-50">
         <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
         <SideBar />
       </div>

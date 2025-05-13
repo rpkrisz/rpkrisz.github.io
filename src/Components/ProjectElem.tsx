@@ -20,13 +20,13 @@ const ProjectElem: FC<{project: ProjectTYPE}> = ({project}) => {
       </div>
       <a
         href={webLink}
-        className="flex self-center justify-center p-1 zero:max-w-32 xs:min-w-72 sm:max-w-5xl sm:min-w-96 hover:bg-accent hover:rounded-2xl"
+        className="flex self-center justify-center p-1 zero:max-w-24 xs:min-w-64 sm:max-w-5xl sm:min-w-96 hover:bg-accent hover:rounded-2xl"
       >
         <div className="mockup-browser bg-neutral border">
           <div className="mockup-browser-toolbar">
             <div className="input text-white">{webLink}</div>
           </div>
-          <div className="bg-base-200 flex justify-center ">
+          <div className="bg-base-200 flex justify-center items-center">
             <img src={images[0].src} alt={images[0].src} className="w-full" />
           </div>
         </div>

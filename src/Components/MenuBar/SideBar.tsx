@@ -1,17 +1,19 @@
 import {Link} from "react-router-dom";
 import MenuNavLinks from "./MenuNavLinks";
-import { EnvelopeIcon, GithubIcon, LinkedinIcon } from "../FawIcons";
+import {EnvelopeIcon, GithubIcon, LinkedinIcon} from "../FawIcons";
 
 export default function SideBar() {
   return (
-    <nav className="flex flex-col bg-base-200 text-white menu min-h-full p-2 gap-2 w-64">
-      <div className="flex justify-center items-center">
+    <nav className="flex flex-col bg-base-200 text-white menu min-h-full p-2 py-4 gap-2 w-64">
+      <div className="flex justify-start items-center">
         <Link className="btn btn-ghost hover:text-primary content-center" to="/" state="hero">
           <figure>
-            <img src="/assets/Logo_orange/horizontal-logo.png" alt="Logo" className="size-20 inline mr-2" />
+            <img src="/assets/Logo_orange/horizontal-logo.png" alt="Logo" className="size-16 inline mr-2" />
           </figure>
+          Portfolio Page
         </Link>
       </div>
+      <div className="divider"></div>
       <div className="flex flex-col gap-1 justify-between flex-grow">
         <div className="flex flex-col gap-1">
           <MenuNavLinks />
@@ -39,5 +41,3 @@ export default function SideBar() {
     </nav>
   );
 }
-
-

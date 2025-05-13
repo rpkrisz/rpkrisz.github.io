@@ -12,7 +12,11 @@ const Projects = () => {
       <H1>{t("title")}</H1>
       <ul className="flex flex-col justify-center gap-4">
         {projects.map(project => {
-          return <ProjectElem key={project.name} project={project} />;
+          return (
+            <>
+              <ProjectElem key={project.name} project={project} />
+            </>
+          );
         })}
       </ul>
     </>
