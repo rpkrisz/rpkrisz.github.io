@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
-          src="/assets/Logo_orange/horizontal-logo.png"
+          src="/assets/Logo_blue/horizontal-logo.png"
           alt="Logo"
           className="lg:size-24 zero:size-28 lg:fixed top-0 left-6 xs"
         />

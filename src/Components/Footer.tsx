@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer-center md:footer text-neutral-content items-center p-4 bg-base-300 mt-5">
       <aside className="grid-flow-col items-center">
-        <img src="/assets/Logo_orange/horizontal-logo.png" alt="Logo" className="size-16 inline m-auto" />
+        <img src="/assets/Logo_blue/horizontal-logo.png" alt="Logo" className="size-16 inline m-auto" />
       </aside>
       <aside className="my-4 grid-flow-col items-center md:m-auto">
         Copyright © {new Date().getFullYear()} - Réthey-Prikkel Kriszsztián

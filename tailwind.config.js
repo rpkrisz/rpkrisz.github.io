@@ -94,7 +94,7 @@ export default {
       {
         light: {
           ...light,
-          "primary": "#c35a04",
+          "primary": "#69e89e",
           "primary-content": "#150801",
           "secondary": "#8fd6d6",
           "secondary-content": "#000d15",
@@ -119,7 +119,7 @@ export default {
       {
         dark: {
           ...dark,
-          "primary": "#fb923c",
+          "primary": "#31ed9f",
           "primary-content": "#150801",
           "secondary": "#297070",
           "secondary-content": "#000d15",

@@ -8,7 +8,7 @@ export default function SideBar() {
       <div className="flex justify-start items-center">
         <Link className="btn btn-ghost hover:text-primary content-center" to="/" state="hero">
           <figure>
-            <img src="/assets/Logo_orange/horizontal-logo.png" alt="Logo" className="size-16 inline mr-2" />
+            <img src="/assets/Logo_blue/horizontal-logo.png" alt="Logo" className="size-16 inline mr-2" />
           </figure>
           Portfolio Page
         </Link>
