@@ -3,7 +3,7 @@ import H2 from "@/Components/H2";
 import H3 from "@/Components/H3";
 import Section from "./Components/Section";
 import {ResumeTYPE} from "@/data/Types";
-import {FileDown} from "lucide-react";
+// import {FileDown} from "lucide-react";
 import {useTranslation} from "react-i18next";
 
 const Resume = () => {
@@ -36,12 +36,12 @@ const Resume = () => {
           );
         })}
       </div>
-      <div className="flex justify-center m-2 md:justify-end">
-        <a className="btn btn-accent" href="/CV_Resume.pdf" download>
+      {/* <div className="flex justify-center m-2 md:justify-end">
+        <a className="btn btn-accent" href="/CV_Resume.pdf" download="CV_Resume.pdf">
           Download
           <FileDown />
         </a>
-      </div>
+      </div> */}
     </>
   );
 };
