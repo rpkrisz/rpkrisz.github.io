@@ -1,10 +1,11 @@
 import {FC} from "react";
 
 const H1: FC<{children: string; reverse?: boolean}> = ({children, reverse = false}) => {
+  const baseStyle = "p-2 m-3 font-bold text-center text-3xl md:text-5xl";
   return reverse ? (
-    <h1 className="p-2 m-3 font-bold text-5xl text-center text-primary-content bg-primary rounded-sm">{children}</h1>
+    <h1 className={`${baseStyle} text-primary-content bg-primary rounded-sm`}>{children}</h1>
   ) : (
-    <h1 className="p-2 m-3 font-bold text-5xl text-center text-primary">{children}</h1>
+    <h1 className={`${baseStyle} text-primary`}>{children}</h1>
   );
 };
 

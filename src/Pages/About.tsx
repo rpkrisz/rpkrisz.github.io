@@ -21,7 +21,7 @@ export default function About() {
             <ul className="flex flex-row flex-wrap gap-2">
               {obj.items.map(skill => {
                 return (
-                  <li key={skill} className="badge badge-secondary text-secondary-foreground p-2">
+                  <li key={skill} className="badge badge-secondary text-secondary-foreground p-5">
                     {skill}
                   </li>
                 );
@@ -35,7 +35,7 @@ export default function About() {
       <div className="flex flex-row justify-between gap-10 flex-wrap lg:flex-nowrap">
         {about.sports.items.map((sport, index) => {
           return (
-            <HobbyCard key={index} title={sport.name} imageSrc={sport.image}>
+            <HobbyCard key={index} title={sport.name} imageSrc={sport.image} size="96">
               {sport.description}
             </HobbyCard>
           );
@@ -44,13 +44,13 @@ export default function About() {
       <H3>{t("boardgames.title")}</H3>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center justify-center gap-10 ">
         {about.boardgames.items.map((boardgame, index) => {
-          return <HobbyCard key={index} title={boardgame.name} imageSrc={boardgame.image} />;
+          return <HobbyCard key={index} title={boardgame.name} imageSrc={boardgame.image} size="52"/>;
         })}
       </div>
       <H3>{t("series.title")}</H3>
       <div className="flex flex-wrap justify-center gap-10">
         {about.series.items.map((series, index) => {
-          return <HobbyCard key={index} title={series.name} imageSrc={series.image} />;
+          return <HobbyCard key={index} title={series.name} imageSrc={series.image} size="40"/>;
         })}
       </div>
     </>

@@ -9,9 +9,9 @@ const ProjectElem: FC<{project: ProjectTYPE}> = ({project}) => {
   return (
     <li className="flex flex-col justify-center mx-auto zero:max-w-32 xs:min-w-72 sm:max-w-screen-2xl sm:min-w-96 md:min-h-dvh min-h-full">
       <ProjectDetailModal openModal={openModal} setter={setOpenModal} project={project}></ProjectDetailModal>
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-row justify-between items-center">
         <H2>{name}</H2>
-        <button className="btn btn-primary" onClick={() => setOpenModal(true)}>
+        <button className="btn btn-primary btn-sm md:btn-md" onClick={() => setOpenModal(true)}>
           More
         </button>
       </div>

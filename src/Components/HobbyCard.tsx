@@ -1,9 +1,11 @@
 import {FC} from "react";
 import H3 from "./H3";
 
-const HobbyCard: FC<{title: string; imageSrc: string; children?: string}> = ({title, imageSrc, children}) => {
+const HobbyCard: FC<{ title: string; imageSrc: string; children?: string;  size: "96"|"52"|"40"}> = ({title, imageSrc, children, size}) => {
+  
+  
   return (
-    <div className="flex flex-col justify-center max-w-2xl min-w-40 mx-auto bg-primary p-2 rounded-md">
+    <div className={`flex flex-col justify-center w-${size} mx-auto bg-primary p-2 rounded-md`}>
       {children ? (
         <img src={imageSrc} alt={"Image about the hobby."} className="h-32 m-3 self-center" />
       ) : (
