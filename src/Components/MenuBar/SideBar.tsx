@@ -5,13 +5,13 @@ import {EnvelopeIcon, GithubIcon, LinkedinIcon} from "../FawIcons";
 export default function SideBar() {
   return (
     <nav className="flex flex-col bg-base-200 text-white menu min-h-full p-2 py-4 gap-2 w-64">
-      <div className="flex justify-start items-center">
-        <Link className="btn btn-ghost hover:text-primary content-center" to="/" state="hero">
+      <div className="flex justify-start items-center gap-2 text-primary font-bold">
+        <Link className="btn btn-ghost" to="/" state="hero">
           <figure>
-            <img src="/assets/Logo_blue/horizontal-logo.png" alt="Logo" className="size-16 inline mr-2" />
+            <img src="/assets/Logo_green/horizontal-logo.png" alt="Logo" className="w-16 h-10 inline" />
           </figure>
-          Portfolio Page
         </Link>
+        <p> Portfolio Page</p>
       </div>
       <div className="divider"></div>
       <div className="flex flex-col gap-1 justify-between flex-grow">

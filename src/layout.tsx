@@ -12,7 +12,7 @@ function Layout() {
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
         <header className="w-full h-16">
-          <div className="flex justify-between items-center lg:hidden bg-base-200 p-2 min-w-full flex-grow fixed z-10">
+          <div className="flex justify-between items-center lg:hidden bg-base-200 p-2 min-w-full flex-grow fixed z-10 text-white">
             <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-primary drawer-button">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
