@@ -18,6 +18,7 @@ export interface ProjectTYPE {
   name: string;
   description: string;
   extras: string;
+  languages: string[];
   webLink?: string;
   gitHubLink?: string;
   images: ImageTYPE[];

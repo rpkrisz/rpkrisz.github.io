@@ -146,6 +146,66 @@
     "title": "My Pojects",
     "items": [
       {
+        "name": "TaskManager WebApp",
+        "description": "Ez az alkalmazás egyetemisták számára nyújt segítséget feladataik és tárgyaik rendszerezésében.",
+        "extras": "Az alkalmazást eleinte csak magamnak alkottam azonban később szakdolgozati témám keretein belül kibővítettem.",
+        "languages": [
+          "PHP",
+          "TypeScript"
+        ],
+        "webLink": "https://rpkrisz.github.io/TaskManager/",
+        "gitHubLink": "https://github.com/rpkrisz/Szakdolgozat",
+        "images": [
+          {
+            "src": "./assets/TaskManager/image.png",
+            "text": "",
+            "alt": "A picture about the application."
+          }
+        ]
+      },
+      {
+        "name": "Game applikáció",
+        "description": "Ebben a jatékban különféle karakterekkel lehet csatázni.",
+        "extras": "A projekt egy PHP webappot valósít meg ahol lehetőség van bejelentkezni és szimulált csatákban részt venni.",
+        "webLink": "https://github.com/ELTE-IK-BSc/Laravel_Bead",
+        "gitHubLink": "https://github.com/ELTE-IK-BSc/Laravel_Bead",
+        "images": [
+          {
+            "src": "./assets/Laravel_Bead/home.png",
+            "text": "",
+            "alt": "A picture about the application."
+          }
+        ]
+      },
+      {
+        "name": "IKémon applikáció",
+        "description": "Ebben a jatékban különféle IKémonok vásárlására és csrékére van lehetőség, szerezd meg hát mind.",
+        "extras": "A projekt egy PHP webappot valósít meg ahol lehetőség van bejelentkezni és IKémonokat gyűjteni.",
+        "webLink": "https://github.com/ELTE-IK-BSc/IKemon",
+        "gitHubLink": "https://github.com/ELTE-IK-BSc/IKemon",
+        "images": [
+          {
+            "src": "./assets/IKemon/landing.png",
+            "text": "",
+            "alt": "A picture about the application."
+          }
+        ]
+      },
+      {
+        "name": "Robox landing page",
+        "description": "Ez a weboldal a ROBOX cég számára készült bemutató oldal.",
+        "extras": "A projekt egy egyszerű statikus oldal létrehozását fedte le melyben a cég egyes részeit kellet bemutatni és megeleveníteni.",
+        "webLink": "https://robox.hu/",
+        "gitHubLink": "https://github.com/rpkrisz/robox",
+        "images": [
+          {
+            "src": "./assets/Robox/image.png",
+            "text": "",
+            "alt": "A picture about the application."
+          }
+        ]
+      },
+      {
         "name": "Jobhunter application",
         "description": "This application implements a job advertisement website.",
         "extras": "I used a premade RestApi and developed the frontend in React with the help of Redux. The site has authentication and its main function is that you can post jobs, and browse among them.",

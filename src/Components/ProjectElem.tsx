@@ -15,7 +15,15 @@ const ProjectElem: FC<{project: ProjectTYPE}> = ({project}) => {
           More
         </button>
       </div>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap p-2 flex-col">
+        {/* <div>
+          {project.languages &&
+            project.languages.map((language, index) => (
+              <div key={index} className="badge badge-primary badge-outline m-1">
+                {language}
+              </div>
+            ))}
+        </div> */}
         <p>{description}</p>
       </div>
       <a
