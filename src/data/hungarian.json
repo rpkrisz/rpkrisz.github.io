@@ -443,8 +443,8 @@
           {
             "title": "Programozás",
             "items": [
-              "Ismerem: C#, C, Python, PHP, Kotlin, Haskell",
-              "Magabiztosan használom: SQL, JavaScript, HTML, CSS, Java",
+              "Magabiztosan használom: SQL, JavaScript/TypeScript, HTML, CSS, Java",
+              "Ismerem: C#, Python, PHP, C, Kotlin, Haskell",
               "Frameworks, Libraries: React, Laravel, Java Ant",
               "Adminisztráció: Git, GitHub, Jira, Confluence"
             ]

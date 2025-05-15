@@ -446,8 +446,8 @@
           {
             "title": "Programming",
             "items": [
-              "Familiar level: C#, C, Python, PHP, Kotlin, Haskell",
-              "Confident level: SQL,  JavaScript, HTML, CSS, Java",
+              "Confident level: SQL, JavaScript/TypeScript, HTML, CSS, Java",
+              "Familiar level: C#, Python, PHP, C, Kotlin, Haskell",
               "Frameworks, Libraries: React, Laravel, Java Ant",
               "Administration: Git, GitHub, Jira, Confluence"
             ]
