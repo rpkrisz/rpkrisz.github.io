@@ -13,8 +13,8 @@ export default function Hero() {
           className="lg:size-24 zero:size-28 lg:fixed top-0 left-6 xs"
         />
         <img
-          src="/assets/headshot.jpeg"
-          alt="Headshot image about me."
+          src="/assets/profile_image.JPG"
+          alt="An image about me."
           className="max-w-md h-full rounded-xl shadow-2xl shadow-gray-500"
         />
         <div>
