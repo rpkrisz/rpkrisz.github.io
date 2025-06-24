@@ -1,7 +1,6 @@
-import {FC} from "react";
-import { IconBaseProps } from "react-icons/lib";
+import {FC, ReactElement} from "react";
 
-const H1: FC<{children: string; className?: string; icon?: IconBaseProps; reverse?: boolean}> = ({
+const H1: FC<{children: string; className?: string; icon?: ReactElement; reverse?: boolean}> = ({
   children,
   className,
   icon,
