@@ -13,7 +13,7 @@ const Resume = () => {
   return (
     <>
       <H1>{t("title")}</H1>
-      <div className="felx flex-col justify-center gap-5">
+      <div className="felx flex-col gap-5 xs:min-w-[240px] md:w-[625px] lg:w-[1000px]">
         <Section section={resume.education}></Section>
         <Section section={resume.experience}></Section>
         <H2 reverse={true}>{resume.languages.title}</H2>
