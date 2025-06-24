@@ -1,17 +1,21 @@
-import {FC, useState} from "react";
+import {FC} from "react";
 import H2 from "./H2";
-import ProjectDetailModal from "@/Components/ProjectDetailModal";
 import {ProjectTYPE} from "@/data/Types";
+import {useSetAtom} from "jotai";
+import {projectAtom} from "@/store";
 
-const ProjectElem: FC<{project: ProjectTYPE}> = ({project}) => {
-  const [openModal, setOpenModal] = useState(false);
+const ProjectElem: FC<{project: ProjectTYPE; setOpenModal: (bool: boolean) => void}> = ({project, setOpenModal}) => {
+  const setProject = useSetAtom(projectAtom);
   const {name, description, images, webLink} = project;
+  const handleOpenModal = () => {
+    setOpenModal(true);
+    setProject(project);
+  };
   return (
     <li className="flex flex-col justify-center mx-auto zero:max-w-32 xs:min-w-72 sm:max-w-screen-2xl sm:min-w-96 md:min-h-dvh min-h-full">
-      <ProjectDetailModal openModal={openModal} setter={setOpenModal} project={project}></ProjectDetailModal>
       <div className="flex flex-row justify-between items-center">
         <H2>{name}</H2>
-        <button className="btn btn-primary btn-sm md:btn-md" onClick={() => setOpenModal(true)}>
+        <button className="btn btn-primary btn-sm md:btn-md" onClick={handleOpenModal}>
           More
         </button>
       </div>

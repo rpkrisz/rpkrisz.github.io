@@ -3,13 +3,30 @@ import {Dialog, DialogContent, DialogHeader, DialogFooter, DialogTitle, DialogDe
 import {Link} from "react-router-dom";
 import {GithubIcon} from "./FawIcons";
 import {Globe} from "lucide-react";
-import {ProjectTYPE} from "@/data/Types";
+import {useAtomValue} from "jotai";
+import {projectAtom} from "@/store";
 
 const ProjectDetailModal: FC<{
   openModal: boolean;
   setter: React.Dispatch<React.SetStateAction<boolean>>;
-  project: ProjectTYPE;
-}> = ({openModal, setter, project}) => {
+}> = ({openModal, setter}) => {
+  const project = useAtomValue(projectAtom);
+
+  if (!project) {
+    return (
+      <Dialog open={openModal} onOpenChange={() => setter(false)}>
+        <DialogContent className="flex flex-col justify-between overflow-auto w-10/12 h-5/6">
+          <DialogHeader>
+            <DialogTitle>Nincs projekt</DialogTitle>
+          </DialogHeader>
+          <div className="flex flex-col justify-center gap-5">
+            <p>Nem található projekt, kérlek válassz egyet a projektek közül.</p>
+          </div>
+        </DialogContent>
+      </Dialog>
+    ); // or handle the case when project is not set
+  }
+
   const {name, description, extras, images, webLink, gitHubLink} = project;
   return (
     <>
