@@ -1,4 +1,5 @@
 import {FC} from "react";
+import { IconBaseProps } from "react-icons/lib";
 
 const H1: FC<{children: string; className?: string; icon?: IconBaseProps; reverse?: boolean}> = ({
   children,
