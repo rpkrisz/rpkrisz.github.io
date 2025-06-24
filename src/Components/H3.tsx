@@ -1,11 +1,23 @@
 import {FC} from "react";
+import {IconBaseProps} from "react-icons/lib";
 
-const H3: FC<{children: string; className?: string; reverse?: boolean}> = ({children, calssName, reverse = false}) => {
-  const baseStyle = "font-semibold text-lg md:text-xl";
+const H3: FC<{children: string; className?: string; icon?: IconBaseProps; reverse?: boolean}> = ({
+  children,
+  className,
+  icon,
+  reverse = false,
+}) => {
+  const baseStyle = `${className} font-semibold text-lg md:text-xl flex flex-row items-center justify-start gap-2`;
   return reverse ? (
-    <h3 className={`${baseStyle} ${calssName} text-primary-content bg-primary rounded-sm p-1`}>{children}</h3>
+    <h3 className={`${baseStyle} text-primary-content bg-primary rounded-sm p-1`}>
+      {icon}
+      {children}
+    </h3>
   ) : (
-    <h3 className={`${baseStyle} ${calssName} text-primary`}>{children}</h3>
+    <h3 className={`${baseStyle} text-primary`}>
+      {icon}
+      {children}
+    </h3>
   );
 };
 
