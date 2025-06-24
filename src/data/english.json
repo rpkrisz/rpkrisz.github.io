@@ -12,7 +12,7 @@
   },
   "about": {
     "title": "About",
-    "introduction": "My name is Krisztián Réthey-Prikkel, an ambitious and enthusiastic university student who is simultaneously developing his skills and experience in the field of IT and business. I am currently an active student in two majors. On the one hand, I will start my last 7th semester in September at the Budapest Business School, where I study business administration and management, specializing in digital enterprises. On the other hand, I am already starting my 5th semester at the IT faculty of Eötvös Loránd University, where I major in computer science as a software developer specialist.",
+    "introduction": "My name is Krisztián Réthey-Prikkel, an ambitious and enthusiastic university graduet who is simultaneously developing his skills and experience in the field of IT and business. I am currently working at OTP Bank as an intern and finishing my universities sutudies. On one hand, I graduet in 2025 january at the Budapest University of Economics and Business, where I studied business administration and management, specializing in digital enterprises. On the other hand, I will graduet in 2025 june at the IT faculty of Eötvös Loránd University, where I major in computer science as a software developer specialist.",
     "skills": {
       "title": "Skills",
       "items": [
@@ -22,7 +22,7 @@
             "Openness",
             "Time Management",
             "Teamwork",
-            "Problem Solving",
+            "Problems Slving",
             "System & Process Approach",
             "Analytical Thinking",
             "Precision"
@@ -36,9 +36,11 @@
             "IT Project Management",
             "Service Management & Marketing",
             "Strategic Planning",
-            "English EconomicLlanguage",
+            "English Economic Language",
             "Economics & Accounting Skills",
-            "Programming (Javascript)",
+            "Programming",
+            "Web Development",
+            "Database Management",
             "Version Control"
           ]
         },
@@ -164,6 +166,20 @@
         ]
       },
       {
+        "name": "Robox landing page",
+        "description": "Ez a weboldal a ROBOX kft. számára készült bemutató oldal.",
+        "extras": "A projekt egy egyszerű statikus oldal létrehozását fedte le melyben a cég egyes részeit kellet bemutatni és megeleveníteni.",
+        "webLink": "https://robox.hu/",
+        "gitHubLink": "https://github.com/rpkrisz/robox",
+        "images": [
+          {
+            "src": "./assets/Robox/image.png",
+            "text": "",
+            "alt": "A picture about the application."
+          }
+        ]
+      },
+      {
         "name": "Game applikáció",
         "description": "Ebben a jatékban különféle karakterekkel lehet csatázni.",
         "extras": "A projekt egy PHP webappot valósít meg ahol lehetőség van bejelentkezni és szimulált csatákban részt venni.",
@@ -186,20 +202,6 @@
         "images": [
           {
             "src": "./assets/IKemon/landing.png",
-            "text": "",
-            "alt": "A picture about the application."
-          }
-        ]
-      },
-      {
-        "name": "Robox landing page",
-        "description": "Ez a weboldal a ROBOX cég számára készült bemutató oldal.",
-        "extras": "A projekt egy egyszerű statikus oldal létrehozását fedte le melyben a cég egyes részeit kellet bemutatni és megeleveníteni.",
-        "webLink": "https://robox.hu/",
-        "gitHubLink": "https://github.com/rpkrisz/robox",
-        "images": [
-          {
-            "src": "./assets/Robox/image.png",
             "text": "",
             "alt": "A picture about the application."
           }
@@ -449,7 +451,8 @@
               "Confident level: SQL, JavaScript/TypeScript, HTML, CSS, Java",
               "Familiar level: C#, Python, PHP, C, Kotlin, Haskell",
               "Frameworks, Libraries: React, Laravel, Java Ant",
-              "Administration: Git, GitHub, Jira, Confluence"
+              "Version Control: Git, GitHub, GitLab",
+              "Administration: Jira, Confluence, Collibra"
             ]
           },
           {

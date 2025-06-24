@@ -7,12 +7,12 @@
   ],
   "hero": {
     "title": "Réthey-Prikkel Krisztián vagyok!",
-    "text": "Egy szenvedélyes hallgató, technikai és üzleti ismeretek egyedülálló keverékével. Programozás illetve üzleti szakon tanulok, ami lehetővé teszi számomra, hogy áthidaljam a szakadékot a kód kreatív problémamegoldó világa és az üzlet stratégiai tervezése között. Ez a honlap bemutatja képességeimet és projektjeimet. Nyugodtan böngésszen az oldalon, és ha kérdése van,forduljon hozzám bizalommal!",
+    "text": "Egy szenvedélyes hallgató, technikai és üzleti ismeretek egyedülálló keverékével. Programozás illetve üzleti szakon végeztem, ami lehetővé teszi számomra, hogy áthidaljam a szakadékot a kód kreatív problémamegoldó világa és az üzlet stratégiai tervezése között. Ez a honlap bemutatja képességeimet és projektjeimet. Böngéssz az oldalon, és ha kérdésed van, fordulj hozzám bizalommal!",
     "button": "Nézz körül"
   },
   "about": {
     "title": "Rólam",
-    "introduction": "Réthey-Prikkel Krisztián vagyok, egy ambiciózus és lelkes egyetemista, aki párhuzamosan informatikai és üzleti területen fejleszti képességeit és tapasztalatait. Jelenleg két szakon vagyok aktív hallgató. Egyrészt a Budapesti Gazdasági Egyetemen, ahol gazdálkodási és menedzsmentet tanulok, digitális vállalkozásokra specializálódva szeptemberben kezdem az utolsó 7. félévem. Másrészt az Eötvös Loránd Tudományegyetem informatikai karán, ahol a programtervező informatikus szak, szoftverfejlesztő specializációján már az 5. félévem kezdem.",
+    "introduction": "Réthey-Prikkel Krisztián vagyok, egy ambiciózus és lelkes egyetemista, aki párhuzamosan informatikai és üzleti területen fejleszti képességeit és tapasztalatait. Jelenleg az OTP Bank-nál vagyok gyakornok és az egyetemi tanulmányaimat végzem. Egyrészt a Budapesti Gazdasági Egyetemen, ahol gazdálkodási és menedzsmentet végeztem, digitális vállalkozásokra specializálódva 2025 januárjában. Másrészt az Eötvös Loránd Tudományegyetem informatikai karán, ahol a programtervező informatikus szak, szoftverfejlesztő specializációján 2025 júniusában fogok lediplomázni.",
     "skills": {
       "title": "Képességek",
       "items": [
@@ -22,7 +22,7 @@
             "Nyitottság",
             "Időbeosztás",
             "Csapatmunka",
-            "Probléma Megoldás",
+            "Problémamegoldás",
             "Rendszer & Folyamatszemlélet",
             "Analitikus Gondolkodás",
             "Precizitás"
@@ -38,7 +38,9 @@
             "Stratégiai Tervezés",
             "Angol Gazdasági Szaknyelv",
             "Közgazdasásgi & Számviteli Ismeretek",
-            "Programozás (Javascript)",
+            "Programozás",
+            "Web Programozás",
+            "Adatbázis Kezelés",
             "Verziókezelés"
           ]
         },
@@ -149,12 +151,29 @@
         "name": "TaskManager WebApp",
         "description": "Ez az alkalmazás egyetemisták számára nyújt segítséget feladataik és tárgyaik rendszerezésében.",
         "extras": "Az alkalmazást eleinte csak magamnak alkottam azonban később szakdolgozati témám keretein belül kibővítettem.",
-        "languages":["PHP", "TypeScript"],
+        "languages": [
+          "PHP",
+          "TypeScript"
+        ],
         "webLink": "https://rpkrisz.github.io/TaskManager/",
         "gitHubLink": "https://github.com/rpkrisz/Szakdolgozat",
         "images": [
           {
             "src": "./assets/TaskManager/image.png",
+            "text": "",
+            "alt": "Egy kép az alkalmazásról."
+          }
+        ]
+      },
+      {
+        "name": "Robox landing page",
+        "description": "Ez a weboldal a ROBOX kft. számára készült bemutató oldal.",
+        "extras": "A projekt egy egyszerű statikus oldal létrehozását fedte le melyben a cég egyes részeit kellet bemutatni és megeleveníteni.",
+        "webLink": "https://robox.hu/",
+        "gitHubLink": "https://github.com/rpkrisz/robox",
+        "images": [
+          {
+            "src": "./assets/Robox/image.png",
             "text": "",
             "alt": "Egy kép az alkalmazásról."
           }
@@ -183,20 +202,6 @@
         "images": [
           {
             "src": "./assets/IKemon/landing.png",
-            "text": "",
-            "alt": "Egy kép az alkalmazásról."
-          }
-        ]
-      },
-      {
-        "name": "Robox landing page",
-        "description": "Ez a weboldal a ROBOX cég számára készült bemutató oldal.",
-        "extras": "A projekt egy egyszerű statikus oldal létrehozását fedte le melyben a cég egyes részeit kellet bemutatni és megeleveníteni.",
-        "webLink": "https://robox.hu/",
-        "gitHubLink": "https://github.com/rpkrisz/robox",
-        "images": [
-          {
-            "src": "./assets/Robox/image.png",
             "text": "",
             "alt": "Egy kép az alkalmazásról."
           }
@@ -446,7 +451,8 @@
               "Magabiztosan használom: SQL, JavaScript/TypeScript, HTML, CSS, Java",
               "Ismerem: C#, Python, PHP, C, Kotlin, Haskell",
               "Frameworks, Libraries: React, Laravel, Java Ant",
-              "Adminisztráció: Git, GitHub, Jira, Confluence"
+              "Verzió kezelés: Git, GitHub, GitLab",
+              "Adminisztráció: Jira, Confluence, Collibra"
             ]
           },
           {
