@@ -33,7 +33,7 @@ function Layout() {
           </div>
         </header>
         {/* Page content here */}
-        <main className="felx justify-start flex-grow m-0 px-5 md:px-20 xl:px-40 py-2 relativ min-h-svh text-sm md:text-base">
+        <main className="felx justify-start self-center max-w-screen-xl flex-grow m-0 px-10 py-2 relativ min-h-svh  text-sm md:text-base">
           <Outlet />
         </main>
         <Footer />
