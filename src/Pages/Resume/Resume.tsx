@@ -6,7 +6,7 @@ import Print from "../Print";
 import ResumeWithSide from "./Components/ResumeWithSide";
 
 const Resume = () => {
-  const [t, i18n] = useTranslation("translation", {keyPrefix: "resume"});
+  const [t] = useTranslation("translation", {keyPrefix: "resume"});
 
   return (
     <>

@@ -5,6 +5,7 @@
     height: initial !important;
     overflow: initial !important;
     -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
     font-family: 'Times New Roman', Times, serif;
     background-color: white !important;
   }

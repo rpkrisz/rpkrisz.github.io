@@ -6,7 +6,7 @@ import {FC} from "react";
 import {useTranslation} from "react-i18next";
 
 const ResumeWithSide: FC = () => {
-  const [t, i18n] = useTranslation("translation", {keyPrefix: "resume"});
+  const [, i18n] = useTranslation("translation", {keyPrefix: "resume"});
 
   const resume: ResumeTYPE = i18n.getResourceBundle(i18n.language, "translation").resume.resume;
   const about: AboutTYPE = i18n.getResourceBundle(i18n.language, "translation").about;
