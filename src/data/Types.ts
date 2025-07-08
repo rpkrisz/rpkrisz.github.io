@@ -31,6 +31,20 @@ export interface ImageTYPE {
 }
 
 export interface ResumeTYPE {
+  image: string;
+  name: string;
+  title: string;
+  contact: {
+    title: string;
+    links: {
+      title: string;
+      link: string;
+    }[];
+    items: {
+      title: string;
+      contact: string;
+    }[];
+  };
   education: PlaceListTYPE;
   experience: PlaceListTYPE;
   languages: {
@@ -39,7 +53,14 @@ export interface ResumeTYPE {
   };
   other: {
     title: string;
-    items: ListTYPE<string>[];
+    items: {
+      "ICDL/ECDL": string[];
+      "PSZK+": string[];
+      SAP: string[];
+      "Cisco Networking Academy": string[];
+      programming: string[];
+      competitions: string[];
+    };
   };
 }
 

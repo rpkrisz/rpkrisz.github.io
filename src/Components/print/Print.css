@@ -1,0 +1,72 @@
+@media print {
+
+  html,
+  body {
+    height: initial !important;
+    overflow: initial !important;
+    -webkit-print-color-adjust: exact;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white !important;
+  }
+
+  header,
+  footer {
+    display: none;
+  }
+
+
+  h1,
+  h2,
+  h3 {
+    background-color: inherit !important;
+    color: lightskyblue !important;
+  }
+
+  aside h2 {
+    color: darkslategray !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  aside {
+    background-color: hsl(var(--accent)) !important;
+  }
+
+  h2 {
+    border-bottom: 3px solid lightskyblue !important;
+  }
+
+  aside h3 {
+    color: darkslategray !important;
+  }
+
+  aside p {
+    color: lightgrey !important;
+  }
+
+  aside .badge {
+    background-color: hsl(var(--secondary)) !important;
+    color: var(--secondary-foreground) !important;
+  }
+
+  p {
+    color: black !important;
+  }
+}
+
+@page {
+  size: auto;
+  margin: 15mm;
+}
+
+@media all {
+  .page-break {
+    display: none;
+  }
+}
+
+@media print {
+  .page-break {
+    display: block;
+    page-break-before: auto;
+  }
+}

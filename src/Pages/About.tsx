@@ -33,7 +33,7 @@ export default function About() {
       <H2>{t("freetime")}</H2>
       <div className="flex flex-col ml-4 gap-3">
         <H3>{t("sports.title")}</H3>
-        <div className="flex flex-row justify-between gap-10 flex-wrap lg:flex-nowrap">
+        <div className="flex flex-row justify-between gap-3 flex-wrap lg:flex-nowrap">
           {about.sports.items.map((sport, index) => {
             return (
               <HobbyCard key={index} title={sport.name} imageSrc={sport.image} size="96">

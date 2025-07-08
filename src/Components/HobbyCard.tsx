@@ -12,7 +12,7 @@ const HobbyCard: FC<{ title: string; imageSrc: string; children?: string;  size:
         <img src={imageSrc} alt={"Image about the hobby."} className="h-44 m-3 self-center" />
       )}
       <H3 reverse={true}>{title}</H3>
-      {children && <p className="text-secondary-content text-justify p-2">{children}</p>}
+      {children && <p className="text-secondary-content text-balance p-2">{children}</p>}
     </div>
   );
 };

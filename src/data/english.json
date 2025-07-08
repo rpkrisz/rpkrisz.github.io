@@ -12,7 +12,7 @@
   },
   "about": {
     "title": "About",
-    "introduction": "My name is Krisztián Réthey-Prikkel, an ambitious and enthusiastic university graduet who is simultaneously developing his skills and experience in the field of IT and business. I am currently working at OTP Bank as an intern and finishing my universities sutudies. On one hand, I graduet in 2025 january at the Budapest University of Economics and Business, where I studied business administration and management, specializing in digital enterprises. On the other hand, I will graduet in 2025 june at the IT faculty of Eötvös Loránd University, where I major in computer science as a software developer specialist.",
+    "introduction": "My name is Krisztián Réthey-Prikkel, a graduate student in both Computer Science and Economics, driven by the motivation to explore how technology and business perspectives can be integrated in practice. I hold two BSc degrees: in Computer Science with a specialization in Software Development from ELTE, and in Business Administration and Management with a specialization in Digital Entrepreneurship from BGE. Currently, I work as an intern at OTP Bank, where I handle database management and assist with the preparation and production of regulatory reports. Additionally, I volunteer at Medve Matek, participating in outdoor math competitions, summer camps, and internal development projects – a community where knowledge, playfulness, and movement meet. I am comfortable working in web development and database management. My favorites are JavaScript and React Framework, but SQL and Python are also within my expertise.",
     "skills": {
       "title": "Skills",
       "items": [
@@ -32,16 +32,16 @@
           "title": "Hard",
           "items": [
             "MS Office Programs",
-            "Customer Relationship Management (CRM)",
-            "IT Project Management",
-            "Service Management & Marketing",
-            "Strategic Planning",
-            "English Economic Language",
-            "Economics & Accounting Skills",
             "Programming",
             "Web Development",
             "Database Management",
-            "Version Control"
+            "Version Control",
+            "IT Project Management",
+            "Strategic Planning",
+            "English Economic Language",
+            "Economics & Accounting Skills",
+            "Service Management & Marketing",
+            "Customer Relationship Management (CRM)"
           ]
         },
         {
@@ -140,6 +140,11 @@
           "name": "Kayaking",
           "image": "./assets/Hobbies/Sports/Kajak.png",
           "description": "For years, kayaking on the Danube has been one of my favorite summer pastimes, and being on mirror-smooth water is one of the most relaxing feelings in the world."
+        },
+        {
+          "name": "Bouldering",
+          "image": "./assets/Hobbies/Sports/Bouldering.png",
+          "description": "In the past year, I started bouldering, and it is a huge experience for me. Whenever I can, I go climbing with my friends."
         }
       ]
     }
@@ -343,6 +348,40 @@
   "resume": {
     "title": "Resume",
     "resume": {
+      "image": "./assets/resume.jpg",
+      "name": "Réthey-Prikkel Krisztián",
+      "title": "Computer Scientist, Volunteer at Medve Matek, Economist",
+      "contact": {
+        "title": "Contacts",
+        "links": [
+          {
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/rethey-prikkel-krisztian"
+          },
+          {
+            "title": "GitHub",
+            "link": "https://github.com/rpkrisz"
+          },
+          {
+            "title": "Personal Website",
+            "link": "https://rpkrisz.github.io/"
+          }
+        ],
+        "items": [
+          {
+            "title": "Address",
+            "contact": "Budapest, Hungary"
+          },
+          {
+            "title": "Phone",
+            "contact": "+36 20 243 7458"
+          },
+          {
+            "title": "Email",
+            "contact": "rp.krisz123@gmai.com"
+          }
+        ]
+      },
       "education": {
         "title": "Education",
         "items": [
@@ -410,59 +449,41 @@
       },
       "other": {
         "title": "Other skills, Achievements",
-        "items": [
-          {
-            "title": "ICDL/ECDL Standard Certificate",
-            "items": [
-              "Computer Essential",
-              "Online Essential",
-              "Word Processing",
-              "Spreadsheets",
-              "Presentation",
-              "Using Databases",
-              "Web Editing",
-              "IT-Security"
-            ]
-          },
-          {
-            "title": "PSZK+",
-            "items": [
-              "Economics",
-              "International Economics",
-              "Business Statistics",
-              "Corporate Finance"
-            ]
-          },
-          {
-            "title": "SAP",
-            "items": [
-              "Basic User Certificate - MM, SD, FI, AM modules"
-            ]
-          },
-          {
-            "title": "Cisco Networking Academy",
-            "items": [
-              "IoT Fundamentals: Big Data & Analytics, Certificate of Course Completion"
-            ]
-          },
-          {
-            "title": "Programming",
-            "items": [
-              "Confident level: SQL, JavaScript/TypeScript, HTML, CSS, Java",
-              "Familiar level: C#, Python, PHP, C, Kotlin, Haskell",
-              "Frameworks, Libraries: React, Laravel, Java Ant",
-              "Version Control: Git, GitHub, GitLab",
-              "Administration: Jira, Confluence, Collibra"
-            ]
-          },
-          {
-            "title": "Business simulation competition",
-            "items": [
-              "Diák Menedzsment Bajnokság 2023 5th place.",
-              "Lámfalussy Sándor Üzleti Szimulációs Verseny 2022 - Semi-final"
-            ]
-          }
-        ]
+        "items": {
+          "ICDL/ECDL": [
+            "Computer Essential",
+            "Online Essential",
+            "Word Processing",
+            "Spreadsheets",
+            "Presentation",
+            "Using Databases",
+            "Web Editing",
+            "IT-Security"
+          ],
+          "PSZK+": [
+            "Economics",
+            "International Economics",
+            "Business Statistics",
+            "Corporate Finance"
+          ],
+          "SAP": [
+            "Basic User Certificate - MM, SD, FI, AM modules"
+          ],
+          "Cisco Networking Academy": [
+            "IoT Fundamentals: Big Data & Analytics, Certificate of Course Completion"
+          ],
+          "programming": [
+            "Confident level: SQL, JavaScript/TypeScript, HTML, CSS, Java",
+            "Familiar level: C#, Python, PHP, C, Kotlin, Haskell",
+            "Frameworks, Libraries: React, Laravel, Java Ant",
+            "Version Control: Git, GitHub, GitLab",
+            "Administration: Jira, Confluence, Collibra"
+          ],
+          "competitions": [
+            "Diák Menedzsment Bajnokság 2023 5th place.",
+            "Lámfalussy Sándor Üzleti Szimulációs Verseny 2022 - Semi-final"
+          ]
+        }
       }
     }
   }

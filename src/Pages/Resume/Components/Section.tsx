@@ -5,7 +5,7 @@ import {PlaceListTYPE} from "@/data/Types";
 
 const Section: FC<{section: PlaceListTYPE}> = ({section}) => {
   return (
-    <>
+    <div>
       <H2 reverse={true}>{section.title}</H2>
       {section?.items?.map(place => {
         return (
@@ -19,7 +19,7 @@ const Section: FC<{section: PlaceListTYPE}> = ({section}) => {
           </div>
         );
       })}
-    </>
+    </div>
   );
 };
 

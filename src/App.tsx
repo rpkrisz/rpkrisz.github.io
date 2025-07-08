@@ -7,6 +7,7 @@ import Resume from "./Pages/Resume/Resume";
 import Home from "./Pages/Hero";
 import UiKit from "./UiKit";
 import About from "./Pages/About";
+import Print from "./Pages/Print";
 
 const router = createHashRouter([
   {
@@ -33,6 +34,10 @@ const router = createHashRouter([
       {
         path: "resume",
         element: <Resume />,
+      },
+      {
+        path: "print",
+        element: <Print />,
       },
     ],
   },

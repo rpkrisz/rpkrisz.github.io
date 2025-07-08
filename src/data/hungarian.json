@@ -12,7 +12,7 @@
   },
   "about": {
     "title": "Rólam",
-    "introduction": "Réthey-Prikkel Krisztián vagyok, egy ambiciózus és lelkes egyetemista, aki párhuzamosan informatikai és üzleti területen fejleszti képességeit és tapasztalatait. Jelenleg az OTP Bank-nál vagyok gyakornok és az egyetemi tanulmányaimat végzem. Egyrészt a Budapesti Gazdasági Egyetemen, ahol gazdálkodási és menedzsmentet végeztem, digitális vállalkozásokra specializálódva 2025 januárjában. Másrészt az Eötvös Loránd Tudományegyetem informatikai karán, ahol a programtervező informatikus szak, szoftverfejlesztő specializációján 2025 júniusában fogok lediplomázni.",
+    "introduction": "Réthey-Prikkel Krisztián vagyok, informatikát és közgazdaságot végzett hallgató, akit leginkább az motivál, hogy hogyan lehet technológiai és gazdasági szemléletet összehangolni a gyakorlatban. Két egyetemen szereztem BSc diplomát: az ELTE-n programtervező informatikát Szoftverfejlesztő specializáción, a BGE-n pedig gazdálkodási és menedzsmentet, digitális vállalkozás specializáción. Az OTP Banknál gyakornokként dolgozom, ahol adatbázis-kezeléssel és regulatory jelentések készítésével és előállításuk támogatásával foglalkozom. Emellett önkéntesként veszek részt a Medve Matek szabadtéri matekversenyeken, táborokban, és belső fejlesztésekben – ez egy olyan közösség, ahol a tudás, a játékosság és a mozgás találkozik. Informatikai téren otthonosan mozgok webfejlesztés, adatbázis-kezelés területén.",
     "skills": {
       "title": "Képességek",
       "items": [
@@ -32,16 +32,16 @@
           "title": "Szakmai kompetenciák",
           "items": [
             "MS Office programok",
-            "Ügyfélkapcsolat menedzsment (CRM)",
-            "IT Projektmenedzsment",
-            "Szolgáltatásmenedzsment & Marketing",
-            "Stratégiai Tervezés",
-            "Angol Gazdasági Szaknyelv",
-            "Közgazdasásgi & Számviteli Ismeretek",
             "Programozás",
             "Web Programozás",
             "Adatbázis Kezelés",
-            "Verziókezelés"
+            "Verziókezelés",
+            "IT Projektmenedzsment",
+            "Stratégiai Tervezés",
+            "Angol Gazdasági Szaknyelv",
+            "Közgazdasásgi & Számviteli Ismeretek",
+            "Szolgáltatásmenedzsment & Marketing",
+            "Ügyfélkapcsolat menedzsment (CRM)"
           ]
         },
         {
@@ -140,6 +140,11 @@
           "name": "Kajakozás",
           "image": "./assets/Hobbies/Sports/Kajak.png",
           "description": "Évek óta egyik kedvenc nyári időtőltésem a Dunakanyarban evezni, a tükör sima vízen lenni pedig az egyik legmegnyugtatóbb érzés a világon."
+        },
+        {
+          "name": "Bouldering",
+          "image": "./assets/Hobbies/Sports/Bouldering.png",
+          "description": "Az elmúlt évben kezdtem el a falatmászást, és hatalmas élmény számomra. Amikor csak tehetem, barátaimmal együtt elmegyünk falat mászni."
         }
       ]
     }
@@ -343,6 +348,40 @@
   "resume": {
     "title": "Önéletrajz",
     "resume": {
+      "image": "./assets/resume.jpg",
+      "name": "Réthey-Prikkel Krisztián",
+      "title": "Programtervező Informatikus, Medve Matek Önkéntes, Közgazdász",
+      "contact": {
+        "title": "Contacts",
+        "links": [
+          {
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/rethey-prikkel-krisztian"
+          },
+          {
+            "title": "GitHub",
+            "link": "https://github.com/rpkrisz"
+          },
+          {
+            "title": "Personal Website",
+            "link": "https://rpkrisz.github.io/"
+          }
+        ],
+        "items": [
+          {
+            "title": "Cím",
+            "contact": "Budapest, Magyarország"
+          },
+          {
+            "title": "Telefonszám",
+            "contact": "+36 20 243 7458"
+          },
+          {
+            "title": "Email",
+            "contact": "rp.krisz123@gmai.com"
+          }
+        ]
+      },
       "education": {
         "title": "Tanulmányok",
         "items": [
@@ -410,59 +449,41 @@
       },
       "other": {
         "title": "Ismeretek, eredmények",
-        "items": [
-          {
-            "title": "ICDL/ECDL Standard Bizonyítvány",
-            "items": [
-              "Számítógépes alapismeretek",
-              "Online alapismeretek",
-              "Szövegszerkesztés",
-              "Táblázatkezelés",
-              "Prezentáció",
-              "Adatbáziskezelés",
-              "Webszerkeztés",
-              "IT biztonság"
-            ]
-          },
-          {
-            "title": "PSZK+",
-            "items": [
-              "Közgazdaságtan",
-              "Nemzetközi gazdaságtan",
-              "Üzleti statisztika",
-              "Vállalati pénzügyek"
-            ]
-          },
-          {
-            "title": "SAP",
-            "items": [
-              "Alapfokú felhasználói oklevél - MM, SD, FI, AM modulokból"
-            ]
-          },
-          {
-            "title": "Cisco Networking Academy",
-            "items": [
-              "IoT Fundamentals: Big Data & Analytics, Certificate of Course Completion"
-            ]
-          },
-          {
-            "title": "Programozás",
-            "items": [
-              "Magabiztosan használom: SQL, JavaScript/TypeScript, HTML, CSS, Java",
-              "Ismerem: C#, Python, PHP, C, Kotlin, Haskell",
-              "Frameworks, Libraries: React, Laravel, Java Ant",
-              "Verzió kezelés: Git, GitHub, GitLab",
-              "Adminisztráció: Jira, Confluence, Collibra"
-            ]
-          },
-          {
-            "title": "Üzleti Szimulációs Verseny",
-            "items": [
-              "Diák Menedzsment Bajnokság 2023 5. hely.",
-              "Lámfalussy Sándor Üzleti Szimulációs Verseny 2022 - Középdöntő"
-            ]
-          }
-        ]
+        "items": {
+          "ICDL/ECDL": [
+            "Számítógépes alapismeretek",
+            "Online alapismeretek",
+            "Szövegszerkesztés",
+            "Táblázatkezelés",
+            "Prezentáció",
+            "Adatbáziskezelés",
+            "Webszerkeztés",
+            "IT biztonság"
+          ],
+          "PSZK+": [
+            "Közgazdaságtan",
+            "Nemzetközi gazdaságtan",
+            "Üzleti statisztika",
+            "Vállalati pénzügyek"
+          ],
+          "SAP": [
+            "Alapfokú felhasználói oklevél - MM, SD, FI, AM modulokból"
+          ],
+          "Cisco Networking Academy": [
+            "IoT Fundamentals: Big Data & Analytics, Certificate of Course Completion"
+          ],
+          "programming": [
+            "Magabiztosan használom: SQL, JavaScript/TypeScript, HTML, CSS, Java",
+            "Ismerem: C#, Python, PHP, C, Kotlin, Haskell",
+            "Frameworks, Libraries: React, Laravel, Java Ant",
+            "Verzió kezelés: Git, GitHub, GitLab",
+            "Adminisztráció: Jira, Confluence, Collibra"
+          ],
+          "competitions": [
+            "Diák Menedzsment Bajnokság 2023 5. hely.",
+            "Lámfalussy Sándor Üzleti Szimulációs Verseny 2022 - Középdöntő"
+          ]
+        }
       }
     }
   }
