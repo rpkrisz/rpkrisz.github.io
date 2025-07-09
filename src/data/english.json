@@ -12,7 +12,7 @@
   },
   "about": {
     "title": "About",
-    "introduction": "My name is Krisztián Réthey-Prikkel, a graduate student in both Computer Science and Economics, driven by the motivation to explore how technology and business perspectives can be integrated in practice. I hold two BSc degrees: in Computer Science with a specialization in Software Development from ELTE, and in Business Administration and Management with a specialization in Digital Entrepreneurship from BGE. Currently, I work as an intern at OTP Bank, where I handle database management and assist with the preparation and production of regulatory reports. Additionally, I volunteer at Medve Matek, participating in outdoor math competitions, summer camps, and internal development projects – a community where knowledge, playfulness, and movement meet. I am comfortable working in web development and database management. My favorites are JavaScript and React Framework, but SQL and Python are also within my expertise.",
+    "introduction": "My name is Krisztián Réthey-Prikkel, a graduate student in both Computer Science and Economics, driven by the motivation to explore how technology and business perspectives can be integrated in practice. I hold two BSc degrees: in Computer Science with a specialization in Software Development from ELTE, and in Business Administration and Management with a specialization in Digital Entrepreneurship from BGE. Currently, I work as an intern at OTP Bank, where I handle database management and production of regulatory reports. Additionally, I volunteer at Medve Matek, participating in outdoor math competitions, summer camps, and internal development projects – a community where knowledge, playfulness, and movement meet. I am comfortable working in web development and database management. My favorites are JavaScript and React Framework, but SQL and Python are also within my expertise.",
     "skills": {
       "title": "Skills",
       "items": [
@@ -23,9 +23,9 @@
             "Time Management",
             "Teamwork",
             "Problems Slving",
+            "Precision",
             "System & Process Approach",
-            "Analytical Thinking",
-            "Precision"
+            "Analytical Thinking"
           ]
         },
         {
@@ -93,12 +93,8 @@
       "title": "Boardgames",
       "items": [
         {
-          "name": "7 Wonders",
-          "image": "https://cf.geekdo-images.com/ZWJg0dCdrWHxVnc0eFXK8w__original/img/LgzEsQlF3xkSEQLoorc8ntiYiIY=/0x0/filters:format(jpeg)/pic38668.jpg"
-        },
-        {
-          "name": "Bang!",
-          "image": "https://cf.geekdo-images.com/_04xA-d-rfygm0c49HE4vA__original/img/el-4Ilu9DeYunRT3r4TVP8Vy3uk=/0x0/filters:format(jpeg)/pic1170986.jpg"
+          "name": "Terraforming Mars",
+          "image": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__original/img/thIqWDnH9utKuoKVEUqveDixprI=/0x0/filters:format(jpeg)/pic3536616.jpg"
         },
         {
           "name": "Unstable unicorns",
@@ -109,12 +105,16 @@
           "image": "https://cf.geekdo-images.com/ZWJg0dCdrWHxVnc0eFXK8w__original/img/LgzEsQlF3xkSEQLoorc8ntiYiIY=/0x0/filters:format(jpeg)/pic38668.jpg"
         },
         {
-          "name": "Avalon",
-          "image": "https://cf.geekdo-images.com/LPa6rsGcv8S0-OeNjCOAEQ__original/img/AF8HHaIad1re-eg3kd9mlm2j_ss=/0x0/filters:format(jpeg)/pic1398895.jpg"
+          "name": "7 Wonders",
+          "image": "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__original/img/jt70jJDZ1y1FWJs4ZQf5FI8APVY=/0x0/filters:format(jpeg)/pic7149798.jpg"
         },
         {
-          "name": "Terraforming Mars",
-          "image": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__original/img/thIqWDnH9utKuoKVEUqveDixprI=/0x0/filters:format(jpeg)/pic3536616.jpg"
+          "name": "Bang!",
+          "image": "https://cf.geekdo-images.com/_04xA-d-rfygm0c49HE4vA__original/img/el-4Ilu9DeYunRT3r4TVP8Vy3uk=/0x0/filters:format(jpeg)/pic1170986.jpg"
+        },
+        {
+          "name": "Avalon",
+          "image": "https://cf.geekdo-images.com/LPa6rsGcv8S0-OeNjCOAEQ__original/img/AF8HHaIad1re-eg3kd9mlm2j_ss=/0x0/filters:format(jpeg)/pic1398895.jpg"
         }
       ]
     },
@@ -132,6 +132,11 @@
           "description": "When I was still at school, Thai boxing replaced swimming and became a regular exercise in my life for the next six years."
         },
         {
+          "name": "Bouldering",
+          "image": "./assets/Hobbies/Sports/Bouldering.png",
+          "description": "In the past year, I started bouldering, and it is a huge experience for me. Whenever I can, I go climbing with my friends."
+        },
+        {
           "name": "Mountain Bikeing",
           "image": "./assets/Hobbies/Sports/MountainBikeing.svg",
           "description": "During the high school years, we often go up the mountain by bike. There is no better feeling than being able to race down  the mountainside after a tiring climb."
@@ -140,11 +145,6 @@
           "name": "Kayaking",
           "image": "./assets/Hobbies/Sports/Kajak.png",
           "description": "For years, kayaking on the Danube has been one of my favorite summer pastimes, and being on mirror-smooth water is one of the most relaxing feelings in the world."
-        },
-        {
-          "name": "Bouldering",
-          "image": "./assets/Hobbies/Sports/Bouldering.png",
-          "description": "In the past year, I started bouldering, and it is a huge experience for me. Whenever I can, I go climbing with my friends."
         }
       ]
     }
@@ -355,16 +355,16 @@
         "title": "Contacts",
         "links": [
           {
+            "title": "Personal Website",
+            "link": "https://rpkrisz.github.io/"
+          },
+          {
             "title": "LinkedIn",
             "link": "https://www.linkedin.com/in/rethey-prikkel-krisztian"
           },
           {
             "title": "GitHub",
             "link": "https://github.com/rpkrisz"
-          },
-          {
-            "title": "Personal Website",
-            "link": "https://rpkrisz.github.io/"
           }
         ],
         "items": [

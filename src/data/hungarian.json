@@ -12,7 +12,7 @@
   },
   "about": {
     "title": "Rólam",
-    "introduction": "Réthey-Prikkel Krisztián vagyok, informatikát és közgazdaságot végzett hallgató, akit leginkább az motivál, hogy hogyan lehet technológiai és gazdasági szemléletet összehangolni a gyakorlatban. Két egyetemen szereztem BSc diplomát: az ELTE-n programtervező informatikát Szoftverfejlesztő specializáción, a BGE-n pedig gazdálkodási és menedzsmentet, digitális vállalkozás specializáción. Az OTP Banknál gyakornokként dolgozom, ahol adatbázis-kezeléssel és regulatory jelentések készítésével és előállításuk támogatásával foglalkozom. Emellett önkéntesként veszek részt a Medve Matek szabadtéri matekversenyeken, táborokban, és belső fejlesztésekben – ez egy olyan közösség, ahol a tudás, a játékosság és a mozgás találkozik. Informatikai téren otthonosan mozgok webfejlesztés, adatbázis-kezelés területén.",
+    "introduction": "Réthey-Prikkel Krisztián vagyok, informatikát és közgazdaságot végzett hallgató, akit leginkább az motivál, hogy hogyan lehet technológiai és gazdasági szemléletet összehangolni a gyakorlatban. Két egyetemen szereztem BSc diplomát: az ELTE-n programtervező informatikát Szoftverfejlesztő specializáción, a BGE-n pedig gazdálkodási és menedzsmentet, digitális vállalkozás specializáción. Az OTP Banknál gyakornokként dolgozom, ahol adatbázis-kezeléssel és regulatory jelentések készítésével foglalkozom. Emellett önkéntesként veszek részt a Medve Matek szabadtéri matekversenyeken, táborokban, és belső fejlesztésekben – ez egy olyan közösség, ahol a tudás, a játékosság és a mozgás találkozik. Informatikai téren otthonosan mozgok webfejlesztés, adatbázis-kezelés területén.",
     "skills": {
       "title": "Képességek",
       "items": [
@@ -23,9 +23,9 @@
             "Időbeosztás",
             "Csapatmunka",
             "Problémamegoldás",
+            "Precizitás",
             "Rendszer & Folyamatszemlélet",
-            "Analitikus Gondolkodás",
-            "Precizitás"
+            "Analitikus Gondolkodás"
           ]
         },
         {
@@ -93,12 +93,8 @@
       "title": "Társasjátékok",
       "items": [
         {
-          "name": "7 Csoda",
-          "image": "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__original/img/jt70jJDZ1y1FWJs4ZQf5FI8APVY=/0x0/filters:format(jpeg)/pic7149798.jpg"
-        },
-        {
-          "name": "Bang!",
-          "image": "https://cf.geekdo-images.com/_04xA-d-rfygm0c49HE4vA__original/img/el-4Ilu9DeYunRT3r4TVP8Vy3uk=/0x0/filters:format(jpeg)/pic1170986.jpg"
+          "name": "A Mars Terraformálása",
+          "image": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__original/img/thIqWDnH9utKuoKVEUqveDixprI=/0x0/filters:format(jpeg)/pic3536616.jpg"
         },
         {
           "name": "Unikornisok: A rémes ménes",
@@ -109,12 +105,16 @@
           "image": "https://cf.geekdo-images.com/ZWJg0dCdrWHxVnc0eFXK8w__original/img/LgzEsQlF3xkSEQLoorc8ntiYiIY=/0x0/filters:format(jpeg)/pic38668.jpg"
         },
         {
-          "name": "Avalon",
-          "image": "https://cf.geekdo-images.com/LPa6rsGcv8S0-OeNjCOAEQ__original/img/AF8HHaIad1re-eg3kd9mlm2j_ss=/0x0/filters:format(jpeg)/pic1398895.jpg"
+          "name": "7 Csoda",
+          "image": "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__original/img/jt70jJDZ1y1FWJs4ZQf5FI8APVY=/0x0/filters:format(jpeg)/pic7149798.jpg"
         },
         {
-          "name": "A Mars Terraformálása",
-          "image": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__original/img/thIqWDnH9utKuoKVEUqveDixprI=/0x0/filters:format(jpeg)/pic3536616.jpg"
+          "name": "Bang!",
+          "image": "https://cf.geekdo-images.com/_04xA-d-rfygm0c49HE4vA__original/img/el-4Ilu9DeYunRT3r4TVP8Vy3uk=/0x0/filters:format(jpeg)/pic1170986.jpg"
+        },
+        {
+          "name": "Avalon",
+          "image": "https://cf.geekdo-images.com/LPa6rsGcv8S0-OeNjCOAEQ__original/img/AF8HHaIad1re-eg3kd9mlm2j_ss=/0x0/filters:format(jpeg)/pic1398895.jpg"
         }
       ]
     },
@@ -132,6 +132,11 @@
           "description": "Álltalános iskolás koromban az úszást váltva, a thai box lett a rendszeres mozgás az életemben, közel hat évig."
         },
         {
+          "name": "Bouldering",
+          "image": "./assets/Hobbies/Sports/Bouldering.png",
+          "description": "Az elmúlt évben kezdtem el a falatmászást, és hatalmas élmény számomra. Amikor csak tehetem, barátaimmal együtt elmegyünk falat mászni."
+        },
+        {
           "name": "Hegyi Kerékpározás",
           "image": "./assets/Hobbies/Sports/MountainBikeing.svg",
           "description": " A gimnáziumi évek alatt gyakran jártunk a hegyen biciklivel. Nincs is jobb érzés mint egy fárasztó feltekerés után, lefelé száguldani a hegyoldalon."
@@ -140,11 +145,6 @@
           "name": "Kajakozás",
           "image": "./assets/Hobbies/Sports/Kajak.png",
           "description": "Évek óta egyik kedvenc nyári időtőltésem a Dunakanyarban evezni, a tükör sima vízen lenni pedig az egyik legmegnyugtatóbb érzés a világon."
-        },
-        {
-          "name": "Bouldering",
-          "image": "./assets/Hobbies/Sports/Bouldering.png",
-          "description": "Az elmúlt évben kezdtem el a falatmászást, és hatalmas élmény számomra. Amikor csak tehetem, barátaimmal együtt elmegyünk falat mászni."
         }
       ]
     }
@@ -352,8 +352,12 @@
       "name": "Réthey-Prikkel Krisztián",
       "title": "Programtervező Informatikus, Medve Matek Önkéntes, Közgazdász",
       "contact": {
-        "title": "Contacts",
+        "title": "Kapcsolat",
         "links": [
+          {
+            "title": "Personal Website",
+            "link": "https://rpkrisz.github.io/"
+          },
           {
             "title": "LinkedIn",
             "link": "https://www.linkedin.com/in/rethey-prikkel-krisztian"
@@ -361,10 +365,6 @@
           {
             "title": "GitHub",
             "link": "https://github.com/rpkrisz"
-          },
-          {
-            "title": "Personal Website",
-            "link": "https://rpkrisz.github.io/"
           }
         ],
         "items": [
