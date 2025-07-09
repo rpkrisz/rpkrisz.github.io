@@ -56,7 +56,7 @@
   }
 
   aside p {
-    color: hsl(var(--secondary)) !important;
+    color: hsl(var(--secondary-contant)) !important;
   }
 
   aside .badge {
