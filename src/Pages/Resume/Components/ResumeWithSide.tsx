@@ -13,10 +13,12 @@ const ResumeWithSide: FC = () => {
 
   return (
     <>
-      <aside className="bg-secondary [&_h2]:text-secondary-content [&_h3]:text-secondary-content p-5 rounded-lg flex flex-col justify-between">
+      <aside className="bg-secondary [&_h2]:text-secondary-content [&_h3]:text-secondary-content p-2 rounded-lg flex flex-col justify-between">
         <div>
           {/* <img src={resume.image} alt="Profile picture" className="h-36 m-auto" /> */}
-          <H2 className="text-accent">{resume.name}</H2>
+          <H2 className="text-accent" id="cv_name">
+            {resume.name}
+          </H2>
           <H3>{resume.title}</H3>
 
           <H2>{resume.contact.title}</H2>
@@ -25,6 +27,15 @@ const ResumeWithSide: FC = () => {
               <div key={title} className="flex flex-col justify-start">
                 <H3 className="m-0">{title}</H3>
                 <p className="pl-2">{contact}</p>
+              </div>
+            );
+          })}
+
+          {resume.contact.links.map(({title, link}) => {
+            return (
+              <div key={title} className="flex flex-col justify-start">
+                <H3 className="m-0">{title}</H3>
+                <p className="pl-2">{link}</p>
               </div>
             );
           })}
@@ -66,15 +77,30 @@ const ResumeWithSide: FC = () => {
         <div>
           <H2>{about.freetime}</H2>
           <H3>{about.sports.title}</H3>
-          <p>{about.sports.items.map(({name}) => name).join(", ")}</p>
+          <p>
+            {about.sports.items
+              .map(({name}) => name)
+              .slice(0, 3)
+              .join(", ")}
+          </p>
           <H3>{about.boardgames.title}</H3>
-          <p>{about.boardgames.items.map(({name}) => name).join(", ")}</p>
+          <p>
+            {about.boardgames.items
+              .map(({name}) => name)
+              .slice(0, 3)
+              .join(", ")}
+          </p>
           <H3>{about.series.title}</H3>
-          <p>{about.series.items.map(({name}) => name).join(", ")}</p>
+          <p>
+            {about.series.items
+              .map(({name}) => name)
+              .slice(0, 3)
+              .join(", ")}
+          </p>
         </div>
       </aside>
       <div>
-        <p className="text-justify p-2 my-2">{about.introduction}</p>
+        <p className="text-justify pr-5">{about.introduction}</p>
         <Section section={resume.experience}></Section>
         <Section section={resume.education}></Section>
         <div>

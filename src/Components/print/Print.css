@@ -8,6 +8,8 @@
     print-color-adjust: exact;
     font-family: 'Times New Roman', Times, serif;
     background-color: white !important;
+    text-wrap-style: pretty !important;
+    text-wrap: pretty !important;
   }
 
   header,
@@ -15,16 +17,29 @@
     display: none;
   }
 
+  aside h2#cv_name {
+    font-size: 25px !important;
+    margin-bottom: 5px !important;
+    padding-bottom: 5px !important;
+    border: 0 !important;
+  }
+
+  h2 {
+    font-size: larger !important;
+  }
+
+  h3 {
+    font-size: medium !important;
+  }
 
   h1,
   h2,
   h3 {
     background-color: inherit !important;
-    color: lightskyblue !important;
+    color: hsl(var(--accent)) !important;
   }
 
   aside h2 {
-    color: darkslategray !important;
     margin-bottom: 0.5rem !important;
   }
 
@@ -36,12 +51,12 @@
     border-bottom: 3px solid lightskyblue !important;
   }
 
-  aside h3 {
-    color: darkslategray !important;
+  aside :is(h2, h3) {
+    color: hsl(var(--accent-foreground)) !important;
   }
 
   aside p {
-    color: lightgrey !important;
+    color: hsl(var(--secondary)) !important;
   }
 
   aside .badge {
@@ -56,7 +71,7 @@
 
 @page {
   size: auto;
-  margin: 15mm;
+  margin: 10mm;
 }
 
 @media all {

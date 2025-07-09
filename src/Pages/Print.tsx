@@ -10,7 +10,7 @@ const Print: FC = () => {
   return (
     <>
       <div className="hidden">
-        <div ref={contentRef} className="grid grid-cols-[350px_minmax(900px,_1fr)] gap-4">
+        <div ref={contentRef} className="grid grid-cols-[300px_minmax(750px,_1fr)] gap-4">
           <ResumeWithSide />
         </div>
       </div>
