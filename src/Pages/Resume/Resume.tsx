@@ -11,7 +11,7 @@ const Resume = () => {
   return (
     <>
       <H1>{t("title")}</H1>
-      <div className=" grid lg:grid-cols-[300px(500px,_1fr)] xl:grid-cols-[300px_minmax(700px,_1fr)] gap-5">
+      <div className=" grid lg:grid-cols-[325px(500px,_1fr)] xl:grid-cols-[325px_minmax(700px,_1fr)] gap-5">
         <ResumeWithSide />
       </div>
       <div className="absolute bottom-48 md:bottom-24 right-0.5 lg:right-32 m-4">

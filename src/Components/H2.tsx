@@ -7,7 +7,7 @@ const H2: FC<{
   reverse?: boolean;
   id?: string;
 }> = ({children, className, icon, reverse = false, id}) => {
-  const baseStyle = `${className} font-semibold mt-4 mb-2  text-xl md:text-3xl flex flex-row items-center justify-start gap-2`;
+  const baseStyle = `${className} font-semibold mt-2 mb-1  text-xl md:text-3xl flex flex-row items-center justify-start gap-2`;
   return reverse ? (
     <h2 className={`${baseStyle} text-primary-content bg-primary rounded-sm p-1`} id={id}>
       {icon}
