@@ -353,20 +353,23 @@
       "title": "Computer Scientist, Volunteer at Medve Matek, Economist",
       "contact": {
         "title": "Contacts",
-        "links": [
-          {
-            "title": "Personal Website",
-            "link": "https://rpkrisz.github.io/"
-          },
-          {
-            "title": "LinkedIn",
-            "link": "https://www.linkedin.com/in/rethey-prikkel-krisztian"
-          },
-          {
-            "title": "GitHub",
-            "link": "https://github.com/rpkrisz"
-          }
-        ],
+        "links": {
+          "title": "Linkek",
+          "items": [
+            {
+              "title": "Personal Website",
+              "link": "https://rpkrisz.github.io/"
+            },
+            {
+              "title": "LinkedIn",
+              "link": "https://www.linkedin.com/in/rethey-prikkel-krisztian"
+            },
+            {
+              "title": "GitHub",
+              "link": "https://github.com/rpkrisz"
+            }
+          ]
+        },
         "items": [
           {
             "title": "Address",

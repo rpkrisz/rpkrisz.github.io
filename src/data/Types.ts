@@ -38,8 +38,11 @@ export interface ResumeTYPE {
     title: string;
     links: {
       title: string;
-      link: string;
-    }[];
+      items: {
+        title: string;
+        link: string;
+      }[];
+    };
     items: {
       title: string;
       contact: string;

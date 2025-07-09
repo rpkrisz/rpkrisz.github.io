@@ -31,14 +31,18 @@ const ResumeWithSide: FC = () => {
             );
           })}
 
-          {resume.contact.links.map(({title, link}) => {
-            return (
-              <div key={title} className="flex flex-col justify-start">
-                <H3 className="m-0">{title}</H3>
-                <p className="pl-2">{link}</p>
-              </div>
-            );
-          })}
+          <H3>{resume.contact.links.title}</H3>
+          <ul className="list-disc list-inside pl-2">
+            {resume.contact.links.items.map(({title, link}) => {
+              return (
+                <li key={title} className="flex flex-col justify-start">
+                  <a href={link} target="_blank" rel="noopener noreferrer" className="flex flex-row items-center">
+                    <p className="m-0">{title}</p>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
 
           <H2>{resume.languages.title}</H2>
           <div className="pl-2">
@@ -100,6 +104,7 @@ const ResumeWithSide: FC = () => {
         </div>
       </aside>
       <div>
+        <H2 reverse={true}>{about.title}</H2>
         <p className="text-justify pr-5">{about.introduction}</p>
         <Section section={resume.experience}></Section>
         <Section section={resume.education}></Section>

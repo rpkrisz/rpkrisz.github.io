@@ -353,7 +353,9 @@
       "title": "Programtervező Informatikus, Medve Matek Önkéntes, Közgazdász",
       "contact": {
         "title": "Kapcsolat",
-        "links": [
+        "links": {
+        "title": "Linkek",
+        "items":[
           {
             "title": "Personal Website",
             "link": "https://rpkrisz.github.io/"
@@ -366,7 +368,7 @@
             "title": "GitHub",
             "link": "https://github.com/rpkrisz"
           }
-        ],
+        ]},
         "items": [
           {
             "title": "Cím",
