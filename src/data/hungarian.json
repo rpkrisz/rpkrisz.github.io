@@ -354,21 +354,22 @@
       "contact": {
         "title": "Kapcsolat",
         "links": {
-        "title": "Linkek",
-        "items":[
-          {
-            "title": "Personal Website",
-            "link": "https://rpkrisz.github.io/"
-          },
-          {
-            "title": "LinkedIn",
-            "link": "https://www.linkedin.com/in/rethey-prikkel-krisztian"
-          },
-          {
-            "title": "GitHub",
-            "link": "https://github.com/rpkrisz"
-          }
-        ]},
+          "title": "Linkek",
+          "items": [
+            {
+              "title": "Personal Website",
+              "link": "https://rpkrisz.github.io/"
+            },
+            {
+              "title": "LinkedIn",
+              "link": "https://www.linkedin.com/in/rethey-prikkel-krisztian"
+            },
+            {
+              "title": "GitHub",
+              "link": "https://github.com/rpkrisz"
+            }
+          ]
+        },
         "items": [
           {
             "title": "Cím",
@@ -451,41 +452,61 @@
       },
       "other": {
         "title": "Ismeretek, eredmények",
-        "items": {
-          "ICDL/ECDL": [
-            "Számítógépes alapismeretek",
-            "Online alapismeretek",
-            "Szövegszerkesztés",
-            "Táblázatkezelés",
-            "Prezentáció",
-            "Adatbáziskezelés",
-            "Webszerkeztés",
-            "IT biztonság"
-          ],
-          "PSZK+": [
-            "Közgazdaságtan",
-            "Nemzetközi gazdaságtan",
-            "Üzleti statisztika",
-            "Vállalati pénzügyek"
-          ],
-          "SAP": [
-            "Alapfokú felhasználói oklevél - MM, SD, FI, AM modulokból"
-          ],
-          "Cisco Networking Academy": [
-            "IoT Fundamentals: Big Data & Analytics, Certificate of Course Completion"
-          ],
-          "programming": [
-            "Magabiztosan használom: SQL, JavaScript/TypeScript, HTML, CSS, Java",
-            "Ismerem: C#, Python, PHP, C, Kotlin, Haskell",
-            "Frameworks, Libraries: React, Laravel, Java Ant",
-            "Verzió kezelés: Git, GitHub, GitLab",
-            "Adminisztráció: Jira, Confluence, Collibra"
-          ],
-          "competitions": [
-            "Diák Menedzsment Bajnokság 2023 5. hely.",
-            "Lámfalussy Sándor Üzleti Szimulációs Verseny 2022 - Középdöntő"
-          ]
-        }
+        "enumItems": [
+          {
+            "title": "ICDL/ECDL ismeretek",
+            "items": [
+              "Számítógépes alapismeretek",
+              "Online alapismeretek",
+              "Szövegszerkesztés",
+              "Táblázatkezelés",
+              "Prezentáció",
+              "Adatbáziskezelés",
+              "Webszerkeztés",
+              "IT biztonság"
+            ]
+          },
+          {
+            "title": "PSZK+",
+            "items": [
+              "Közgazdaságtan",
+              "Nemzetközi gazdaságtan",
+              "Üzleti statisztika",
+              "Vállalati pénzügyek"
+            ]
+          },
+          {
+            "title": "SAP",
+            "items": [
+              "Alapfokú felhasználói oklevél - MM, SD, FI, AM modulokból"
+            ]
+          },
+          {
+            "title": "Cisco Networking Academy",
+            "items": [
+              "IoT Fundamentals: Big Data & Analytics, Certificate of Course Completion"
+            ]
+          }
+        ],
+        "listItems": [
+          {
+            "title": "Programming",
+            "items": [
+              "Magabiztosan használom: SQL, JavaScript/TypeScript, HTML, CSS, Java",
+              "Ismerem: C#, Python, PHP, C, Kotlin, Haskell",
+              "Frameworks, Libraries: React, Laravel, Java Ant",
+              "Verzió kezelés: Git, GitHub, GitLab",
+              "Adminisztráció: Jira, Confluence, Collibra"
+            ]
+          },
+          {
+            "title": "Versenyek",
+            "items": [
+              "Diák Menedzsment Bajnokság 2023 5. hely.",
+              "Lámfalussy Sándor Üzleti Szimulációs Verseny 2022 - Középdöntő"
+            ]
+          }
+        ]
       }
     }
   }

@@ -7,7 +7,7 @@ import Resume from "./Pages/Resume/Resume";
 import Home from "./Pages/Hero";
 import UiKit from "./UiKit";
 import About from "./Pages/About";
-import Print from "./Pages/Print";
+import Print from "./Pages/Resume/Components/ResumePrint";
 
 const router = createHashRouter([
   {

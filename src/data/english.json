@@ -452,41 +452,61 @@
       },
       "other": {
         "title": "Other skills, Achievements",
-        "items": {
-          "ICDL/ECDL": [
-            "Computer Essential",
-            "Online Essential",
-            "Word Processing",
-            "Spreadsheets",
-            "Presentation",
-            "Using Databases",
-            "Web Editing",
-            "IT-Security"
-          ],
-          "PSZK+": [
-            "Economics",
-            "International Economics",
-            "Business Statistics",
-            "Corporate Finance"
-          ],
-          "SAP": [
-            "Basic User Certificate - MM, SD, FI, AM modules"
-          ],
-          "Cisco Networking Academy": [
-            "IoT Fundamentals: Big Data & Analytics, Certificate of Course Completion"
-          ],
-          "programming": [
-            "Confident level: SQL, JavaScript/TypeScript, HTML, CSS, Java",
-            "Familiar level: C#, Python, PHP, C, Kotlin, Haskell",
-            "Frameworks, Libraries: React, Laravel, Java Ant",
-            "Version Control: Git, GitHub, GitLab",
-            "Administration: Jira, Confluence, Collibra"
-          ],
-          "competitions": [
-            "Diák Menedzsment Bajnokság 2023 5th place.",
-            "Lámfalussy Sándor Üzleti Szimulációs Verseny 2022 - Semi-final"
-          ]
-        }
+        "enumItems": [
+          {
+            "title": "ICDL/ECDL skills",
+            "items": [
+              "Computer Essential",
+              "Online Essential",
+              "Word Processing",
+              "Spreadsheets",
+              "Presentation",
+              "Using Databases",
+              "Web Editing",
+              "IT-Security"
+            ]
+          },
+          {
+            "title": "PSZK+",
+            "items": [
+              "Economics",
+              "International Economics",
+              "Business Statistics",
+              "Corporate Finance"
+            ]
+          },
+          {
+            "title": "SAP",
+            "items": [
+              "Basic User Certificate - MM, SD, FI, AM modules"
+            ]
+          },
+          {
+            "title": "Cisco Networking Academy",
+            "items": [
+              "IoT Fundamentals: Big Data & Analytics, Certificate of Course Completion"
+            ]
+          }
+        ],
+        "listItems": [
+          {
+            "title": "Programming",
+            "items": [
+              "Confident level: SQL, JavaScript/TypeScript, HTML, CSS, Java",
+              "Familiar level: C#, Python, PHP, C, Kotlin, Haskell",
+              "Frameworks, Libraries: React, Laravel, Java Ant",
+              "Version Control: Git, GitHub, GitLab",
+              "Administration: Jira, Confluence, Collibra"
+            ]
+          },
+          {
+            "title": "Competitions",
+            "items": [
+              "Diák Menedzsment Bajnokság 2023 5th place.",
+              "Lámfalussy Sándor Üzleti Szimulációs Verseny 2022 - Semi-final"
+            ]
+          }
+        ]
       }
     }
   }

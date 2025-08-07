@@ -1,9 +1,9 @@
 import {useReactToPrint} from "react-to-print";
 import {FC, useRef} from "react";
-import ResumeWithSide from "./Resume/Components/ResumeWithSide";
+import ResumeWithSide from "./ResumeWithSide";
 import "@/Components/print/Print.css"; // Importing the CSS for print styles
 
-const Print: FC = () => {
+const ResumePrint: FC = () => {
   const contentRef = useRef<HTMLDivElement>(null);
   const reactToPrintFn = useReactToPrint({contentRef});
 
@@ -21,4 +21,4 @@ const Print: FC = () => {
   );
 };
 
-export default Print;
+export default ResumePrint;

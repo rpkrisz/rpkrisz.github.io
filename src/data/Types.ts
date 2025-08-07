@@ -56,14 +56,8 @@ export interface ResumeTYPE {
   };
   other: {
     title: string;
-    items: {
-      "ICDL/ECDL": string[];
-      "PSZK+": string[];
-      SAP: string[];
-      "Cisco Networking Academy": string[];
-      programming: string[];
-      competitions: string[];
-    };
+    enumItems: ListTYPE<string>[];
+    listItems: ListTYPE<string>[];
   };
 }
 
