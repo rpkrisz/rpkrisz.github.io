@@ -8,7 +8,7 @@ const Resume = () => {
   const [t] = useTranslation("translation", {keyPrefix: "resume"});
 
   return (
-    <>
+    <div>
       <H1>{t("title")}</H1>
       <div className="mb-10 grid lg:grid-cols-[325px(500px,_1fr)] xl:grid-cols-[325px_minmax(700px,_1fr)] gap-5">
         <ResumeWithSide />
@@ -16,7 +16,7 @@ const Resume = () => {
       <div className="absolute bottom-48 md:bottom-24 right-0.5 lg:right-48 m-4">
         <ResumePrint />
       </div>
-    </>
+    </div>
   );
 };
 

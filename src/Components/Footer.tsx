@@ -2,7 +2,7 @@ import {LinkedinIcon, EnvelopeIcon, GithubIcon} from "./FawIcons";
 
 export default function Footer() {
   return (
-    <footer className="footer-center md:footer text-neutral-content items-center p-4 bg-base-300 mt-5">
+    <footer className="footer-center md:footer text-neutral-content items-center p-4 bg-base-300 shadow-[0px_-5px_25px_-10px] shadow-primary">
       <aside className="grid-flow-col items-center">
         <img src="/assets/Logo_blue/horizontal-logo.png" alt="Logo" className="size-16 inline m-auto" />
       </aside>

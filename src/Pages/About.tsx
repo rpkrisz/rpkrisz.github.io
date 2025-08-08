@@ -10,7 +10,7 @@ export default function About() {
   const about: AboutTYPE = i18n.getResourceBundle(i18n.language, "translation").about;
 
   return (
-    <>
+    <div>
       <H1>{t("title")}</H1>
       <p className="text-justify">{t("introduction")}</p>
       <H2>{t("skills.title")}</H2>
@@ -55,6 +55,6 @@ export default function About() {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 }

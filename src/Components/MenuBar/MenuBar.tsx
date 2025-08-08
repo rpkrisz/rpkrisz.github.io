@@ -6,7 +6,7 @@ import LanguageToggle from "./LanguageToggle";
 
 export default function MenuBar() {
   return (
-    <nav className="bg-base-200 text-white p-2 gap-2 min-w-full flex flex-grow md:navbar md:justify-between md:items-center fixed z-50">
+    <nav className="flex flex-grow gap-2 bg-base-200 text-white p-2 min-w-full md:navbar md:justify-between md:items-center">
       <div className="hidden md:flex">
         <Link className="btn btn-ghost hover:text-primary self-start content-center" to="/">
           <img src="/assets/Logo_blue/mobile-logo.png" alt="Logo" className="size-12 inline" />
